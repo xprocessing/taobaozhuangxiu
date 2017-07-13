@@ -1,0 +1,29 @@
+{
+  "title" : null,
+  "layouts" : [ {
+    "type" : "grid-m0",
+    "modules" : {
+      "main" : [ {
+        "moduleID" : "tshop-um-ms02"
+      }, {
+        "moduleID" : "tshop-um-ms03"
+      }, {
+        "moduleID" : "tshop-pbsm-shop-srch-inshop"
+      }, {
+        "moduleID" : "tshop-um-ms04"
+      }, {
+        "moduleID" : "tshop-um-ms08"
+      }, {
+        "moduleID" : "tshop-um-ms11"
+      }, {
+        "moduleID" : "tshop-um-ms05"
+      }, {
+        "moduleID" : "tshop-um-ms13"
+      }, {
+        "moduleID" : "tshop-um-ms09"
+      }, {
+        "moduleID" : "tshop-um-ms12"
+      } ]
+    }
+  } ]
+}

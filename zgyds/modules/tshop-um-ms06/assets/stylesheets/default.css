@@ -1,0 +1,38 @@
+/**
+ * 模块：tshop-um-ms06 
+ * 皮肤（主题）: 默认
+ * 规则:
+ * 		1. CSS选择器必须包含 ".tshop-um-ms06"，禁止使用模块页面元素的ID选择器
+ *		2. CSS样式声明的position属性值不能使用:fixed
+ *		3. CSS样式文件中z-index属性值必须在1-99之间
+ *		4. CSS URL地址必须是淘宝URL白名单中或者本地（相对或绝对）URL 
+ */
+
+.tshop-um-ms06{
+	width:100%;
+	height:auto;
+	position:relative;
+	margin-bottom:10px;
+	font-family:"微软雅黑";
+ }
+.tshop-um-ms06 .hd { display:block; width:560px;text-decoration:none;  height:56px; padding-left:420px; padding-right:10px; padding-top:45px; padding-bottom:15px; margin-bottom:10px;}
+.tshop-um-ms06 .hd span { cursor:pointer; overflow:hidden; display:block; width:560px; height:56px; line-height:28px; color:#111111; font-size:18px; font-weight:bold;} 
+.tshop-um-ms06 .color950 {width:990px;position:relative;margin-bottom:10px;overflow:hidden; background-color:#fff;}
+.tshop-um-ms06 .color950 .bd { width:990px; height:auto; overflow:hidden;}
+
+
+.tshop-um-ms06  .color950 .wai{width:320px; float:left; height:475px; margin-right:15px; overflow:hidden; margin-top:15px;  position:relative;}
+ 
+
+.tshop-um-ms06 .color950 .wai .eve{width:320px;position:relative; overflow:hidden;  height:330px;}
+
+
+.tshop-um-ms06 .color950 .wai .eve .ks-switchable-content{height:330px;width:320px; overflow:hidden;}
+
+
+
+.tshop-um-ms06 .color950 .wai .eve .ks-switchable-content a{height:330px;width:320px;display:block;}
+
+.tshop-um-ms06 .color950 .wai .eve .ks-switchable-nav { display:none;}
+.tshop-um-ms06 .color950 .wai .imgs { width:320px; height:145px;}
+.tshop-um-ms06 .color950 .wai .imgs a { display:block; width:320px; height:145px;} 

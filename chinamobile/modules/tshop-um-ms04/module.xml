@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="GBK"?>
+<module>
+    <id>tshop-um-ms04</id>
+    <uuid>15e84f7b879148f0b5b7626e0fc41608</uuid>
+    <name>客服950</name>
+    <file>tshop-um-ms04.php</file>
+    <thumbnail>../../assets/images/default-thumbnail.png</thumbnail>
+    <description>客服950</description>
+    <requiredCache>true</requiredCache>
+    <supportedWidth>990</supportedWidth>
+    <themes default="默认">
+        <theme name="默认">
+            <css>assets/stylesheets/default.css</css>
+        </theme>
+    </themes>
+    <parameters>
+        <group title="旺旺信息">
+            <section title="客服组1" folded="false">
+                <param description="请输入图片(90*60)" formType="text" label="组标题" name="pic1" ptype="text" readonly="false"></param>
+                <param description="格式：昵称|登录名#昵称|登录名" formType="textarea" label="旺旺" name="wangwang1" ptype="textarea" readonly="false"></param>
+            </section>
+            <section title="客服组2" folded="true">
+                <param description="请输入图片(90*60)" formType="text" label="组标题" name="pic2" ptype="text" readonly="false"></param>
+                <param description="格式：昵称|登录名#昵称|登录名" formType="textarea" label="旺旺" name="wangwang2" ptype="textarea" readonly="false"></param>
+            </section>
+            <section title="客服组3" folded="true">
+                <param description="请输入图片(90*60)" formType="text" label="组标题" name="pic3" ptype="text" readonly="false"></param>
+                <param description="格式：昵称|登录名#昵称|登录名" formType="textarea" label="旺旺" name="wangwang3" ptype="textarea" readonly="false"></param>
+            </section>
+        </group>
+    </parameters>
+</module>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="GBK"?>
+<module>
+    <id>tshop-um-neo-cab</id>
+    <uuid>f5926b594d58487c9f328d30b1362483</uuid>
+    <name>模块cab</name>
+    <file>tshop-um-neo-cab.php</file>
+    <thumbnail>../../assets/images/default-thumbnail.png</thumbnail>
+    <description>模块cab</description>
+    <requiredCache>true</requiredCache>
+    <supportedWidth>190,790,990</supportedWidth>
+    <themes default="默认">
+        <theme name="默认">
+            <css>assets/stylesheets/default.css</css>
+        </theme>
+        <theme name="活动风格">
+            <css>assets/stylesheets/huodong.css</css>
+        </theme>
+    </themes>
+</module>

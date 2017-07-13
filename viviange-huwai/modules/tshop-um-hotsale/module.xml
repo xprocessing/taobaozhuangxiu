@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="GBK"?>
+<module>
+    <id>tshop-um-hotsale</id>
+    <name>热卖推荐</name>
+    <file>tshop-um-hotsale.php</file>
+    <thumbnail>../../assets/images/default-thumbnail-hotsale.png</thumbnail>
+    <description>热卖推荐</description>
+    <requiredCache>true</requiredCache>
+    <supportedWidth>950</supportedWidth>
+    <themes default="默认">
+        <theme name="默认">
+            <css>assets/stylesheets/default.css</css>
+        </theme>
+    </themes>
+    <parameters>
+        <group title="设置Tab标签01">
+            <section title="设置tab内容" folded="false">
+                <param description="模块标题" formType="text" label="tab标题" name="tab_title_01" ptype="text" readonly="false">IMAGING/图像</param>
+                <param description="填充代码，宽950px;高649px" formType="textarea" label="tab内容代码" name="tab_html_01" ptype="htmlarea" readonly="false"></param>
+            </section>
+        </group>
+        <group title="设置Tab标签02">
+            <section title="设置tab内容" folded="false">
+                <param description="模块标题" formType="text" label="tab标题" name="tab_title_02" ptype="text" readonly="false">AUDIO/音像</param>
+                <param description="填充代码，宽950px;高649px" formType="textarea" label="tab内容代码" name="tab_html_02" ptype="htmlarea" readonly="false"></param>
+            </section>
+        </group>
+        <group title="设置Tab标签03">
+            <section title="设置tab内容" folded="false">
+                <param description="模块标题" formType="text" label="tab标题" name="tab_title_03" ptype="text" readonly="false">COMPUTING/计算</param>
+                <param description="填充代码，宽950px;高649px" formType="textarea" label="tab内容代码" name="tab_html_03" ptype="htmlarea" readonly="false"></param>
+            </section>
+        </group>
+        <group title="设置Tab标签04">
+            <section title="设置tab内容" folded="false">
+                <param description="模块标题" formType="text" label="tab标题" name="tab_title_04" ptype="text" readonly="false">TRAVEL/旅行</param>
+                <param description="填充代码，宽950px;高649px" formType="textarea" label="tab内容代码" name="tab_html_04" ptype="htmlarea" readonly="false"></param>
+            </section>
+        </group>
+    </parameters>
+</module>

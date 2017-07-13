@@ -1,0 +1,76 @@
+/**
+ * 模块：tshop-um-ms08 
+ * 皮肤（主题）: 默认
+ * 规则:
+ * 		1. CSS选择器必须包含 ".tshop-um-ms08"，禁止使用模块页面元素的ID选择器
+ *		2. CSS样式声明的position属性值不能使用:fixed
+ *		3. CSS样式文件中z-index属性值必须在1-99之间
+ *		4. CSS URL地址必须是淘宝URL白名单中或者本地（相对或绝对）URL 
+ */
+
+.tshop-um-ms08{
+	width:100%;
+	height:auto;
+	position:relative;
+	margin-bottom:10px;
+	font-family:"微软雅黑";
+ }
+.tshop-um-ms08 .hd { width:560px; height:72px; padding-left:420px; padding-right:10px; padding-top:41px; padding-bottom:15px; margin-bottom:10px;}
+.tshop-um-ms08 .hd a { text-decoration:none; overflow:hidden; display:block; width:560px; height:48px; margin-top:12px; line-height:24px; font-size:18px; color:#111111; font-weight:bold;} 
+
+.tshop-um-ms08 .dd{ 
+ width:925px;
+ padding:16px 35px 22px 30px;
+ height:120px; 
+ position:relative; 
+ background:url(assets/images/bj.jpg) no-repeat center center ;
+ }
+.tshop-um-ms08 .dd .mall-content{
+ width:925px; 
+ height:120px; 
+ overflow:hidden;
+ }
+ .tshop-um-ms08 .dd .mall-content .items { width:925px; height:120px; float:left;}
+.tshop-um-ms08 .dd .mall-content .item { 
+ display:block;
+ width:174px;
+ height:120px;
+ float:left; 
+ padding-right:14px;
+ }
+
+.tshop-um-ms08 .dd .mall-content .item  a{ 
+width:174px;
+ height:120px;
+ display:block;
+ float:right;
+ position:relative;
+ text-decoration:none;
+ }
+ .tshop-um-ms08 .dd .mall-content .item  a img { float:left;}
+
+
+.tshop-um-ms08 .dd .mall-prev{
+ display:block;
+ width:30px;
+ height:158px; 
+ position:absolute;
+ left:0px;
+ top:0px;
+
+ }
+
+.tshop-um-ms08 .dd .mall-next{
+ display:block; 
+ width:30px;
+ height:158px; 
+ position:absolute;
+ right:0px; 
+ top:0px;
+ cursor:pointer;
+ }
+.tshop-um-ms08 .dd .ks-switchable-nav { 
+display:none;
+} 
+
+ 

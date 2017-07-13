@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="GBK"?>
+<site>
+    <id>d6a054920152460d87744935fc2d1f54</id>
+    <name>小清新</name>
+    <author name="[提示：请添加模板作者名称]" url="http://www.yourwebsite.com" wangwang="[提示：请添加模板作者的旺旺]"></author>
+    <thumbnail>assets/images/default-thumbnail.png</thumbnail>
+    <language>PHP</language>
+    <version>1.1.1</version>
+    <apply-sites>2</apply-sites>
+    <apply-user>大汉公子鱼</apply-user>
+    <template-type>2</template-type>
+    <change-notes>[提示：自定义模块边距修改]</change-notes>
+    <description>公子鱼视觉作品</description>
+    <global>
+        <header>header.json</header>
+        <footer>footer.json</footer>
+    </global>
+    <themes default="默认">
+        <theme name="默认">
+            <css>assets/stylesheets/default/extra.css</css>
+            <thumbnail>assets/images/default-thumbnail.png</thumbnail>
+        </theme>
+        <theme name="紫色系">
+            <css>assets/stylesheets/purple/extra.css</css>
+            <thumbnail>assets/images/default-thumbnail.png</thumbnail>
+        </theme>
+    </themes>
+    <pages>
+        <page type="index">
+            <name>首页</name>
+            <file>index.json</file>
+            <thumbnail>assets/images/default-thumbnail.png</thumbnail>
+            <description xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">[提示：请添加首页的描述]</description>
+        </page>
+        <page type="detail">
+            <name>默认宝贝详情页</name>
+            <file>detail.json</file>
+            <thumbnail>assets/images/default-thumbnail.png</thumbnail>
+            <description xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">[提示：请添加默认宝贝详情页的描述]</description>
+        </page>
+        <page type="list">
+            <name>默认宝贝分类页</name>
+            <file>list.json</file>
+            <thumbnail>assets/images/default-thumbnail.png</thumbnail>
+            <description xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">[提示：请添加默认宝贝分类页的描述]</description>
+        </page>
+        <page type="other">
+            <name>主题活动页面</name>
+            <file>huodong.json</file>
+            <thumbnail>assets/images/default-thumbnail-2.png</thumbnail>
+            <description xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">可快速搭建主题活动页面</description>
+        </page>
+    </pages>
+</site>

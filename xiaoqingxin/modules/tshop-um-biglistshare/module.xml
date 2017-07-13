@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="GBK"?>
+<module>
+    <id>tshop-um-biglistshare</id>
+    <name>大图列表带分享</name>
+    <file>tshop-um-biglistshare.php</file>
+    <thumbnail>assets/images/default-thumbnail.png</thumbnail>
+    <description>大图列表带分享功能，喜欢大图展示的亲们可无限添加</description>
+    <requiredCache>true</requiredCache>
+    <supportedWidth>950</supportedWidth>
+    <themes default="默认">
+        <theme name="默认">
+            <css>assets/stylesheets/default.css</css>
+        </theme>
+        <theme name="紫色系">
+            <css>assets/stylesheets/purple.css</css>
+        </theme>
+    </themes>
+    <parameters>
+        <group title="第1个宝贝设置">
+            <section title="设置第1个宝贝设" folded="false">
+                <param description="从图片空间复制链接地址，图片尺寸为312x420" formType="text" label="设置图片" name="listitem_1_img" ptype="url" readonly="false">assets/images/listimg.jpg</param>
+                <param description="从宝贝链接地址里复制出宝贝的id" formType="text" label="设置宝贝链接" name="listitem_1_id" ptype="text" readonly="false">15</param>
+            </section>
+        </group>
+        <group title="第2个宝贝设置">
+            <section title="设置第2个宝贝设" folded="false">
+                <param description="从图片空间复制链接地址，图片尺寸为312x420" formType="text" label="设置图片" name="listitem_2_img" ptype="url" readonly="false">assets/images/listimg.jpg</param>
+                <param description="从宝贝链接地址里复制出宝贝的id" formType="text" label="设置宝贝链接" name="listitem_2_id" ptype="text" readonly="false">15</param>
+            </section>
+        </group>
+        <group title="第3个宝贝设置">
+            <section title="设置第3个宝贝设" folded="false">
+                <param description="从图片空间复制链接地址，图片尺寸为312x420" formType="text" label="设置图片" name="listitem_3_img" ptype="url" readonly="false">assets/images/listimg.jpg</param>
+                <param description="从宝贝链接地址里复制出宝贝的id" formType="text" label="设置宝贝链接" name="listitem_3_id" ptype="text" readonly="false">15</param>
+            </section>
+        </group>
+        <group title="设置分享">
+            <section title="设置分享优惠内容" folded="false">
+                <param description="建议4个文字" formType="text" label="设置优惠" name="askget" ptype="text" readonly="false">索要优惠</param>
+            </section>
+        </group>
+    </parameters>
+</module>

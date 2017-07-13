@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="GBK"?>
+<module>
+    <id>tshop-um-xianshitejialong</id>
+    <uuid>5379ba5409af41f785ffe515e6f93142</uuid>
+    <name>限时特价长版</name>
+    <file>tshop-um-xianshitejialong.php</file>
+    <thumbnail>../../assets/images/default-thumbnail.png</thumbnail>
+    <description>限时特价长版</description>
+    <requiredCache>true</requiredCache>
+    <supportedWidth>950</supportedWidth>
+    <themes default="默认">
+        <theme name="默认">
+            <css>assets/stylesheets/default.css</css>
+        </theme>
+    </themes>
+	
+	    <parameters>
+		<group title="设置模块标题">
+            <section title="设置模块标题内容" folded="false">
+                <param description="模块标题,不输入文字不显示标题" formType="text" label="模块标题" name="neo-hd-title" ptype="text" readonly="false">新品上架</param>
+               
+            </section>
+			</group>
+        <group title="选择要展示的宝贝">
+            <section title="注意：宝贝折扣价格为现价，原价为参考价" folded="false">
+                <param description="可选择多个宝贝，最好为偶数个" formType="itemForm" label="选择宝贝" name="neo-items" ptype="item" readonly="false"></param>
+            </section>
+        </group>
+    </parameters>
+	
+</module>

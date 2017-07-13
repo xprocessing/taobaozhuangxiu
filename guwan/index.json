@@ -1,0 +1,23 @@
+{
+  "title" : null,
+  "layouts" : [ {
+    "type" : "grid-m0",
+    "modules" : {
+      "main" : [ {
+        "moduleID" : "tshop-um-fullscreen"
+      }, {
+        "moduleID" : "tshop-um-itemsfloor"
+      }, {
+        "moduleID" : "tshop-um-itemlistforcustom"
+      }, {
+        "moduleID" : "tshop-um-neo-labsa"
+      } ]
+    }
+  }, {
+    "type" : "grid-s5m0",
+    "modules" : {
+      "sub" : [ ],
+      "main" : [ ]
+    }
+  } ]
+}

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="GBK"?>
+<module>
+    <id>tshop-pbsm-other-wireless-code</id>
+    <name>无线二维码</name>
+    <thumbnail>http://img03.taobaocdn.com/imgextra/i2/T1FnPLXd8jXXakn9EY</thumbnail>
+    <description xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">[提示：请为系统模块{无线二维码}添加描述信息]</description>
+    <themes default="default">
+        <theme name="default">
+            <css>assets/stylesheets/default.css</css>
+        </theme>
+        <theme name="red">
+            <css>assets/stylesheets/red.css</css>
+        </theme>
+        <theme name="Blue">
+            <css>assets/stylesheets/Blue.css</css>
+        </theme>
+    </themes>
+</module>

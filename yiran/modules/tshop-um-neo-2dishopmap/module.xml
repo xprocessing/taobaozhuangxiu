@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="GBK"?>
+<module>
+    <id>tshop-um-neo-2dishopmap</id>
+    <name>店铺双维度导航</name>
+    <file>tshop-um-neo-2dishopmap.php</file>
+    <thumbnail>assets/images/neo.jpg</thumbnail>
+    <description xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">店铺双维度导航，如可以融合品牌导航和功能导航为一块，可切换显示</description>
+    <requiredCache>true</requiredCache>
+    <supportedWidth>950</supportedWidth>
+    <themes default="default">
+        <theme name="default">
+            <css>assets/stylesheets/default.css</css>
+        </theme>
+        <theme name="red">
+            <css>assets/stylesheets/red.css</css>
+        </theme>
+        <theme name="Blue">
+            <css>assets/stylesheets/Blue.css</css>
+        </theme>
+    </themes>
+    <parameters>
+        <group title="导航设置标题">
+            <section folded="false" title="标题文字或者可以用图片代码哦">
+                <param readonly="false" ptype="htmlarea" name="neo-2dishopmap-title-01" label="导航01标题" formType="textarea" description="第1个导航标题">店铺所有分类</param>
+                <param readonly="false" ptype="htmlarea" name="neo-2dishopmap-title-02" label="导航02标题" formType="textarea" description="第2个导航标题">品牌导航/促销</param>
+            </section>
+        </group>
+        <group title="导航内容：海报单张型">
+            <section folded="false" title="海报尺寸宽度是950的，高度可自定。如有切图，采用下面的切图代码型">
+                <param readonly="false" ptype="url" name="neo-2dishopmap-img" label="海报图片" formType="text" description="图片的地址，不解释了">http://img03.taobaocdn.com/imgextra/i3/297619552/T2tqFhXnBNXXXXXXXX_!!297619552.jpg</param>
+                <param readonly="false" ptype="url" name="neo-2dishopmap-link" label="海报目标链接" formType="text" description="图片的目标链接">http://viviange.taobao.com/</param>
+            </section>
+        </group>
+        <group title="导航内容：切图代码型">
+            <section folded="false" title="如多品牌/有切片多链接的客户适用，注意不用请保持为空即可">
+                <param readonly="false" ptype="htmlarea" name="neo-2dishopmap-html" label="切图代码" formType="textarea" description="粘入切图代码，注意代码中图片已经上传图片空间，并已加链接；"></param>
+            </section>
+        </group>
+        <group title="模块高度手动矫正">
+            <section folded="false" title="如店铺分类很多，某些时候需要手工调整模块高度">
+               
+				<param readonly="false" ptype="text" name="neo-2dishopmap-height-new" label="模块高度" formType="text" description="px，可用QQ截图测量需要的高度哦">150</param>
+            </section>
+        </group>
+    </parameters>
+</module>

@@ -1,0 +1,20 @@
+/**
+ * 模块：tshop-um-dianzhao 
+ * 皮肤（主题）: 默认
+ * 规则:
+ * 		1. CSS选择器必须包含 ".tshop-um-dianzhao"，禁止使用模块页面元素的ID选择器
+ *		2. CSS样式声明的position属性值不能使用:fixed
+ *		3. CSS样式文件中z-index属性值必须在1-99之间
+ *		4. CSS URL地址必须是淘宝URL白名单中或者本地（相对或绝对）URL 
+ */
+
+.tshop-um-dianzhao {color:black; height:112px; position:relative; }
+.tshop-um-dianzhao .dianzhao-logo{ height:112px;line-height:110px;display:inline-block; float:left;}
+.tshop-um-dianzhao .dianzhao-logo img{ display:inline-block; margin-top:25px;}
+.tshop-um-dianzhao .dianzhao-title{ font-size:36px; font-family:微软雅黑; font-weight:bold;line-height:110px;display:inline-block; padding-left:20px;float:left;}
+.tshop-um-dianzhao .dianzhao-desc{ font-size:18px;font-family:微软雅黑;line-height:110px;display:inline-block;padding-left:30px; color:#666666;float:left;}
+
+
+ 
+.tshop-um-dianzhao .shopqrcode{ height:112px; width:112px; display:inline-block; position:absolute; right:0px;}
+.tshop-um-dianzhao .shopqrcode img{ height:110px; width:110px;}

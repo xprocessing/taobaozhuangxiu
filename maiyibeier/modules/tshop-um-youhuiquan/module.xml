@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="GBK"?>
+<module>
+    <id>tshop-um-youhuiquan</id>
+    <uuid>08e8303fe8b74394bbce7ea8af4f2850</uuid>
+    <name>优惠券</name>
+    <file>tshop-um-youhuiquan.php</file>
+    <thumbnail>assets/images/default-thumbnail.png</thumbnail>
+    <description>优惠券板块，可以自行添加优惠券</description>
+    <requiredCache>true</requiredCache>
+    <supportedWidth>790,990</supportedWidth>
+    <themes default="默认">
+        <theme name="默认">
+            <css>assets/stylesheets/default.css</css>
+        </theme>
+        <theme name="备用">
+            <css>assets/stylesheets/another.css</css>
+        </theme>
+    </themes>
+    <parameters>
+        <group title="设置优惠券">
+            <section title="第1张券" folded="false">
+                <param description="面额" formType="text" label="面额" name="mianzhi-1" ptype="text" readonly="false">5元</param>
+                <param description="领取文字，文字不要太长" formType="text" label="领取文字" name="lingqu-1" ptype="text" readonly="false">满50使用-点击领取</param>
+                <param description="优惠券领取地址，从创建优惠券的地方复制过来" formType="text" label="优惠券领取地址" name="lingqu-link-1" ptype="text" readonly="false">#</param>
+                <param description="优惠券说明" formType="text" label="优惠券说明" name="shuoming-1" ptype="text" readonly="false">优惠券有效期截至8月30日</param>
+            </section>
+            <section title="第2张券" folded="false">
+                <param description="面额" formType="text" label="面额" name="mianzhi-2" ptype="text" readonly="false">10元</param>
+                <param description="领取文字，文字不要太长" formType="text" label="领取文字" name="lingqu-2" ptype="text" readonly="false">满100使用-点击领取</param>
+                <param description="优惠券领取地址，从创建优惠券的地方复制过来" formType="text" label="优惠券领取地址" name="lingqu-link-2" ptype="text" readonly="false">#</param>
+                <param description="优惠券说明" formType="text" label="优惠券说明" name="shuoming-2" ptype="text" readonly="false">优惠券有效期截至8月30日</param>
+            </section>
+            <section title="第3张券" folded="false">
+                <param description="面额" formType="text" label="面额" name="mianzhi-3" ptype="text" readonly="false">50元</param>
+                <param description="领取文字，文字不要太长" formType="text" label="领取文字" name="lingqu-3" ptype="text" readonly="false">满200使用-点击领取</param>
+                <param description="优惠券领取地址，从创建优惠券的地方复制过来" formType="text" label="优惠券领取地址" name="lingqu-link-3" ptype="text" readonly="false">#</param>
+                <param description="优惠券说明" formType="text" label="优惠券说明" name="shuoming-3" ptype="text" readonly="false">优惠券有效期截至8月30日</param>
+            </section>
+            <section title="第4张券" folded="false">
+                <param description="面额" formType="text" label="面额" name="mianzhi-4" ptype="text" readonly="false">100元</param>
+                <param description="领取文字，文字不要太长" formType="text" label="领取文字" name="lingqu-4" ptype="text" readonly="false">满300使用-点击领取</param>
+                <param description="优惠券领取地址，从创建优惠券的地方复制过来" formType="text" label="优惠券领取地址" name="lingqu-link-4" ptype="text" readonly="false">#</param>
+                <param description="优惠券说明" formType="text" label="优惠券说明" name="shuoming-4" ptype="text" readonly="false">优惠券有效期截至8月30日</param>
+            </section>
+        </group>
+    </parameters>
+</module>

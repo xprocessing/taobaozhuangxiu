@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="GBK"?>
+<module>
+    <id>tshop-um-neo-vwangwangline</id>
+    <name>竖条旺旺</name>
+    <file>tshop-um-neo-vwangwangline.php</file>
+    <thumbnail>assets/images/neo.jpg</thumbnail>
+    <description>竖条旺旺，190宽度哦</description>
+    <requiredCache>true</requiredCache>
+    <supportedWidth>190</supportedWidth>
+    <themes default="默认">
+        <theme name="默认">
+            <css>assets/stylesheets/default.css</css>
+        </theme>
+    </themes>
+    <parameters>
+        <group title="文字标题和旺旺设置">
+            <section title="旺旺id建议为主号系统自动分流，也可以为子号。" folded="false">
+                <param description="旺旺标题可以为文字或者图片代码" formType="textarea" label="旺旺标题" name="wangwang" ptype="htmlarea" readonly="false">旺旺在线</param>
+                <param description="工作时间" formType="text" label="工作时间" name="wangwang_time" ptype="text" readonly="false">工作时间：9：00-23：00;</param>
+                <param description="默认为小旺旺显示；可选择大旺旺显示" formType="select" label="旺旺显示模式" name="wangwang-mode" ptype="text">
+                    <option value="2" selected="selected">小旺旺显示</option>
+                    <option value="1">大旺旺显示</option>                    
+        </param>
+            </section>
+        </group>
+        <group title="售前客服">
+            <section title="旺旺id建议为主号系统自动分流，也可以为子号。" folded="false">
+                <param description="客服团队名字" formType="text" label="客服团队" name="wangwang_title_01" ptype="text" readonly="false">售前客服</param>
+                <param description="输入旺旺ID,或子旺旺ID" formType="text" label="第01个旺旺昵称" name="wangwangnick_01" ptype="text" readonly="false">公子鱼</param>
+                <param description="输入旺旺ID,或子旺旺ID" formType="text" label="第01个旺旺ID" name="wangwangid_01" ptype="text" readonly="false">大汉公子鱼</param>
+                <param description="输入旺旺ID,或子旺旺ID" formType="text" label="第02个旺旺昵称" name="wangwangnick_02" ptype="text" readonly="false">公子鱼</param>
+                <param description="输入旺旺ID,或子旺旺ID" formType="text" label="第02个旺旺ID" name="wangwangid_02" ptype="text" readonly="false">大汉公子鱼:公子鱼</param>
+                <param description="输入旺旺ID,或子旺旺ID" formType="text" label="第03个旺旺昵称" name="wangwangnick_03" ptype="text" readonly="false">公子鱼</param>
+                <param description="输入旺旺ID,或子旺旺ID" formType="text" label="第03个旺旺ID" name="wangwangid_03" ptype="text" readonly="false">大汉公子鱼</param>
+                <param description="输入旺旺ID,或子旺旺ID" formType="text" label="第04个旺旺昵称" name="wangwangnick_04" ptype="text" readonly="false">公子鱼</param>
+                <param description="输入旺旺ID,或子旺旺ID" formType="text" label="第04个旺旺ID" name="wangwangid_04" ptype="text" readonly="false">大汉公子鱼</param>
+            </section>
+        </group>
+        <group title="售后客服">
+            <section title="旺旺id建议为主号系统自动分流，也可以为子号。" folded="false">
+                <param description="客服团队名字" formType="text" label="客服团队" name="wangwang_title_02" ptype="text" readonly="false">售后客服</param>
+                <param description="输入旺旺ID,或子旺旺ID" formType="text" label="第01个旺旺昵称" name="wangwangnick_05" ptype="text" readonly="false">公子鱼</param>
+                <param description="输入旺旺ID,或子旺旺ID" formType="text" label="第01个旺旺ID" name="wangwangid_05" ptype="text" readonly="false">大汉公子鱼</param>
+                <param description="输入旺旺ID,或子旺旺ID" formType="text" label="第02个旺旺昵称" name="wangwangnick_06" ptype="text" readonly="false">公子鱼</param>
+                <param description="输入旺旺ID,或子旺旺ID" formType="text" label="第02个旺旺ID" name="wangwangid_06" ptype="text" readonly="false">大汉公子鱼:公子鱼</param>
+                <param description="输入旺旺ID,或子旺旺ID" formType="text" label="第03个旺旺昵称" name="wangwangnick_07" ptype="text" readonly="false">公子鱼</param>
+                <param description="输入旺旺ID,或子旺旺ID" formType="text" label="第03个旺旺ID" name="wangwangid_07" ptype="text" readonly="false">大汉公子鱼:公子鱼</param>
+                <param description="输入旺旺ID,或子旺旺ID" formType="text" label="第04个旺旺昵称" name="wangwangnick_08" ptype="text" readonly="false">公子鱼</param>
+                <param description="输入旺旺ID,或子旺旺ID" formType="text" label="第04个旺旺ID" name="wangwangid_08" ptype="text" readonly="false">大汉公子鱼:公子鱼</param>
+            </section>
+        </group>
+        <group title="投诉建议">
+            <section title="旺旺id建议为主号系统自动分流，也可以为子号。" folded="false">
+                <param description="客服团队名字" formType="text" label="客服团队" name="wangwang_title_03" ptype="text" readonly="false">投诉建议</param>
+                <param description="输入旺旺ID,或子旺旺ID" formType="text" label="第01个旺旺昵称" name="wangwangnick_09" ptype="text" readonly="false">公子鱼</param>
+                <param description="输入旺旺ID,或子旺旺ID" formType="text" label="第01个旺旺ID" name="wangwangid_09" ptype="text" readonly="false">大汉公子鱼</param>
+                <param description="输入旺旺ID,或子旺旺ID" formType="text" label="第02个旺旺昵称" name="wangwangnick_10" ptype="text" readonly="false">公子鱼</param>
+                <param description="输入旺旺ID,或子旺旺ID" formType="text" label="第02个旺旺ID" name="wangwangid_10" ptype="text" readonly="false">大汉公子鱼:公子鱼</param>
+            </section>
+        </group>
+    </parameters>
+</module>

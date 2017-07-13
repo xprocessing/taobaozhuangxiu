@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="GBK"?>
+<module>
+    <id>tshop-um-leftsliderightcats</id>
+    <name>左焦点轮播右分类</name>
+    <file>tshop-um-leftsliderightcats.php</file>
+    <thumbnail>../../assets/images/default-thumbnail.png</thumbnail>
+    <description>模块左侧为焦点图板块，右侧为所有分类板块。最优良的方式展示重要信息，同时提供快捷的店铺导航功能。</description>
+    <requiredCache>true</requiredCache>
+    <supportedWidth>950</supportedWidth>
+    <themes default="默认">
+        <theme name="默认">
+            <css>assets/stylesheets/default.css</css>
+        </theme>
+        <theme name="紫色系">
+            <css>assets/stylesheets/purple.css</css>
+        </theme>
+    </themes>
+    <parameters>
+        <group title="轮播图片和链接设置">
+            <section title="轮播图片和链接，轮播图和缩略图为同一张图" folded="false">
+                <param description="图片的地址，尽量保持轮播图尺寸一致哦" formType="text" label="轮播01的图片" name="neo-slide_img_1" ptype="url" readonly="false">assets/images/640_240.jpg</param>
+                <param description="图片的目标链接" formType="text" label="轮播01目标链接" name="neo-slide_link_1" ptype="url" readonly="false">http://gongziyu.taobao.com/</param>
+                <param description="图片的地址，尽量保持轮播图尺寸一致哦" formType="text" label="轮播02的图片" name="neo-slide_img_2" ptype="url" readonly="false">assets/images/640_240.jpg</param>
+                <param description="图片的目标链接" formType="text" label="轮播02目标链接" name="neo-slide_link_2" ptype="url" readonly="false">http://gongziyu.taobao.com/</param>
+                <param description="图片的地址，尽量保持轮播图尺寸一致哦" formType="text" label="轮播03的图片" name="neo-slide_img_3" ptype="url" readonly="false">assets/images/640_240.jpg</param>
+                <param description="图片的目标链接" formType="text" label="轮播03目标链接" name="neo-slide_link_3" ptype="url" readonly="false">http://gongziyu.taobao.com/</param>
+                <param description="图片的地址，尽量保持轮播图尺寸一致哦" formType="text" label="轮播04的图片" name="neo-slide_img_4" ptype="url" readonly="false">assets/images/640_240.jpg</param>
+                <param description="图片的目标链接" formType="text" label="轮播04目标链接" name="neo-slide_link_4" ptype="url" readonly="false">http://gongziyu.taobao.com/</param>
+                <param description="图片的地址，尽量保持轮播图尺寸一致哦" formType="text" label="轮播05的图片" name="neo-slide_img_5" ptype="url" readonly="false">assets/images/640_240.jpg</param>
+                <param description="图片的目标链接" formType="text" label="轮播05目标链接" name="neo-slide_link_5" ptype="url" readonly="false">http://gongziyu.taobao.com/</param>
+            </section>
+        </group>
+        <group title="轮播高级代码填充设置">
+            <section title="轮播图有切片多链接的客户适用，注意不用请保持为空即可" folded="false">
+                <param description="粘入轮播1的切图代码，注意代码中图片已经上传图片空间，并已加链接" formType="textarea" label="轮播1的切图代码" name="neo-slide_html_1" ptype="htmlarea" readonly="false"/>
+                <param description="粘入轮播2的切图代码，注意代码中图片已经上传图片空间，并已加链接" formType="textarea" label="轮播2的切图代码" name="neo-slide_html_2" ptype="htmlarea" readonly="false"/>
+                <param description="粘入轮播3的切图代码，注意代码中图片已经上传图片空间，并已加链接" formType="textarea" label="轮播3的切图代码" name="neo-slide_html_3" ptype="htmlarea" readonly="false"/>
+                <param description="粘入轮播4的切图代码，注意代码中图片已经上传图片空间，并已加链接" formType="textarea" label="轮播4的切图代码" name="neo-slide_html_4" ptype="htmlarea" readonly="false"/>
+                <param description="粘入轮播5的切图代码，注意代码中图片已经上传图片空间，并已加链接" formType="textarea" label="轮播5的切图代码" name="neo-slide_html_5" ptype="htmlarea" readonly="false"/>
+            </section>
+        </group>
+        <group title="设置分类板块标题和内容">
+            <section title="设置分类板块标题内容" folded="false">
+                <param description="分类板块" formType="text" label="分类板块标题" name="neo-title" ptype="text" readonly="false">掌柜热荐</param>
+                <param description="选择多个类目，保存后对比下是否和左侧轮播对齐了。" formType="categoryForm" label="选择分类" name="neo-category" ptype="category">[ {&#xd;
+  "rid" : "140",&#xd;
+  "childIds" : "141,142"&#xd;
+}, {&#xd;
+  "rid" : "130",&#xd;
+  "childIds" : "131,132,133,134"&#xd;
+}, {&#xd;
+  "rid" : "120",&#xd;
+  "childIds" : "121,122,123,124,125,126,127,128,129"&#xd;
+}, {&#xd;
+  "rid" : "110",&#xd;
+  "childIds" : "111,112"&#xd;
+} ]</param>
+                <param description="如果右侧分类过少，或者想在分类下添加图片，此处可粘入图片内容代码。宽度为310像素；注意保持模块左右内容高度，保持等高。" formType="textarea" label="分类下可添加内容哦" name="neo-rightcats-content-other" ptype="htmlarea" readonly="false">欢迎光临本店，如果疑问咨询在线旺旺。本店不定期会举行促销活动，敬请关注本店首页公告。[此处可粘入图片内容代码。宽度为310像素；注意保持模块左右内容高度，保持等高。]</param>
+            </section>
+        </group>
+    </parameters>
+</module>

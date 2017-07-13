@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="GBK"?>
+<module>
+    <id>tshop-um-dianzhao</id>
+    <uuid>7497d9c8c69e4034866dd3197b54eb3f</uuid>
+    <name>自定义店招</name>
+    <file>tshop-um-dianzhao.php</file>
+    <thumbnail>assets/images/default-thumbnail.png</thumbnail>
+    <description>自定义店招，两边都是，可以添加商品店铺logo+标语slogan+二维码等</description>
+    <requiredCache>true</requiredCache>
+    <supportedWidth>990</supportedWidth>
+    <themes default="默认">
+        <theme name="默认">
+            <css>assets/stylesheets/default.css</css>
+        </theme>
+    </themes>
+    <parameters>
+        <group title="设置模块标题和导航内容">
+            <section title="标题+导航分类+图片" folded="false">
+                <param description="从图片空间复制出图片链接，如果没有可以不填不显示" formType="text" label="品牌logo图片地址" name="dianzhao-logo" ptype="text" readonly="false">assets/images/logo.png</param>
+                <param description="设置品牌logo距离顶部的距离，默认值25px" formType="text" label="品牌logo距离顶部距离" name="dianzhao-logo-margintop" ptype="text" readonly="false">25px</param>
+                <param description="标题文字不要过长,不填即可不显示" formType="text" label="品牌店铺名" name="dianzhao-title" ptype="text" readonly="false">小米旗舰店</param>
+                <param description="十六进制颜色值" formType="text" label="品牌名颜色" name="dianzhao-title-color" ptype="text" readonly="false">#434a54</param>
+                <param description="文字不要过长，不填即可不显示" formType="text" label="品牌口号" name="dianzhao-desc" ptype="text" readonly="false">小米，为发烧而生！</param>
+                <param description="十六进制颜色值" formType="text" label="品牌口号颜色" name="dianzhao-desc-color" ptype="text" readonly="false">#666666</param>
+            </section>
+        </group>
+    </parameters>
+</module>

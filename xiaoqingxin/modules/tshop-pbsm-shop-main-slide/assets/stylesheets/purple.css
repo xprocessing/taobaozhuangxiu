@@ -1,0 +1,188 @@
+/**
+ * 模块：tshop-pbsm-shop-main-slide 
+ * 皮肤（主题）: 紫色系
+ * 规则:
+ * 		1. CSS选择器必须包含 ".tshop-pbsm-shop-main-slide"，禁止使用模块页面元素的ID选择器
+ *		2. CSS样式声明的position属性值不能使用:fixed
+ *		3. CSS样式文件中z-index属性值必须在1-99之间
+ *		4. CSS URL地址必须是淘宝URL白名单中或者本地（相对或绝对）URL 
+ */
+
+.grid-m0 .tshop-pbsm-shop-main-slide .slide-box, .grid-m0 .tshop-pbsm-shop-main-slide .slide-box .slide-content li {
+	width: 950px;
+}
+.grid-s5m0 .col-main .tshop-pbsm-shop-main-slide .slide-box, .grid-s5m0 .col-main .tshop-pbsm-shop-main-slide .slide-box .slide-content li {
+	width: 750px;
+}
+.grid-s5m0 .col-sub .tshop-pbsm-shop-main-slide .slide-box, .grid-s5m0 .col-sub .tshop-pbsm-shop-main-slide .slide-box .slide-content li {
+	width: 190px;
+}
+.grid-s5m0e5 .col-main .tshop-pbsm-shop-main-slide .slide-box, .grid-s5m0e5 .col-main .tshop-pbsm-shop-main-slide .slide-box .slide-content li {
+	width: 550px;
+}
+.grid-s5m0e5 .col-sub .tshop-pbsm-shop-main-slide .slide-box, .grid-s5m0e5 .col-extra .tshop-pbsm-shop-main-slide .slide-box, .grid-s5m0e5 .col-sub .tshop-pbsm-shop-main-slide .slide-box .slide-content li, .grid-s5m0e5 .col-extra .tshop-pbsm-shop-main-slide .slide-box .slide-content li {
+	width: 190px;
+}
+/*------------------ 默认的样式，等待被其他皮肤覆盖 ----------------------*/
+.tshop-pbsm-shop-main-slide {
+	position: relative;
+	margin-bottom: 10px;
+*zoom: 1;
+/* 在模块最外层添加清除浮动的样式，避免ie6下装修时，模块高度发生改变，模块之间错位的问题发生 */
+
+}
+.tshop-pbsm-shop-main-slide:after {
+	content: '\20';
+	display: block;
+	height: 0;
+	clear: both;
+}
+.tshop-pbsm-shop-main-slide .hidden {
+	visibility: hidden;
+}
+.tshop-pbsm-shop-main-slide .disappear {
+	display: none;
+}
+.tshop-pbsm-shop-main-slide .skin-box-hd {
+	border-color: #d5d5d5;
+	border-style: solid;
+	padding: 0px;
+}
+.tshop-pbsm-shop-main-slide .skin-box-hd h3 span {
+	border-bottom: 0 solid #666666;
+	display: inline-block;
+	font-weight: 700;
+	font-size: 14px;
+}
+.tshop-pbsm-shop-main-slide .skin-box-bd {
+*zoom: 1;
+	border-color: #d5d5d5;
+	border-width: 0 1px 1px;
+	border-style: solid;
+	background: none no-repeat 0 0 #ffffff;
+	color: #2953a6;
+}
+.tshop-pbsm-shop-main-slide .skin-box-bd:after {
+	content: '\20';
+	display: block;
+	height: 0;
+	clear: both;
+}
+.tshop-pbsm-shop-main-slide .skin-box-bd a {
+	color: #565554;
+}
+.tshop-pbsm-shop-main-slide .skin-box-hd {
+	position: relative;
+}
+.tshop-pbsm-shop-main-slide .skin-box-bd {
+	border: none;
+}
+.tshop-pbsm-shop-main-slide .slide-box {
+	position: relative;
+	display: block;
+	overflow: hidden;
+}
+.tshop-pbsm-shop-main-slide .slide-box .slide-content {
+	position: absolute;
+}
+.tshop-pbsm-shop-main-slide .slide-box .slide-content li {
+	float: left;
+	overflow: hidden;
+}
+.tshop-pbsm-shop-main-slide .slide-box .slide-content li a {
+	display: block;
+	font-size: 0;
+}
+.tshop-pbsm-shop-main-slide .slide-box .slide-triggers {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	margin: 0 0px 0px 0;
+	
+	z-index: 15;
+	height:31px;
+	background-image:url(assets/images/navbg.png);
+}
+.tshop-pbsm-shop-main-slide .slide-box .slide-triggers li {
+	float: left;
+	height: 18px;
+	width: 18px;
+	color: #999999;
+	font-size: 12px;
+	line-height: 20px;
+	text-align: center;
+	background-image: url(assets/images/slidenav.png);
+	background-position: 0 -234px;
+	margin-top:6px;
+	margin-right: 7px;
+	cursor: pointer;
+	text-indent: -200px;
+	overflow: hidden;
+}
+.tshop-pbsm-shop-main-slide .slide-box .slide-triggers li.first{ margin-left:45%;}
+.tshop-pbsm-shop-main-slide .slide-box .slide-triggers .selected {
+	color: white;
+	background-position: 0 -30px;
+}
+.tshop-pbsm-shop-main-slide .slide-box .slide-triggers-bg {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	z-index: 13;
+	/*default opacity*/
+
+	opacity: 0.5;
+	filter: alpha(opacity= 50 );
+}
+.tshop-pbsm-shop-main-slide .slide-box .prev, .tshop-pbsm-shop-main-slide .slide-box .next {
+	position: absolute;
+	cursor: pointer;
+	display:block;
+}
+.tshop-pbsm-shop-main-slide .slide-box .prev {
+	top:100px;
+	left:0px;
+	background-image: url(assets/images/slidenav.png);
+	width:70px;
+	height:116px;
+}
+.tshop-pbsm-shop-main-slide .slide-box .hover-pre{background-position: 0px -116px;}
+.tshop-pbsm-shop-main-slide .slide-box .next {
+	top:100px;
+	right:0px;
+	background-image: url(assets/images/slidenav.png);
+	background-position: -70px 0px;
+	width:70px;
+	height:116px;
+}
+.tshop-pbsm-shop-main-slide .slide-box .hover-next{background-position: -70px -116px;}
+.tshop-pbsm-shop-main-slide .slide-box .prev .prev-next-bg, .tshop-pbsm-shop-main-slide .slide-box .next .prev-next-bg {
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 11;
+	/*default opacity*/
+
+	opacity: 0.5;
+	filter: alpha(opacity= 50 );
+}
+.tshop-pbsm-shop-main-slide .slide-box .prev .text, .tshop-pbsm-shop-main-slide .slide-box .next .text {
+	position: relative;
+	z-index: 12;
+}
+.tshop-pbsm-shop-main-slide .slide-box .slide-triggers .selected {
+	background-image: url(assets/images/slidenav.png);
+	background-repeat: no-repeat;
+	background-position: -27px -234px;
+}
+.tshop-pbsm-shop-main-slide .slide-box .prev, .tshop-pbsm-shop-main-slide .slide-box .next {
+	opacity: 0;
+	filter: alpha(opacity=0);
+}
+.tshop-pbsm-shop-main-slide .slide-box .play {
+	opacity: 1;
+	filter: alpha(opacity=100);
+}
+
+
+ 

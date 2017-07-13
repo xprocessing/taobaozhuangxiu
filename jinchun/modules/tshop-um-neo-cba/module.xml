@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="GBK"?>
+<module>
+    <id>tshop-um-neo-cba</id>
+    <uuid>7243b8751a6e452cb6ba71ee519ea27d</uuid>
+    <name>模块cba</name>
+    <file>tshop-um-neo-cba.php</file>
+    <thumbnail>../../assets/images/default-thumbnail.png</thumbnail>
+    <description>模块cba</description>
+    <requiredCache>true</requiredCache>
+    <supportedWidth>190,590,790,990</supportedWidth>
+    <themes default="默认">
+        <theme name="默认">
+            <css>assets/stylesheets/default.css</css>
+        </theme>
+        <theme name="活动风格">
+            <css>assets/stylesheets/huodong.css</css>
+        </theme>
+    </themes>
+</module>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="GBK"?>
+<module>
+    <id>tshop-um-tuijian</id>
+    <uuid>9ac48bc5d96e477a953bcc57d231ac3d</uuid>
+    <name>宝贝推荐-2</name>
+    <file>tshop-um-tuijian.php</file>
+    <thumbnail>assets/images/default-thumbnail.png</thumbnail>
+    <description>宝贝推荐-2</description>
+    <requiredCache>true</requiredCache>
+    <supportedWidth>990</supportedWidth>
+    <themes default="默认">
+        <theme name="默认">
+            <css>assets/stylesheets/default.css</css>
+        </theme>
+        <theme name="备用">
+            <css>assets/stylesheets/another.css</css>
+        </theme>
+    </themes>
+</module>

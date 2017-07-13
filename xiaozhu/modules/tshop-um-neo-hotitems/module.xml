@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="GBK"?>
+<module>
+    <id>tshop-um-neo-hotitems</id>
+    <uuid>425a744f7b7e427a88cc3970d1280313</uuid>
+    <name>热卖推荐</name>
+    <file>tshop-um-neo-hotitems.php</file>
+    <thumbnail>../../assets/images/default-thumbnail.png</thumbnail>
+    <description>热卖推荐</description>
+    <requiredCache>true</requiredCache>
+    <supportedWidth>750,950</supportedWidth>
+    <themes default="默认">
+        <theme name="默认">
+            <css>assets/stylesheets/default.css</css>
+        </theme>
+    </themes>
+    <parameters>
+        <group title="设置模块标题">
+            <section title="设置模块标题" folded="false">
+                <param description="设置模块标题图片" formType="text" label="粘入图片地址" name="neo-hotitemstitle-img" ptype="text" readonly="false">assets/images/neo-hotitemstitle.png</param>
+                <param description="设置模块标题图片目标链接" formType="text" label="粘入目标链接" name="neo-hotitemstitle-link" ptype="text" readonly="false">http://www.taobao.com/</param>
+            </section>
+        </group>
+        <group title="选择宝贝">
+            <section title="选择宝贝即可，建议选择8款以上" folded="false">
+                <param description="选择宝贝" formType="itemForm" label="建议选择8款以上" name="hotitems" ptype="item" readonly="false">22,21,26794212629,26793612725,26793556573,26565676338,26565620012,26370736959</param>
+            </section>
+        </group>
+    </parameters>
+</module>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="GBK"?>
+<module>
+    <id>tshop-um-tejiafloorwithnav</id>
+    <uuid>dc62621b27554bceafd345acb7c924ac</uuid>
+    <name>特价商品楼层</name>
+    <file>tshop-um-tejiafloorwithnav.php</file>
+    <thumbnail>assets/images/default-thumbnail.png</thumbnail>
+    <description>特价商品楼层</description>
+    <requiredCache>true</requiredCache>
+    <supportedWidth>990</supportedWidth>
+    <themes default="默认">
+        <theme name="默认">
+            <css>assets/stylesheets/default.css</css>
+        </theme>
+    </themes>
+    <parameters>
+        <group title="设置模块标题和导航内容">
+            <section title="标题+导航分类+图片" folded="false">
+                <param description="标题文字不要过长" formType="text" label="板块标题" name="nav-title" ptype="text" readonly="false">新品上架</param>
+                <param description="文字不要过长" formType="text" label="板块描述" name="nav-title-desc" ptype="text" readonly="false">新品上架新品上架新品上架</param>
+                <param description="从图片空间复制出图片链接" formType="text" label="图片地址" name="nav-pic-img" ptype="text" readonly="false">assets/images/nav-pic.png</param>
+                <param description="此处填入点击图片要进入的链接页面地址" formType="text" label="图片链接" name="nav-pic-link" ptype="text" readonly="false">http://gongziyu.taobao.com/</param>
+            </section>
+            <section title="设置显示分类" folded="false">
+                <param description="选择多个类目，" formType="categoryForm" label="选择分类" name="neo-category" ptype="category">[ {&#xd;
+  "childIds" : "807818185,825217124,807818186,807818187,807818188,807818189,807818190,825347926,825347927,825347976,857677973",&#xd;
+  "rid" : "807809446"&#xd;
+} ]</param>
+                <param description="此处输入要显示的导航文字" formType="text" label="更多入口文字" name="nav-more-text" ptype="text" readonly="false">查看所有</param>
+                <param description="此处填入要进入的链接页面地址" formType="text" label="更多入口链接" name="nav-more-link" ptype="text" readonly="false">http://gongziyu.taobao.com/</param>
+            </section>
+        </group>
+        <group title="选择要展示的宝贝">
+            <section title="注意：宝贝折扣价格为现价，原价为参考价" folded="false">
+                <param description="可选择多个宝贝，建议选择7，11，15...个" formType="itemForm" label="选择宝贝" name="neo-items" ptype="item" readonly="false"/>
+            </section>
+        </group>
+        <group title="设置模块背景色">
+            <section title="设置模块背景色" folded="false">
+                <param description="十六进制颜色值，如#FFDAB9，可从这个页面中选择http://t.cn/8sM6M6X" formType="text" label="输入颜色值" name="neo-bd-bgcolor" ptype="text" readonly="false"/>
+            </section>
+        </group>
+    </parameters>
+</module>

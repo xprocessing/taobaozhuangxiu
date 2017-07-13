@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="GBK"?>
+<module>
+    <id>tshop-um-topnewbottomcats</id>
+    <name>上面新品下面导航</name>
+    <file>tshop-um-topnewbottomcats.php</file>
+    <thumbnail>assets/images/default-thumbnail.png</thumbnail>
+    <description>此模块上面是宝贝列表，可以选择新上的宝贝作为上新板块，下面为分类导航内容，再次强调和深化分类在整个页面中的权重。</description>
+    <requiredCache>true</requiredCache>
+    <supportedWidth>950</supportedWidth>
+    <themes default="默认">
+        <theme name="默认">
+            <css>assets/stylesheets/default.css</css>
+        </theme>
+    </themes>
+    <parameters>
+        <group title="设置模块标题和内容">
+            <section title="设置模块标题内容,标题由3部分组成" folded="false">
+                <param description="模块标题前部分" formType="text" label="模块标题A" name="neo-hd-title-a" ptype="text" readonly="false">姑娘们喜欢的</param>
+                <param description="模块标题后部分" formType="text" label="模块标题B" name="neo-hd-title-b" ptype="text" readonly="false">衣服</param>
+                <param description="模块标题气泡部分内容" formType="text" label="模块标题C" name="neo-hd-title-c" ptype="text" readonly="false">今日上新226件</param>
+                <param description="需要复制分类的链接或者其他链接哦" formType="text" label="设置链接" name="neo-hd-title-link" ptype="text" readonly="false">#</param>
+            </section>
+            <section title="设置模块内容" folded="false">
+                <param description="需要选择6个宝贝" formType="itemForm" label="选择横排展示宝贝" name="right-items" ptype="item" readonly="false">22,21,15,14,13,12</param>
+                <param description="设置宝贝的排序方式，默认按照人气宝贝升序排序" formType="select" label="设置宝贝排序方式" name="neo-items-option" ptype="text">
+                    <option value="ceofp" selected="selected">人气宝贝升序排序</option>
+                    <option value="_ceofp">以人气宝贝降序排序</option>
+                    <option value="hotsell">以热销宝贝升序排序</option>
+                    <option value="_hotsell">以热销宝贝降序排序</option>
+                    <option value="price">以宝贝价格升序排序</option>
+                    <option value="_price">以宝贝价格降序排序</option>
+                    <option value="newOn">以最新上架宝贝升序排序</option>
+                    <option value="_newOn">以最新上架宝贝降序排序</option>
+                    <option value="HotKeep">以热门搜藏升序排序</option>
+                    <option value="_HotKeep">以热门搜藏降序排序</option>
+        </param>
+                <param description="上面选择产品的名字" formType="text" label="上面选择产品的名字" name="neo-items-names" ptype="text" readonly="false">连衣裙#毛衣#皮草#雪地靴#T恤#T恤</param>
+                <param description="选择是否显示下面分类" formType="select" label="是否显示下面分类" name="bottom-cats-option" ptype="text">
+                    <option value="bottom-cats" selected="selected">显示下面分类</option>
+                    <option value="bottom-cats-hidden">不显示下面分类</option>                   
+        </param>
+                <param description="选择多个类目，保存后对比下是否和左侧轮播对齐了。" formType="categoryForm" label="选择下面分类" name="neo-category" ptype="category"/>
+            </section>
+        </group>
+    </parameters>
+</module>

@@ -1,0 +1,32 @@
+/**
+ * 模块：tshop-pbsm-shop-custom-banner 
+ * 皮肤（主题）: 默认
+ * 规则:
+ * 		1. CSS选择器必须包含 ".tshop-pbsm-shop-custom-banner"，禁止使用模块页面元素的ID选择器
+ *		2. CSS样式声明的position属性值不能使用:fixed
+ *		3. CSS样式文件中z-index属性值必须在1-99之间
+ *		4. CSS URL地址必须是淘宝URL白名单中或者本地（相对或绝对）URL 
+ */
+
+.tshop-pbsm-shop-custom-banner {color:black;}
+
+.grid-m .tshop-pbsm-shop-custom-banner, .grid-m0 .tshop-pbsm-shop-custom-banner {
+	height: 112px;
+	overflow: hidden
+}
+.tshop-pbsm-shop-custom-banner .skin-box-bd .banner-box {
+
+	height: 112px;
+	background-color:transparent;
+	background-image:none;
+}
+.grid-m0 .tshop-pbsm-shop-custom-banner .skin-box-bd .title, .grid-m .tshop-pbsm-shop-custom-banner .skin-box-bd .title {
+	font-family: "\5FAE\8F6F\96C5\9ED1";
+	background-color:transparent;
+	padding: 10px 25px 20px 20px;
+	top: 28px;
+	font-size: 24px;
+	color:#fff;
+}
+
+ 

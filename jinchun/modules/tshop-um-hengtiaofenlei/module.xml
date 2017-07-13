@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="GBK"?>
+<module>
+    <id>tshop-um-hengtiaofenlei</id>
+    <uuid>4834fa771d764f19b319954fccd5a7e3</uuid>
+    <name>商品分类</name>
+    <file>tshop-um-hengtiaofenlei.php</file>
+    <thumbnail>assets/images/default-thumbnail.png</thumbnail>
+    <description>商品分类</description>
+    <requiredCache>true</requiredCache>
+    <supportedWidth>990</supportedWidth>
+    <themes default="默认">
+        <theme name="默认">
+            <css>assets/stylesheets/default.css</css>
+        </theme>
+        <theme name="活动风格">
+            <css>assets/stylesheets/huodong.css</css>
+        </theme>
+    </themes>
+    <parameters>
+        <group title="设置分类">
+            <section title="设置分类" folded="false">
+                <param description="选择多个类目" formType="categoryForm" label="选择分类" name="neo-category" ptype="category">[ {&#xd;
+  "childIds" : "885363144,885363145,885363146",&#xd;
+  "rid" : "885363143"&#xd;
+}, {&#xd;
+  "childIds" : "885363153,885363154,885363155",&#xd;
+  "rid" : "840342543"&#xd;
+}, {&#xd;
+  "childIds" : "827772014,827772016",&#xd;
+  "rid" : "731363096"&#xd;
+}, {&#xd;
+  "childIds" : "827857310,827949324",&#xd;
+  "rid" : "611035718"&#xd;
+}, {&#xd;
+  "childIds" : "157533081,157574447,163553316,166774350",&#xd;
+  "rid" : "155737895"&#xd;
+}, {&#xd;
+  "childIds" : "153387223,153425913,154270961,155465210",&#xd;
+  "rid" : "153387222"&#xd;
+} ]</param>
+            </section>
+        </group>
+    </parameters>
+</module>

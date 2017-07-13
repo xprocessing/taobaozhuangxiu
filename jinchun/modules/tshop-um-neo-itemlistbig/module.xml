@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="GBK"?>
+<module>
+    <id>tshop-um-neo-itemlistbig</id>
+    <uuid>0253a22c0a4741548ab4df668eed7ebc</uuid>
+    <name>商品列表（大）</name>
+    <file>tshop-um-neo-itemlistbig.php</file>
+    <thumbnail>assets/images/default-thumbnail.png</thumbnail>
+    <description>商品列表（大）</description>
+    <requiredCache>true</requiredCache>
+    <supportedWidth>790,990</supportedWidth>
+    <themes default="默认">
+        <theme name="默认">
+            <css>assets/stylesheets/default.css</css>
+        </theme>
+        <theme name="活动风格">
+            <css>assets/stylesheets/huodong.css</css>
+        </theme>
+    </themes>
+    <parameters>
+        <group title="设置模块标题">
+            <section title="设置模块标题内容" folded="false">
+                <param description="模块标题,不输入文字不显示标题" formType="textarea" label="模块标题" name="neo-hd-title" ptype="htmlarea" readonly="false">新品上架</param>
+            </section>
+        </group>
+        <group title="选择要展示的宝贝">
+            <section title="注意：宝贝折扣价格为现价，原价为参考价" folded="false">
+                <param description="可选择多个宝贝，最好为偶数个" formType="itemForm" label="选择宝贝" name="neo-items" ptype="item" readonly="false">37988072674,37977628365,37977508378,37977444221,37977304030,37976556056,37975312109,37975241994</param>
+            </section>
+        </group>
+    </parameters>
+</module>

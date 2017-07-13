@@ -1,0 +1,94 @@
+/**
+ * 模块：tshop-pbsm-shop-item-recommend 
+ * 皮肤（主题）: 默认
+ * 规则:
+ * 		1. CSS选择器必须包含 ".tshop-pbsm-shop-item-recommend"，禁止使用模块页面元素的ID选择器
+ *		2. CSS样式声明的position属性值不能使用:fixed
+ *		3. CSS样式文件中z-index属性值必须在1-99之间
+ *		4. CSS URL地址必须是淘宝URL白名单中或者本地（相对或绝对）URL 
+ */
+/*户外-宝贝推荐*/
+/*hd*/
+.tshop-pbsm-shop-item-recommend .skin-box-bd .item .detail a.item-name{color:#FFFFFF;}
+.grid-m0 .col-main .tshop-pbsm-shop-item-recommend .skin-box-hd{ border:none; height:82px; background-image:url(assets/images/zdyhd.jpg); background-position:0px 0px; background-repeat:no-repeat; margin:0px; padding:0px;}
+.grid-m0 .col-main .tshop-pbsm-shop-item-recommend .skin-box-hd .skin-box-act{ padding-top:22px; padding-right:20px; color:#fc3f3d; font-family:微软雅黑; font-size:14px;}
+ .grid-m0 .col-main .tshop-pbsm-shop-item-recommend .skin-box-hd h3{ font-family:微软雅黑; font-size:18px; color:#FFFFFF; padding-left:340px; padding-top:35px;}
+.grid-m0 .col-main .tshop-pbsm-shop-item-recommend .skin-box-hd .skin-box-act .more{ color:#fc3f3d;}
+/*bd*/
+ .grid-m0 .col-main .tshop-pbsm-shop-item-recommend .skin-box-bd { border:none; background-color:#000;}
+/*3个*/
+ .grid-m0 .col-main .tshop-pbsm-shop-item-recommend .skin-box-bd .item3line1 .item .photo{ height:312px; width:312px; border:none;}
+.grid-m0 .col-main .tshop-pbsm-shop-item-recommend .item3line1 .item .photo a{ height:312px; width:312px; border:none;}
+.tshop-pbsm-shop-item-recommend .skin-box-bd .item3line1 .item .detail{ width:220px; height:95px; background-image: url(assets/images/det.png); background-color:#484445;}
+.grid-s5m0 .col-main .tshop-pbsm-shop-item-recommend .skin-box-bd .item3line1 .item .detail{ width:224px; height:95px; background-image: url(assets/images/det4.png); background-color:#484445;}
+
+.grid-m0 .col-main .tshop-pbsm-shop-item-recommend .skin-box-bd .item3line1 .item .detail:hover{ background-color:#2a2a2a;}
+.grid-m0 .col-main .tshop-pbsm-shop-item-recommend .skin-box-bd .item3line1 .item .detail a.item-name{ color:#FFFFFF; font-size:14px; font-family:微软雅黑; padding-left:10px; }
+.grid-m0 .col-main .tshop-pbsm-shop-item-recommend .skin-box-bd .item3line1 .item .detail .attribute .cprice-area .symbol{ color:#ec2f2b;}
+.grid-m0 .col-main .tshop-pbsm-shop-item-recommend .skin-box-bd .item3line1 .item .detail .attribute .cprice-area .c-price{ color:#ec2f2b;}
+.grid-m0 .col-main .tshop-pbsm-shop-item-recommend .skin-box-bd .item3line1 .item .detail .attribute .cprice-area{ width:100%; padding-left:10px;}
+.grid-m0 .col-main .tshop-pbsm-shop-item-recommend .skin-box-bd .item .detail .attribute .sale-area{ width:100%; text-align:center;}
+/*4*/
+.grid-m0 .col-main .tshop-pbsm-shop-item-recommend .skin-box-bd .item4line1 .item .photo{ height:232px; width:232px; border:none;}
+.grid-m0 .col-main  .tshop-pbsm-shop-item-recommend .item4line1 .item .photo a{ height:232px; width:232px; border:none;}
+.tshop-pbsm-shop-item-recommend .skin-box-bd .item4line1 .item .detail{ background-color:#484445; background-image: url(assets/images/det2.png); width:232px; height:84px; background-position:0px 0px; background-repeat:no-repeat;}
+.grid-s5m0 .col-main .tshop-pbsm-shop-item-recommend .skin-box-bd .item4line1 .item .detail{ width:176px; height:32px; background-image: url(assets/images/det3.png); background-color:#484445;}
+
+.grid-m0 .col-main .tshop-pbsm-shop-item-recommend .skin-box-bd .item4line1 .item .detail:hover{ background-color:#2a2a2a;}
+.grid-m0 .col-main .tshop-pbsm-shop-item-recommend .skin-box-bd .item4line1 .item .detail a.item-name{ color:#FFFFFF; font-size:14px; font-family:微软雅黑; padding-left:10px;}
+.grid-m0 .col-main .tshop-pbsm-shop-item-recommend .skin-box-bd .item4line1 .item .detail .attribute .cprice-area .symbol{ color:#ec2f2b;}
+.grid-m0 .col-main .tshop-pbsm-shop-item-recommend .skin-box-bd .item4line1 .item .detail .attribute .cprice-area .c-price{ color:#ec2f2b;}
+.grid-m0 .col-main .tshop-pbsm-shop-item-recommend .skin-box-bd .item4line1 .item .detail .attribute .cprice-area{ width:100%; padding-left:10px;}
+.grid-m0 .col-main .tshop-pbsm-shop-item-recommend .skin-box-bd .item .detail .attribute .sale-area{ width:100%; text-align:center;}
+
+/*5个*/
+.grid-m0 .col-main .tshop-pbsm-shop-item-recommend .skin-box-bd .item5line1 .item .photo{ text-align:center; height:182px; width:182px; border:none;}
+.grid-m0 .col-main  .tshop-pbsm-shop-item-recommend .item5line1 .item .photo a{ height:182px; width:182px; border:none;}
+.tshop-pbsm-shop-item-recommend .skin-box-bd .item5line1 .item .detail{ background-color:#484445;}
+.grid-m0 .col-main .tshop-pbsm-shop-item-recommend .skin-box-bd .item5line1 .item .detail:hover{ background-color:#2a2a2a;}
+.grid-m0 .col-main .tshop-pbsm-shop-item-recommend .skin-box-bd .item5line1 .item .detail a.item-name{ color:#FFFFFF; font-size:14px; font-family:微软雅黑; padding-left:10px;}
+.grid-m0 .col-main .tshop-pbsm-shop-item-recommend .skin-box-bd .item5line1 .item .detail .attribute .cprice-area .symbol{ color:#ec2f2b;}
+.grid-m0 .col-main .tshop-pbsm-shop-item-recommend .skin-box-bd .item5line1 .item .detail .attribute .cprice-area .c-price{ color:#ec2f2b;}
+.grid-m0 .col-main .tshop-pbsm-shop-item-recommend .skin-box-bd .item5line1 .item .detail .attribute .cprice-area{ width:100%; padding-left:10px;}
+.grid-m0 .col-main .tshop-pbsm-shop-item-recommend .skin-box-bd .item .detail .attribute .sale-area{  width:100%; text-align:center;}
+/*7个*/
+.grid-m0 .col-main .tshop-pbsm-shop-item-recommend .skin-box-bd .item7line1 .item .photo{ height:132px; width:132px; border:none;}
+.grid-m0 .col-main .tshop-pbsm-shop-item-recommend .item7line1 .item .photo a{ height:132px; width:132px; border:none;}
+.tshop-pbsm-shop-item-recommend .skin-box-bd .item7line1 .item .detail{ background-color:#484445;}
+.grid-m0 .col-main .tshop-pbsm-shop-item-recommend .skin-box-bd .item7line1 .item .detail:hover{ background-color:#2a2a2a;}
+.grid-m0 .col-main .tshop-pbsm-shop-item-recommend .skin-box-bd .item7line1 .item .detail a.item-name{ color:#FFFFFF; font-size:14px; font-family:微软雅黑; padding-left:10px;}
+.grid-m0 .col-main .tshop-pbsm-shop-item-recommend .skin-box-bd .item7line1 .item .detail .attribute .cprice-area .symbol{ color:#ec2f2b;}
+.grid-m0 .col-main .tshop-pbsm-shop-item-recommend .skin-box-bd .item7line1 .item .detail .attribute .cprice-area .c-price{ color:#ec2f2b;}
+.grid-m0 .col-main .tshop-pbsm-shop-item-recommend .skin-box-bd .item7line1 .item .detail .attribute .cprice-area{ width:100%; padding-left:10px;}
+.grid-m0 .col-main .tshop-pbsm-shop-item-recommend .skin-box-bd .item .detail .attribute .sale-area{ width:100%; text-align:center;}
+
+
+
+
+.grid-s5m0 .col-main .tshop-pbsm-shop-item-recommend .skin-box-hd{ border:none; height:82px; background-image:url(assets/images/zd.png); background-position:0px 0px; background-repeat:no-repeat; margin:0px; padding:0px;}
+.grid-s5m0 .col-main .tshop-pbsm-shop-item-recommend .skin-box-hd .skin-box-act{ padding-top:22px; padding-right:20px; color:#fc3f3d; font-family:微软雅黑; font-size:14px;}
+ .grid-s5m0 .col-main .tshop-pbsm-shop-item-recommend .skin-box-hd h3{ font-family:微软雅黑; font-size:18px; color:#FFFFFF; padding-left:377px; padding-top:40px; font-weight:normal;}
+.grid-s5m0 .col-main .tshop-pbsm-shop-item-recommend .skin-box-hd .skin-box-act .more{ color:#fc3f3d;}
+/*bd*/
+ .grid-s5m0 .col-main .tshop-pbsm-shop-item-recommend .skin-box-bd { border:none; background-color:#000;}
+/*750宽度一行3个独立样式*/
+
+
+.grid-s5m0 .col-main .tshop-pbsm-shop-item-recommend .item3line1 .item{ border:none; margin-right:8px;}
+.grid-s5m0 .col-main .tshop-pbsm-shop-item-recommend .skin-box-bd .item3line1 .item .photo{ border:none;}
+.grid-s5m0 .col-main .tshop-pbsm-shop-item-recommend .skin-box-bd .item3line1 .item .detail{ background-color:#484445; width:242px;}
+.grid-s5m0 .col-main .tshop-pbsm-shop-item-recommend .skin-box-bd .item3line1 .item .detail:hover{ background-color:#2a2a2a;}
+
+/*750宽度一行4个独立样式*/
+.grid-s5m0 .col-main .tshop-pbsm-shop-item-recommend .item4line1 .item{ border:none; margin-right:6px;}
+.grid-s5m0 .col-main .tshop-pbsm-shop-item-recommend .skin-box-bd .item4line1 .item .photo{ border:none;}
+.grid-s5m0 .col-main .tshop-pbsm-shop-item-recommend .skin-box-bd .item4line1 .item .detail{ background-color:#484445; width:182px; height:84px; background-image:none;}
+.grid-s5m0 .col-main .tshop-pbsm-shop-item-recommend .skin-box-bd .item4line1 .item .detail:hover{ background-color:#2a2a2a;}
+/*750宽度一行无缝3个独立样式*/
+.grid-s5m0 .col-main .tshop-pbsm-shop-item-recommend .item30line1 .item{ border:none;}
+.grid-s5m0 .col-main .tshop-pbsm-shop-item-recommend .skin-box-bd .item30line1 .item .photo{ border:none;}
+.grid-s5m0 .col-main .tshop-pbsm-shop-item-recommend .skin-box-bd .item30line1 .item .detail{background-color:#484445; width:250px; height:84px; background-image:none;}
+.grid-s5m0 .col-main .tshop-pbsm-shop-item-recommend .skin-box-bd .item30line1 .item .detail:hover{ background-color:#2a2a2a;}
+
+
+ 

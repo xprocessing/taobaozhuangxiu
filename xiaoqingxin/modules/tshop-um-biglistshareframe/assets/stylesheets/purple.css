@@ -1,0 +1,30 @@
+/**
+ * 模块：tshop-um-biglistshareframe 
+ * 皮肤（主题）: 紫色系
+ * 规则:
+ * 		1. CSS选择器必须包含 ".tshop-um-biglistshareframe"，禁止使用模块页面元素的ID选择器
+ *		2. CSS样式声明的position属性值不能使用:fixed
+ *		3. CSS样式文件中z-index属性值必须在1-99之间
+ *		4. CSS URL地址必须是淘宝URL白名单中或者本地（相对或绝对）URL 
+ */
+
+.tshop-um-biglistshareframe { height:auto; background-color:#fff; padding-top:10px;}
+.tshop-um-biglistshareframe span{ color:#a76cdf; font-family:宋体; font-size:12px;}
+.tshop-um-biglistshareframe .itemlist{ width:950px; height:530px; padding:0; border:none; margin:0;}
+.tshop-um-biglistshareframe .itemlist li{width:292px; height:530px;padding:0; border:none; margin:0; list-style:none; padding-right:37px; float:left;}
+.tshop-um-biglistshareframe .itemlist li.last-item{ padding-right:0px;}
+.tshop-um-biglistshareframe .itemlist li .itemimg{ width:292px; height:410px; background-image:url(assets/images/itemframe.png); background-position:left top; background-repeat:no-repeat;}
+.tshop-um-biglistshareframe .itemlist li .itemimg img{ width:220px; height:304px;padding-top:96px; padding-left:36px;}
+
+.tshop-um-biglistshareframe .itemlist .detail{ height:80px; border-bottom:1px dotted #ccc; background-image:url(assets/images/detaildes.png); background-position:top left; background-repeat:no-repeat;}
+.tshop-um-biglistshareframe .itemlist .detail .item-price{ height:19px; padding-top:0px; text-align: center;}
+.tshop-um-biglistshareframe .itemlist .detail .item-price em{ color:#86dcd5; font-weight:bold;}
+.tshop-um-biglistshareframe .itemlist .detail .item-price span{ font-size:16px; font-family:Arial; padding-left:3px;}
+.tshop-um-biglistshareframe .itemlist .detail .item-title{ height:39px; padding-top:15px; padding-left:5px; padding-left:60px;}
+
+.tshop-um-biglistshareframe .itemlist .share-it{ text-align:center; padding-top:10px; padding-left:25px;}
+.tshop-um-biglistshareframe .itemlist .share-it span{ float:left; line-height:16px; padding-left:2px; padding-right:2px;}
+
+.tshop-um-biglistshareframe .itemlist .share-it .sns-widget{ width:170px; height:16px; background-image:url(http://img03.taobaocdn.com/imgextra/i3/297619552/T29sj9XdpXXXXXXXXX-297619552.png); background-repeat:no-repeat;}
+
+ 

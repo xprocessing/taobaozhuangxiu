@@ -1,0 +1,22 @@
+#content {
+	background-color:#FFBB17 ;
+}
+
+#hd {
+	background-color:#F5F7FA ;
+	background-image:url(assets/images/hdbg.png) ;
+	background-repeat:repeat-x ;
+	background-position:top left ;
+	margin-bottom:0px;
+}
+
+.skin-box .skin-box-hd {
+	border-width:0px;
+	border-style:solid;
+}
+
+.skin-box .skin-box-bd {
+	border-width:0px;
+	
+	border-style:solid;
+}

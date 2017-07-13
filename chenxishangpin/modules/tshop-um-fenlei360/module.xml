@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="GBK"?>
+<module>
+    <id>tshop-um-fenlei360</id>
+    <uuid>4df3bf3c7b394863bddc321710357ebb</uuid>
+    <name>分类导航</name>
+    <file>tshop-um-fenlei360.php</file>
+    <thumbnail>../../assets/images/default-thumbnail.png</thumbnail>
+    <description>fenlei360，分类导航</description>
+    <requiredCache>true</requiredCache>
+    <supportedWidth>950</supportedWidth>
+    <themes default="默认">
+        <theme name="默认">
+            <css>assets/stylesheets/default.css</css>
+        </theme>
+    </themes>
+    <parameters>
+        <group title="自定义内容">
+            <section title="设置自定义内容" folded="false">
+                <param description="可以是任意html切图代码，建议有代码基础的美工或技术人员操作。如出错，请清空这里。" formType="textarea" label="自定义内容" name="fenlei360" ptype="htmlarea" readonly="false">&lt;img src="assets/images/beijing_05.png" &gt;</param>
+            </section>
+        </group>
+    </parameters>
+</module>

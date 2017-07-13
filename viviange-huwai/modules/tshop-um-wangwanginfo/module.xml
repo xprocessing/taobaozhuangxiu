@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="GBK"?>
+<module>
+    <id>tshop-um-wangwanginfo</id>
+    <name>底部旺旺和说明</name>
+    <file>tshop-um-wangwanginfo.php</file>
+    <thumbnail>../../assets/images/default-thumbnail-wangwanginfo.png</thumbnail>
+    <description>底部旺旺和说明。</description>
+    <requiredCache>true</requiredCache>
+    <supportedWidth>950</supportedWidth>
+    <themes default="默认">
+        <theme name="默认">
+            <css>assets/stylesheets/default.css</css>
+        </theme>
+    </themes>
+    <parameters>
+        <group title="文字标题和旺旺设置">
+            <section title="旺旺id建议为主号系统自动分流，也可以为子号。" folded="false">
+                <param description="客服团队名字" formType="text" label="客服团队01" name="wangwang_title_01" ptype="text" readonly="false">售前客服：</param>
+                <param description="输入旺旺ID,或子旺旺ID" formType="text" label="第01个旺旺ID" name="wangwangid_01" ptype="text" readonly="false">格格巫格格</param>
+                <param description="输入旺旺ID,或子旺旺ID" formType="text" label="第02个旺旺ID" name="wangwangid_02" ptype="text" readonly="false">格格巫格格</param>
+                <param description="输入旺旺ID,或子旺旺ID" formType="text" label="第03个旺旺ID" name="wangwangid_03" ptype="text" readonly="false">格格巫格格</param>
+                <param description="输入旺旺ID,或子旺旺ID" formType="text" label="第04个旺旺ID" name="wangwangid_04" ptype="text" readonly="false">格格巫格格</param>
+                <param description="输入旺旺ID,或子旺旺ID" formType="text" label="第05个旺旺ID" name="wangwangid_05" ptype="text" readonly="false">格格巫格格</param>
+                <param description="客服团队名字" formType="text" label="客服团队02" name="wangwang_title_02" ptype="text" readonly="false">售后客服：</param>
+                <param description="输入旺旺ID,或子旺旺ID" formType="text" label="第06个旺旺ID" name="wangwangid_06" ptype="text" readonly="false">格格巫格格</param>
+                <param description="输入旺旺ID,或子旺旺ID" formType="text" label="第07个旺旺ID" name="wangwangid_07" ptype="text" readonly="false">格格巫格格</param>
+                <param description="输入旺旺ID,或子旺旺ID" formType="text" label="第08个旺旺ID" name="wangwangid_08" ptype="text" readonly="false">格格巫格格</param>
+                <param description="客服团队名字" formType="text" label="客服团队03" name="wangwang_title_03" ptype="text" readonly="false">投诉建议：</param>
+                <param description="输入旺旺ID,或子旺旺ID" formType="text" label="第09个旺旺ID" name="wangwangid_09" ptype="text" readonly="false">格格巫格格</param>
+                <param description="输入旺旺ID,或子旺旺ID" formType="text" label="第10个旺旺ID" name="wangwangid_10" ptype="text" readonly="false">格格巫格格</param>
+            </section>
+        </group>
+        <group title="设置提示信息">
+            <section title="提示信息" folded="false">
+                <param description="信息标题" formType="text" label="01标题文字" name="info_title_01" ptype="text" readonly="false">温馨提示</param>
+                <param description="文字不要太多，保存后注意检查" formType="textarea" label="01详细内容" name="info_detail_01" ptype="text" readonly="false">购买后如发现质量问题请不要直接差评，否额不予任何售后服务。</param>
+                <param description="信息标题" formType="text" label="02标题文字" name="info_title_02" ptype="text" readonly="false">关于色差</param>
+                <param description="文字不要太多，保存后注意检查" formType="textarea" label="02详细内容" name="info_detail_02" ptype="text" readonly="false">所有宝贝均为实物拍摄，由于各显示器不同，对色彩要求高的买家请慎拍。</param>
+                <param description="信息标题" formType="text" label="03标题文字" name="info_title_03" ptype="text" readonly="false">关于快递</param>
+                <param description="文字不要太多，保存后注意检查" formType="textarea" label="03详细内容" name="info_detail_03" ptype="text" readonly="false">本店默认EMS航空快递，如需发送其他快递请提前与客服交流。</param>
+                <param description="信息标题" formType="text" label="04标题文字" name="info_title_04" ptype="text" readonly="false">关于退换货</param>
+                <param description="文字不要太多，保存后注意检查" formType="textarea" label="04详细内容" name="info_detail_04" ptype="text" readonly="false">如尺寸不合，顾客可自理来回运费调换，如商品质量问题，本店承担调换费用。</param>
+            </section>
+        </group>
+    </parameters>
+</module>

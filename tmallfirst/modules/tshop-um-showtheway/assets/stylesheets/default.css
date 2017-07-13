@@ -1,0 +1,18 @@
+/**
+ * 模块：tshop-um-showtheway 
+ * 皮肤（主题）: 默认
+ * 规则:
+ * 		1. CSS选择器必须包含 ".tshop-um-showtheway"，禁止使用模块页面元素的ID选择器
+ *		2. CSS样式声明的position属性值不能使用:fixed
+ *		3. CSS样式文件中z-index属性值必须在1-99之间
+ *		4. CSS URL地址必须是淘宝URL白名单中或者本地（相对或绝对）URL 
+ */
+
+
+
+.tshop-um-showtheway{  height:auto;}
+.tshop-um-showtheway .theways{width:960px; height:368px; padding-top:10px; padding-bottom:10px; padding-right:15px; padding-left:15px; background-color:#e1d8c9;}
+
+.tshop-um-showtheway .theways:hover img{ opacity:0.7;filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)"; }
+
+.tshop-um-showtheway .theways td:hover img{ opacity:1;filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";}

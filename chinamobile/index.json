@@ -1,0 +1,23 @@
+{
+  "title" : null,
+  "layouts" : [ {
+    "type" : "grid-m0",
+    "modules" : {
+      "main" : [ {
+        "moduleID" : "tshop-um-ms02"
+      }, {
+        "moduleID" : "tshop-um-ms03"
+      }, {
+        "moduleID" : "tshop-um-ms06"
+      }, {
+        "moduleID" : "tshop-um-ms07"
+      }, {
+        "moduleID" : "tshop-um-ms08"
+      }, {
+        "moduleID" : "tshop-um-ms09"
+      }, {
+        "moduleID" : "tshop-um-ms10"
+      } ]
+    }
+  } ]
+}

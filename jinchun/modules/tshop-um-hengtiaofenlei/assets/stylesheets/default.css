@@ -1,0 +1,18 @@
+/**
+ * 模块：tshop-um-hengtiaofenlei 
+ * 皮肤（主题）: 默认
+ * 规则:
+ * 		1. CSS选择器必须包含 ".tshop-um-hengtiaofenlei"，禁止使用模块页面元素的ID选择器
+ *		2. CSS样式声明的position属性值不能使用:fixed
+ *		3. CSS样式文件中z-index属性值必须在1-99之间
+ *		4. CSS URL地址必须是淘宝URL白名单中或者本地（相对或绝对）URL 
+ */
+
+.tshop-um-hengtiaofenlei {color:black; height:auto; min-height:336px; background-color:#e2d6c0; padding-top:8px; border-top: 8px #f9f1e4 solid;border-bottom: 10px #b6a58b solid;}
+.tshop-um-hengtiaofenlei ul:after{content:'\20';display:block;height:0;clear:both}
+
+ 
+.tshop-um-hengtiaofenlei .cats{ width:158px; height:336px; float:left; text-align: center; border-left:1px solid #b6a58b;border-top:1px solid #b6a58b; border-left:1px solid #b6a58b; display:inline-block;}
+
+.tshop-um-hengtiaofenlei .catfather a{ font-size:24px; color:#71706b; line-height:80px;font-family:微软雅黑;}
+.tshop-um-hengtiaofenlei .catchild a{ display:block; color:#756f71; line-height:2;font-family:微软雅黑;font-size:14px;}

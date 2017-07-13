@@ -1,0 +1,18 @@
+/**
+ * 模块：tshop-um-neo-vwangwangline 
+ * 皮肤（主题）: red
+ * 规则:
+ * 		1. CSS选择器必须包含 ".tshop-um-neo-vwangwangline"，禁止使用模块页面元素的ID选择器
+ *		2. CSS样式声明的position属性值不能使用:fixed
+ *		3. CSS样式文件中z-index属性值必须在1-99之间
+ *		4. CSS URL地址必须是淘宝URL白名单中或者本地（相对或绝对）URL 
+ */
+
+
+.tshop-um-neo-vwangwangline table{ font-size:12px; line-height:2.5; text-align:center; background-color:#F6F6F6;}
+.tshop-um-neo-vwangwangline table td{ font-family:微软雅黑; }
+.tshop-um-neo-vwangwangline .wangwang{  line-height:60px; font-size:18px; background-color:#ac193d; color:#fff; font-weight:bold;}
+.tshop-um-neo-vwangwangline .wangwang-time{ padding-top:5px; padding-bottom:5px;}
+.tshop-um-neo-vwangwangline .wangwang-title{line-height:30px; font-size:14px; background-color:#EBEBEB; color:#434343;}
+
+ 

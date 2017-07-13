@@ -1,0 +1,33 @@
+/**
+ * 模块：tshop-um-neo-hotitems-fang 
+ * 皮肤（主题）: 默认
+ * 规则:
+ * 		1. CSS选择器必须包含 ".tshop-um-neo-hotitems-fang-fang"，禁止使用模块页面元素的ID选择器
+ *		2. CSS样式声明的position属性值不能使用:fixed
+ *		3. CSS样式文件中z-index属性值必须在1-99之间
+ *		4. CSS URL地址必须是淘宝URL白名单中或者本地（相对或绝对）URL 
+ */
+
+.tshop-um-neo-hotitems-fang { width:100%; height:auto; font-family:microsoft yahei;}
+.tshop-um-neo-hotitems-fang .neo-hotitems{ padding-left:19px; padding-right:19px; padding-top:5px; padding-bottom:10px; background-color:#333333;}
+.tshop-um-neo-hotitems-fang .neo-hotitems ul,.tshop-um-neo-hotitems-fang .neo-hotitems ul li{ margin:0; padding:0; list-style:none;}
+.tshop-um-neo-hotitems-fang .neo-hotitems ul li{ width:228px; height:326px; padding-top:15px; float:left; }
+.tshop-um-neo-hotitems-fang .neo-hotitems ul:after{ content: '\20'; display: block; height: 0; clear: both; }
+.tshop-um-neo-hotitems-fang .neo-hotitems ul li .neo-item{ margin-left:1px; margin-right:1px; width:226px; background-color:#000000;}
+.tshop-um-neo-hotitems-fang .neo-hotitems ul li .neo-item .neo-item-pic{ height:226px; width:226px; overflow:hidden;}
+.tshop-um-neo-hotitems-fang .neo-hotitems ul li .neo-item .neo-item-pic img{ height:226px;}
+
+.tshop-um-neo-hotitems-fang .neo-hotitems ul li .neo-item .neo-item-title{ margin-left:13px; margin-top:13px; margin-right:13px; height:40px; border-bottom:1px solid #3d3d3d;}
+.tshop-um-neo-hotitems-fang .neo-hotitems ul li .neo-item .neo-item-title a{ color:#bfbfbf;}
+.tshop-um-neo-hotitems-fang .neo-hotitems ul li .neo-item .neo-item-price{ height:41px; color:#ffffff; padding-left:13px; padding-top:5px;}
+
+.tshop-um-neo-hotitems-fang .neo-hotitems ul li .neo-item .neo-item-price span{ padding-left:3px; padding-right:7px; color:#bb8f55; font-weight:bold;}
+.tshop-um-neo-hotitems-fang .neo-hotitems ul li .neo-item .neo-item-price em{ color:#b7b7b7; text-decoration:line-through;}
+
+.tshop-um-neo-hotitems-fang .neo-hotitems ul li .neo-item:hover{ background-color:#9b7645;}
+.tshop-um-neo-hotitems-fang .neo-hotitems ul li .neo-item:hover .neo-item-title{border-bottom:1px solid #cfa46b;}
+.tshop-um-neo-hotitems-fang .neo-hotitems ul li .neo-item:hover .neo-item-title a{ color:#000;}
+
+.tshop-um-neo-hotitems-fang .neo-hotitems ul li .neo-item:hover .neo-item-price span{ color:#ffdaa0;}
+.tshop-um-neo-hotitems-fang .neo-hotitems ul li .neo-item:hover .neo-item-price em{ color:#d5a96f;}
+ 

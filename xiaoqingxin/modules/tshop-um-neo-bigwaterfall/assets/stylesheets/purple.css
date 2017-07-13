@@ -1,0 +1,47 @@
+/**
+ * 模块：tshop-um-neo-bigwaterfall 
+ * 皮肤（主题）: 紫色系
+ * 规则:
+ * 		1. CSS选择器必须包含 ".tshop-um-neo-bigwaterfall"，禁止使用模块页面元素的ID选择器
+ *		2. CSS样式声明的position属性值不能使用:fixed
+ *		3. CSS样式文件中z-index属性值必须在1-99之间
+ *		4. CSS URL地址必须是淘宝URL白名单中或者本地（相对或绝对）URL 
+ */
+
+
+.tshop-um-neo-bigwaterfall{ width:950px;background-color: transparent; min-height:300px;  color:#666; margin-top:5px;}
+.tshop-um-neo-bigwaterfall:after { content: '\20'; display: block; height: 0; clear: both; }
+
+.tshop-um-neo-bigwaterfall .neo-m-title{ width:950px; height:auto; float:left; text-align:center; margin-bottom:5px; font-size:18px; font-weight:bold; background-color:#fff;}
+
+.tshop-um-neo-bigwaterfall .neo-bigwaterfall-row{ width:237px; height:auto; float:left;  }
+.tshop-um-neo-bigwaterfall .neo-bigwaterfall-row:after { content: '\20'; display: block; height: 0; clear: both; }
+.tshop-um-neo-bigwaterfall .neo-bigwaterfall-row ul{ height:auto;}
+.tshop-um-neo-bigwaterfall .neo-bigwaterfall-row ul:after { content: '\20'; display: block; height: 0; clear: both; }
+.tshop-um-neo-bigwaterfall .neo-bigwaterfall-row ul li{ width:220px;border:1px solid #ccc;  padding:5px; margin-right:3px; margin-left:3px; margin-bottom:10px; clear:both; background-color:#fff; overflow:hidden; line-height:1.8;}
+.tshop-um-neo-bigwaterfall .neo-bigwaterfall-row ul li:hover{-webkit-box-shadow:0px 0px 2px 2px #ccc;
+-moz-box-shadow:0px 0px 2px 2px #ccc;
+box-shadow:0px 0px 2px 2px #ccc;}
+.tshop-um-neo-bigwaterfall .neo-bigwaterfall-row ul li .neo-water-220pic{ width:220px; height:220px; overflow:hidden; position:relative;}
+.tshop-um-neo-bigwaterfall .neo-bigwaterfall-row ul li .neo-water-220pic:hover{-webkit-box-shadow:0px 0px 2px 2px #ff70a7;
+-moz-box-shadow:0px 0px 2px 2px #ff70a7;
+box-shadow:0px 0px 2px 2px #ff70a7;}
+.tshop-um-neo-bigwaterfall .neo-bigwaterfall-row ul li .neo-water-310pic{ width:220px; height:310px; overflow:hidden; position:relative;}
+.tshop-um-neo-bigwaterfall .neo-bigwaterfall-row ul li .neo-water-310pic:hover{-webkit-box-shadow:0px 0px 2px 2px #ff70a7;
+-moz-box-shadow:0px 0px 2px 2px #ff70a7;
+box-shadow:0px 0px 2px 2px #ff70a7;}
+.tshop-um-neo-bigwaterfall .neo-bigwaterfall-row ul li .neo-water-310pic img{ position:relative; left:-45px;}
+.tshop-um-neo-bigwaterfall .neo-bigwaterfall-row ul li .neo-water-title{ padding-top:7px; padding-bottom:7px; border-bottom:1px dashed #ccc;}
+.tshop-um-neo-bigwaterfall .neo-bigwaterfall-row ul li .neo-water-title a{ color:#666; line-height:18px;}
+.tshop-um-neo-bigwaterfall .neo-bigwaterfall-row ul li .neo-water-more{ border-top:1px dashed #CCC; padding-top:3px; padding-bottom:3px;position:relative; color:#999; }
+.tshop-um-neo-bigwaterfall .neo-bigwaterfall-row ul li .neo-water-more img{ vertical-align: text-bottom;}
+.tshop-um-neo-bigwaterfall .neo-bigwaterfall-row ul li .neo-favmore{position:relative; }
+
+.tshop-um-neo-bigwaterfall .neo-bigwaterfall-row ul li .neo-fav{ position:absolute; right:0px;}
+.tshop-um-neo-bigwaterfall .neo-bigwaterfall-row ul li .neo-fav a{ color:#333; }
+
+
+.tshop-um-neo-bigwaterfall .sns-widget{ float:left;}
+ 
+
+ 

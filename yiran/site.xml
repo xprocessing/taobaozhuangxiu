@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="GBK"?>
+<site>
+    <id>28e8e7464aaf4644ae74c2c889968cf7</id>
+    <name>依然</name>
+    <author name="[提示：请添加模板作者名称]" url="http://www.yourwebsite.com" wangwang="[提示：请添加模板作者的旺旺]"></author>
+    <thumbnail>assets/images/neo.jpg</thumbnail>
+    <language>PHP</language>
+    <version>1.0.5</version>
+    <apply-sites>2</apply-sites>
+    <apply-user>大汉公子鱼</apply-user>
+    <template-type>2</template-type>
+    <change-notes>[系统升级后css常规升级]</change-notes>
+    <description>依然</description>
+    <global>
+        <header>header.json</header>
+        <footer>footer.json</footer>
+    </global>
+    <themes default="default">
+        <theme name="default">
+            <css>assets/stylesheets/default/extra.css</css>
+            <thumbnail>assets/images/neo.jpg</thumbnail>
+        </theme>
+        <theme name="red">
+            <css>assets/stylesheets/red/extra.css</css>
+            <thumbnail>assets/images/neo-red.jpg</thumbnail>
+        </theme>
+        <theme name="Blue">
+            <css>assets/stylesheets/Blue/extra.css</css>
+            <thumbnail>assets/images/neo-blue.jpg</thumbnail>
+        </theme>
+    </themes>
+    <pages>
+        <page type="index">
+            <name>首页</name>
+            <file>index.json</file>
+            <thumbnail>assets/images/neo-page.jpg</thumbnail>
+            <description xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">[提示：请添加首页的描述]</description>
+        </page>
+        <page type="detail">
+            <name>默认宝贝详情页</name>
+            <file>detail.json</file>
+            <thumbnail>assets/images/neo-page.jpg</thumbnail>
+            <description xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">[提示：请添加默认宝贝详情页的描述]</description>
+        </page>
+        <page type="list">
+            <name>默认宝贝分类页</name>
+            <file>list.json</file>
+            <thumbnail>assets/images/neo-page.jpg</thumbnail>
+            <description xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">[提示：请添加默认宝贝分类页的描述]</description>
+        </page>
+    </pages>
+</site>

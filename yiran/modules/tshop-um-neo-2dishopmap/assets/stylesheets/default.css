@@ -1,0 +1,27 @@
+/**
+ * 模块：tshop-um-neo-2dishopmap 
+ * 皮肤（主题）: default
+ * 规则:
+ * 		1. CSS选择器必须以 ".tshop-um-neo-2dishopmap" 或者 "#page #content .tshop-um-neo-2dishopmap" 开头，禁止使用模块页面元素的ID选择器
+ *		2. CSS样式声明的position属性值不能使用:fixed
+ *		3. CSS样式文件中z-index属性值必须在1-99之间
+ *		4. CSS URL地址必须是淘宝URL白名单中或者本地（相对或绝对）URL 
+ */
+
+.tshop-um-neo-2dishopmap { background-color:#fff; min-height:150px; }
+.tshop-um-neo-2dishopmap:after{ content: '\20'; display: block; height: 0; clear: both; }
+.tshop-um-neo-2dishopmap .neo-tabs{ height:auto;}
+.tshop-um-neo-2dishopmap .neo-tabs:after{ content: '\20'; display: block; height: 0; clear: both; }
+.tshop-um-neo-2dishopmap .neo-tabs .neo-tabs-nav{ height:30px;}
+.tshop-um-neo-2dishopmap .neo-tabs .neo-tabs-nav li{ width:250px; height:30px; line-height:30px; float:left; background-color:#000;  color:#fff; font-size:18px; font-weight:bold; font-family:微软雅黑; text-indent:20px;}
+.tshop-um-neo-2dishopmap .neo-tabs .neo-tabs-nav li:hover{ cursor:pointer;}
+.tshop-um-neo-2dishopmap .neo-tabs .neo-tabs-nav li.neo-active{ width:700px; background-color:#ccc; color:#000;}
+.tshop-um-neo-2dishopmap .neo-tabs .neo-tabs-content{background-color:#FCFCFC; }
+.tshop-um-neo-2dishopmap .neo-tabs .neo-tabs-content:after{ content: '\20'; display: block; height: 0; clear: both; }
+.tshop-um-neo-2dishopmap .neo-tabs .neo-tabs-content li{ width:950px;}
+.tshop-um-neo-2dishopmap .neo-tabs .neo-tabs-content li .neo-cats-list{ height:20px; padding-top:5px; padding-bottom:5px; }
+
+.tshop-um-neo-2dishopmap .neo-tabs .neo-tabs-content li .neo-lv1cats{ font-family:微软雅黑; font-size:14px; font-weight:bold; line-height:20px; height:20px; padding-left:10px;color:#333;}
+.tshop-um-neo-2dishopmap .neo-tabs .neo-tabs-content li .neo-lv2cats{font-family:微软雅黑; font-size:12px;line-height:20px; height:20px; padding-left:20px;color:#333;}
+.tshop-um-neo-2dishopmap .neo-tabs .neo-tabs-content li .neo-lv2cats a{ color:#333; padding-right:10px; padding-left:10px;}
+.tshop-um-neo-2dishopmap .neo-tabs .neo-tabs-content li:after{ content: '\20'; display: block; height: 0; clear: both; }

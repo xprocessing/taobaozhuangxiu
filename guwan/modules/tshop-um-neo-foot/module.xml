@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="GBK"?>
+<module>
+    <id>tshop-um-neo-foot</id>
+    <uuid>1d5d622a2ba3482b908a00710c904a3f</uuid>
+    <name>页底模块</name>
+    <file>tshop-um-neo-foot.php</file>
+    <thumbnail>../../assets/images/default-thumbnail.png</thumbnail>
+    <description>页底模块，可以加标题，如品牌信息</description>
+    <requiredCache>true</requiredCache>
+    <supportedWidth>950</supportedWidth>
+    <themes default="默认">
+        <theme name="默认">
+            <css>assets/stylesheets/default.css</css>
+        </theme>
+    </themes>
+</module>

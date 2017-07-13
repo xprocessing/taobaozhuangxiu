@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="GBK"?>
+<module>
+    <id>tshop-um-neo-slidewithhumbnail</id>
+    <name>轮播带缩略图</name>
+    <file>tshop-um-neo-slidewithhumbnail.php</file>
+    <thumbnail>assets/images/neo.jpg</thumbnail>
+    <description xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">轮播带缩略图950/750预置版</description>
+    <requiredCache>true</requiredCache>
+    <supportedWidth>750,950</supportedWidth>
+    <themes default="default">
+        <theme name="default">
+            <css>assets/stylesheets/default.css</css>
+        </theme>
+        <theme name="red">
+            <css>assets/stylesheets/red.css</css>
+        </theme>
+        <theme name="Blue">
+            <css>assets/stylesheets/Blue.css</css>
+        </theme>
+    </themes>
+    <parameters>
+        <group title="轮播基本设置">
+            <section folded="false" title="设置图片轮播 宽度x高度，定制轮播海报图联系：大汉公子鱼">
+                <param ptype="text" name="neo-slide-option" label="预置的黄金比例高宽" formType="select" description="默认轮播尺寸选项是950x362，如需定做轮播图可联系模版作者:大汉公子鱼">
+                    <option selected="selected" value="neoslide-box-950x362">950x362</option>
+                    <option value="neoslide-box-950x587">950x587</option>
+                    <option value="neoslide-box-750x286">750x286</option>
+                    <option value="neoslide-box-750x463">750x463</option>
+        </param>
+            </section>
+        </group>
+        <group title="轮播图片和链接设置">
+            <section folded="false" title="轮播图片和链接，轮播图和缩略图为同一张图">
+                <param readonly="false" ptype="url" name="neo-slide_img_1" label="轮播01的图片" formType="text" description="图片的地址，尽量保持轮播图尺寸一致哦">http://img03.taobaocdn.com/imgextra/i3/297619552/T2tqFhXnBNXXXXXXXX_!!297619552.jpg</param>
+                <param readonly="false" ptype="url" name="neo-slide_link_1" label="轮播01目标链接" formType="text" description="图片的目标链接">http://viviange.taobao.com/</param>
+                <param readonly="false" ptype="url" name="neo-slide_img_2" label="轮播02的图片" formType="text" description="图片的地址，尽量保持轮播图尺寸一致哦">http://img03.taobaocdn.com/imgextra/i3/297619552/T2tqFhXnBNXXXXXXXX_!!297619552.jpg</param>
+                <param readonly="false" ptype="url" name="neo-slide_link_2" label="轮播02目标链接" formType="text" description="图片的目标链接">http://viviange.taobao.com/</param>
+                <param readonly="false" ptype="url" name="neo-slide_img_3" label="轮播03的图片" formType="text" description="图片的地址，尽量保持轮播图尺寸一致哦">http://img03.taobaocdn.com/imgextra/i3/297619552/T2tqFhXnBNXXXXXXXX_!!297619552.jpg</param>
+                <param readonly="false" ptype="url" name="neo-slide_link_3" label="轮播03目标链接" formType="text" description="图片的目标链接">http://viviange.taobao.com/</param>
+                <param readonly="false" ptype="url" name="neo-slide_img_4" label="轮播04的图片" formType="text" description="图片的地址，尽量保持轮播图尺寸一致哦">http://img03.taobaocdn.com/imgextra/i3/297619552/T2tqFhXnBNXXXXXXXX_!!297619552.jpg</param>
+                <param readonly="false" ptype="url" name="neo-slide_link_4" label="轮播04目标链接" formType="text" description="图片的目标链接">http://viviange.taobao.com/</param>
+                <param readonly="false" ptype="url" name="neo-slide_img_5" label="轮播05的图片" formType="text" description="图片的地址，尽量保持轮播图尺寸一致哦">http://img03.taobaocdn.com/imgextra/i3/297619552/T2tqFhXnBNXXXXXXXX_!!297619552.jpg</param>
+                <param readonly="false" ptype="url" name="neo-slide_link_5" label="轮播05目标链接" formType="text" description="图片的目标链接">http://viviange.taobao.com/</param>
+            </section>
+        </group>
+        <group title="轮播高级代码填充设置">
+            <section folded="false" title="轮播图有切片多链接的客户适用，注意不用请保持为空即可">
+                <param readonly="false" ptype="htmlarea" name="neo-slide_html_1" label="轮播1的切图代码" formType="textarea" description="粘入轮播1的切图代码，注意代码中图片已经上传图片空间，并已加链接"></param>
+                <param readonly="false" ptype="htmlarea" name="neo-slide_html_2" label="轮播2的切图代码" formType="textarea" description="粘入轮播2的切图代码，注意代码中图片已经上传图片空间，并已加链接"></param>
+                <param readonly="false" ptype="htmlarea" name="neo-slide_html_3" label="轮播3的切图代码" formType="textarea" description="粘入轮播3的切图代码，注意代码中图片已经上传图片空间，并已加链接"></param>
+                <param readonly="false" ptype="htmlarea" name="neo-slide_html_4" label="轮播4的切图代码" formType="textarea" description="粘入轮播4的切图代码，注意代码中图片已经上传图片空间，并已加链接"></param>
+                <param readonly="false" ptype="htmlarea" name="neo-slide_html_5" label="轮播5的切图代码" formType="textarea" description="粘入轮播5的切图代码，注意代码中图片已经上传图片空间，并已加链接"></param>
+            </section>
+        </group>
+    </parameters>
+</module>

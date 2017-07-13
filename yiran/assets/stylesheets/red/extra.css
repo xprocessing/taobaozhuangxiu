@@ -1,0 +1,34 @@
+#content {
+	background-color:#AC193D ;
+	background-image:url(assets/images/red-bdbg.gif) ;
+	background-repeat:repeat ;
+	background-position:top left ;
+}
+
+#hd {
+	background-color:#AC193D ;
+	background-image:url(assets/images/red-hdbg.png) ;
+	background-repeat:repeat-x ;
+	background-position:top left ;
+	margin-bottom:0px;
+}
+
+.skin-box .skin-box-hd {
+	border-width:0px;
+	border-style:solid;
+	background-color:#AC193D;
+	height:30px;
+	line-height:30px;
+}
+
+.skin-box .skin-box-hd h3 span {
+	color:#FFF;
+	font-weight:normal;
+	font-size:14px;
+	font-family:Microsoft YaHei;
+}
+
+.skin-box .skin-box-bd {
+	border-width:0px;
+	border-style:solid;
+}

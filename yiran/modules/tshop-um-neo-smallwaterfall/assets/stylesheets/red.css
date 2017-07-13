@@ -1,0 +1,29 @@
+/**
+ * 模块：tshop-um-neo-smallwaterfall 
+ * 皮肤（主题）: red
+ * 规则:
+ * 		1. CSS选择器必须包含 ".tshop-um-neo-smallwaterfall"，禁止使用模块页面元素的ID选择器
+ *		2. CSS样式声明的position属性值不能使用:fixed
+ *		3. CSS样式文件中z-index属性值必须在1-99之间
+ *		4. CSS URL地址必须是淘宝URL白名单中或者本地（相对或绝对）URL 
+ */
+
+
+.tshop-um-neo-smallwaterfall{ width:950px; clear:both; background-color:#faf8f3; min-height:300px;color:#ac193d;}
+.tshop-um-neo-smallwaterfall:after { content: '\20'; display: block; height: 0; clear: both; }
+.tshop-um-neo-smallwaterfall .neo-waterfall-row{ width:190px; float:left;  }
+
+.tshop-um-neo-smallwaterfall .neo-waterfall-row ul{clear:both; }
+.tshop-um-neo-smallwaterfall .neo-waterfall-row ul li{width:160px;  border:1px solid #ccc;  padding:10px; margin-right:5px; margin-left:5px; margin-bottom:10px; clear:both; background-color:#fff; overflow:hidden; line-height:1.8;}
+.tshop-um-neo-smallwaterfall .neo-waterfall-row ul li .neo-water-160pic{ width:160px; height:160px; overflow:hidden; position:relative;}
+.tshop-um-neo-smallwaterfall .neo-waterfall-row ul li .neo-water-160pic img{ position:relative;}
+
+.tshop-um-neo-smallwaterfall .neo-waterfall-row ul li .neo-water-220pic{ width:160px; height:220px; overflow:hidden; position:relative;}
+.tshop-um-neo-smallwaterfall .neo-waterfall-row ul li .neo-water-220pic img{ position:relative; left:-30px;}
+
+.tshop-um-neo-smallwaterfall .neo-waterfall-row ul li .neo-water-title{ padding-top:7px; padding-bottom:7px; border-bottom:1px dashed #ccc;}
+.tshop-um-neo-smallwaterfall .neo-waterfall-row ul li .neo-water-title a{ color:#ac193d; line-height:18px;}
+.tshop-um-neo-smallwaterfall .neo-waterfall-row ul li .neo-water-more{ border-top:1px dashed #ccc; }
+.tshop-um-neo-smallwaterfall .neo-waterfall-row ul li .neo-water-more img{ vertical-align: text-bottom;}
+.tshop-um-neo-smallwaterfall .neo-waterfall-row ul li .neo-water-more .neo-fav a{ color:#660033;}
+ 

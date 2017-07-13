@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="GBK"?>
+<module>
+    <id>tshop-um-neo-abc</id>
+    <uuid>f349ce52ac114a05b6946298c21774ab</uuid>
+    <name>模块ABC</name>
+    <file>tshop-um-neo-abc.php</file>
+    <thumbnail>../../assets/images/default-thumbnail.png</thumbnail>
+    <description>模块ABC</description>
+    <requiredCache>true</requiredCache>
+    <supportedWidth>190,590,790,990</supportedWidth>
+    <themes default="默认">
+        <theme name="默认">
+            <css>assets/stylesheets/default.css</css>
+        </theme>
+        <theme name="活动风格">
+            <css>assets/stylesheets/huodong.css</css>
+        </theme>
+    </themes>
+</module>

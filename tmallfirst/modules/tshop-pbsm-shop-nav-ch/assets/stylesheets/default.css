@@ -1,0 +1,204 @@
+/**
+ * 模块：tshop-pbsm-shop-nav-ch 
+ * 皮肤（主题）: 默认
+ * 规则:
+ * 		1. CSS选择器必须包含 ".tshop-pbsm-shop-nav-ch"，禁止使用模块页面元素的ID选择器
+ *		2. CSS样式声明的position属性值不能使用:fixed
+ *		3. CSS样式文件中z-index属性值必须在1-99之间
+ *		4. CSS URL地址必须是淘宝URL白名单中或者本地（相对或绝对）URL 
+ */
+
+
+
+
+
+ 
+.tshop-pbsm-shop-nav-ch .skin-box-hd{
+	border-width:0;
+	margin-bottom:5px
+}
+
+.tshop-pbsm-shop-nav-ch .skin-box-bd{
+	height:39px;
+	border:0;
+	overflow:hidden;
+	background-color:transparent;
+	
+	*zoom:1
+}
+
+.tshop-pbsm-shop-nav-ch a{
+	color:#333
+}
+
+.tshop-pbsm-shop-nav-ch .all-cats:hover .link .popup-icon,.tshop-pbsm-shop-nav-ch .all-cats.all-cats-hover .link .popup-icon{
+	background-position:-91px -98px;
+	
+}
+
+.tshop-pbsm-shop-nav-ch .all-cats .link{
+background-color:#580f25;
+	border:0;
+	height:39px;
+	line-height:39px;
+	background-image:none;
+}
+
+.tshop-pbsm-shop-nav-ch .all-cats .link .title{
+	font-size:14px;
+	color:#fff;
+	margin-left:0
+}
+
+.tshop-pbsm-shop-nav-ch .all-cats .link .popup-icon{
+	margin-top:13px;
+	width:13px;
+	height:17px;
+	overflow:hidden;
+	background-image:url(http://img01.taobaocdn.com/tps/i1/T1GjdOXA8XXXbHTkoN-122-235.png);
+	background-position:-74px -98px;
+	
+}
+
+.tshop-pbsm-shop-nav-ch .menu-list{
+	margin-left:1px
+}
+
+.tshop-pbsm-shop-nav-ch .menu-list .menu{
+	padding-right:2px
+}
+
+.tshop-pbsm-shop-nav-ch .menu-list .menu:hover .link .popup-icon,.tshop-pbsm-shop-nav-ch .menu-list .menu.menu-hover .link .popup-icon{
+	background-position:-91px -98px;
+	
+}
+
+.tshop-pbsm-shop-nav-ch .menu-list .link{ background-image:none; background-color:transparent;}
+
+.tshop-pbsm-shop-nav-ch .menu-list .menu .link{
+	
+	border:0;
+	height:39px;
+	line-height:39px;
+	padding:0 15px;
+	background-image:none;
+	
+}
+
+.tshop-pbsm-shop-nav-ch .menu-list .menu .link .title{
+	font-size:14px;
+	color:#fff;
+	margin:0 10px
+}
+
+.tshop-pbsm-shop-nav-ch .menu-list .menu .link .popup-icon{
+	margin-top:7px;
+	width:13px;
+	height:17px;
+	overflow:hidden;
+	background-position:-74px -98px;
+	
+}
+
+.tshop-pbsm-shop-nav-ch .menu-list .menu .link:hover{
+	background:#580f25
+}
+
+.tshop-pbsm-shop-nav-ch .menu-list .menu.menu-selected{
+	background:#580f25
+}
+
+.tshop-pbsm-shop-nav-ch .popup-content{
+	border-color:#e6efee;
+	background-color:#e6efee;
+	padding-top:2px
+}
+
+.tshop-pbsm-shop-nav-ch .popup-content .cats-tree .cat{
+	height:39px;
+	line-height:39px
+}
+
+.tshop-pbsm-shop-nav-ch .popup-content .cats-tree .cat .cat-hd{
+	position:relative;
+	font-weight:normal;
+	line-height:39px;
+	height:29px
+}
+
+.tshop-pbsm-shop-nav-ch .popup-content .cats-tree .cat .cat-hd .cat-icon{
+	display:none
+}
+
+.tshop-pbsm-shop-nav-ch .popup-content .cats-tree .cat .cat-hd .fst-cat-icon{
+	position:absolute;
+	width:10px;
+	height:10px;
+	background-position:-112px -153px;
+	right:13px;
+	margin:0;
+	top:50%;
+	margin-top:-5px
+}
+
+.tshop-pbsm-shop-nav-ch .popup-content .cats-tree .fst-cat-hd{
+	margin:0 15px;
+	border-bottom:1px dotted #580f25
+}
+
+.tshop-pbsm-shop-nav-ch .popup-content .cats-tree .fst-cat-hd .fst-cat-name{
+	color:#580f25
+}
+
+.tshop-pbsm-shop-nav-ch .popup-content .cats-tree .snd-cat-hd{
+	padding:0 15px
+}
+
+
+
+.tshop-pbsm-shop-nav-ch .popup-content .cats-tree .fst-cat:hover,.tshop-pbsm-shop-nav-ch .popup-content .cats-tree .cat-hd-hover{
+	background:#580f25;
+	position:relative;
+	z-index:1;
+	margin-top:-2px;
+	padding-top:2px
+}
+
+.tshop-pbsm-shop-nav-ch .popup-content .cats-tree .fst-cat:hover .fst-cat-hd,.tshop-pbsm-shop-nav-ch .popup-content .cats-tree .cat-hd-hover .fst-cat-hd{
+	margin:0;
+	padding:0 15px;
+	border-bottom:transparent
+}
+
+.tshop-pbsm-shop-nav-ch .popup-content .cats-tree .fst-cat:hover .fst-cat-name,.tshop-pbsm-shop-nav-ch .popup-content .cats-tree .cat-hd-hover .fst-cat-name{
+	color:#fff;
+	text-decoration:underline
+}
+
+.tshop-pbsm-shop-nav-ch .popup-content .cats-tree .fst-cat:hover .has-children .fst-cat-icon,.tshop-pbsm-shop-nav-ch .popup-content .cats-tree .cat-hd-hover .has-children .fst-cat-icon{
+	display:block
+}
+
+.tshop-pbsm-shop-nav-ch .popup-content .cats-tree .snd-pop-inner{
+	padding:0;
+	margin-top:-2px;
+	background-color:#520a1f;
+	
+	
+	*zoom:1
+}
+
+.tshop-pbsm-shop-nav-ch .popup-content .cats-tree .snd-pop-inner .snd-cat-hd:hover,.tshop-pbsm-shop-nav-ch .popup-content .cats-tree .snd-pop-inner .snd-cat-hd-hover{
+	background-color:rgba(255,255,255,0.2);
+	background:transparent;
+	
+	*zoom:1
+}
+
+.tshop-pbsm-shop-nav-ch .popup-content .cats-tree .snd-pop-inner .snd-cat-hd:hover .snd-cat-name,.tshop-pbsm-shop-nav-ch .popup-content .cats-tree .snd-pop-inner .snd-cat-hd-hover .snd-cat-name{
+	text-decoration:underline
+}
+
+.tshop-pbsm-shop-nav-ch .popup-content .cats-tree .snd-pop-inner .snd-cat-name{
+	color:#fff
+}

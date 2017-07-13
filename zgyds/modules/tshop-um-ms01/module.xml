@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="GBK"?>
+<module>
+    <id>tshop-um-ms01</id>
+    <uuid>eb8c62e957ac4affb3216ea7cd683892</uuid>
+    <name>店铺头部</name>
+    <file>tshop-um-ms01.php</file>
+    <thumbnail>../../assets/images/default-thumbnail.png</thumbnail>
+    <description>店铺头部</description>
+    <requiredCache>true</requiredCache>
+    <supportedWidth>990</supportedWidth>
+    <themes default="默认">
+        <theme name="默认">
+            <css>assets/stylesheets/default.css</css>
+        </theme>
+    </themes>
+    <parameters>
+        <group title="店铺LOGO">
+            <section folded="true">
+                <param description="请输入图片地址(495*100)" formType="text" label="店铺LOGO" name="dpic0" ptype="text"></param>
+                <param description="请输入图片链接地址" formType="text" label="店招链接" name="dlink0" ptype="text"></param>
+            </section>
+        </group>
+        <group title="广告图1">
+            <section folded="true">
+                <param description="请输入图片地址(195*100)" formType="text" label="广告图片" name="dpic1" ptype="text"></param>
+                <param description="请输入图片链接地址" formType="text" label="广告链接" name="dlink1" ptype="text"></param>
+            </section>
+        </group>
+        <group title="广告图2">
+            <section folded="true">
+                <param description="请输入图片地址(180*100)" formType="text" label="广告图片" name="dpic2" ptype="text"></param>
+                <param description="请输入图片链接地址" formType="text" label="广告链接" name="dlink2" ptype="text"></param>
+            </section>
+        </group>
+        <group title="常用链接">
+            <section folded="true">
+                <param description="请输入图片地址(88*26)" formType="text" label="图片1" name="xpic0" ptype="text"></param>
+                <param description="请输入图片链接地址" formType="text" label="链接1" name="xlink0" ptype="text"></param>
+                <param description="请输入图片地址(88*26)" formType="text" label="图片2" name="xpic1" ptype="text"></param>
+                <param description="请输入图片链接地址" formType="text" label="链接2" name="xlink1" ptype="text"></param>
+                <param description="请输入图片地址(88*26)" formType="text" label="图片3" name="xpic2" ptype="text"></param>
+                <param description="请输入图片链接地址" formType="text" label="链接3" name="xlink2" ptype="text"></param>
+            </section>
+        </group>
+        <group title="导航链接">
+            <section folded="true">
+                <param description="请输入图片地址(105*40),多个用#隔开" formType="textarea" label="导航图片" name="pic" ptype="textarea"></param>
+                <param description="请输入图片链接地址,多个用#隔开" formType="textarea" label="导航链接" name="link" ptype="textarea"></param>
+            </section>
+        </group>
+    </parameters>
+</module>

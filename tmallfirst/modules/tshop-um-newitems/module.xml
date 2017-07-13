@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="GBK"?>
+<module>
+    <id>tshop-um-newitems</id>
+    <uuid>a9d5939fee824b1eb43b49e6cde9b33e</uuid>
+    <name>新品推荐</name>
+    <file>tshop-um-newitems.php</file>
+    <thumbnail>../../assets/images/default-thumbnail.png</thumbnail>
+    <description>新品推荐</description>
+    <requiredCache>true</requiredCache>
+    <supportedWidth>990</supportedWidth>
+    <themes default="默认">
+        <theme name="默认">
+            <css>assets/stylesheets/default.css</css>
+        </theme>
+    </themes>
+	 <parameters>
+        <param label="模块标题" formType="text" readonly="false" description="模块标题文字" ptype="text" name="neoitem_hd_1">新品预售</param>
+        <param label="更多宝贝链接" formType="text" readonly="false" description="更多宝贝链接" ptype="url" name="neoitem_more_1">http://viviange.taobao.com/</param>
+        <param label="宝贝01图片链接" formType="text" readonly="false" description="宝贝01图片的地址，图片230*350" ptype="url" name="neoitem_img_1">assets/images/newitem.jpg</param>
+        <param label="宝贝01目标链接" formType="text" readonly="false" description="宝贝01图片的目标链接" ptype="url" name="neoitem_link_1">http://viviange.taobao.com/</param>
+        <param label="宝贝01标题文字" formType="text" readonly="false" description="宝贝01标题文字" ptype="text" name="neoitem_title_1">标题标题文字</param>
+        <param label="宝贝01价格" formType="text" readonly="false" description="宝贝01价格" ptype="text" name="neoitem_price_1">￥199</param>
+        <param label="宝贝02图片链接" formType="text" readonly="false" description="宝贝02图片的地址，图片230*350" ptype="url" name="neoitem_img_2">assets/images/newitem.jpg</param>
+        <param label="宝贝02目标链接" formType="text" readonly="false" description="宝贝02图片的目标链接" ptype="url" name="neoitem_link_2">http://viviange.taobao.com/</param>
+        <param label="宝贝02标题文字" formType="text" readonly="false" description="宝贝02标题文字" ptype="text" name="neoitem_title_2">标题标题文字</param>
+        <param label="宝贝02价格" formType="text" readonly="false" description="宝贝02价格" ptype="text" name="neoitem_price_2">￥199</param>
+        <param label="宝贝03图片链接" formType="text" readonly="false" description="宝贝03图片的地址，图片230*350" ptype="url" name="neoitem_img_3">assets/images/newitem.jpg</param>
+        <param label="宝贝03目标链接" formType="text" readonly="false" description="宝贝03图片的目标链接" ptype="url" name="neoitem_link_3">http://viviange.taobao.com/</param>
+        <param label="宝贝03标题文字" formType="text" readonly="false" description="宝贝03标题文字" ptype="text" name="neoitem_title_3">标题标题文字</param>
+        <param label="宝贝03价格" formType="text" readonly="false" description="宝贝03价格" ptype="text" name="neoitem_price_3">￥191</param>
+        <param label="宝贝04图片链接" formType="text" readonly="false" description="宝贝04图片的地址，图片230*350" ptype="url" name="neoitem_img_4">assets/images/newitem.jpg</param>
+        <param label="宝贝04目标链接" formType="text" readonly="false" description="宝贝04图片的目标链接" ptype="url" name="neoitem_link_4">http://viviange.taobao.com/</param>
+        <param label="宝贝04标题文字" formType="text" readonly="false" description="宝贝04标题文字" ptype="text" name="neoitem_title_4">标题标题文字</param>
+        <param label="宝贝04价格" formType="text" readonly="false" description="宝贝04价格" ptype="text" name="neoitem_price_4">￥199</param>
+        <param label="宝贝05图片链接" formType="text" readonly="false" description="宝贝05图片的地址，图片230*350" ptype="url" name="neoitem_img_5">assets/images/newitem.jpg</param>
+        <param label="宝贝05目标链接" formType="text" readonly="false" description="宝贝05图片的目标链接" ptype="url" name="neoitem_link_5">http://viviange.taobao.com/</param>
+        <param label="宝贝05标题文字" formType="text" readonly="false" description="宝贝05标题文字" ptype="text" name="neoitem_title_5">标题标题文字</param>
+        <param label="宝贝05价格" formType="text" readonly="false" description="宝贝05价格" ptype="text" name="neoitem_price_5">￥199</param>
+        <param label="宝贝06图片链接" formType="text" readonly="false" description="宝贝06图片的地址，图片230*350" ptype="url" name="neoitem_img_6">assets/images/newitem.jpg</param>
+        <param label="宝贝06目标链接" formType="text" readonly="false" description="宝贝06图片的目标链接" ptype="url" name="neoitem_link_6">http://viviange.taobao.com/</param>
+        <param label="宝贝06标题文字" formType="text" readonly="false" description="宝贝06标题文字" ptype="text" name="neoitem_title_6">标题标题文字</param>
+        <param label="宝贝06价格" formType="text" readonly="false" description="宝贝06价格" ptype="text" name="neoitem_price_6">￥199</param>
+        <param label="宝贝07图片链接" formType="text" readonly="false" description="宝贝07图片的地址，图片230*350" ptype="url" name="neoitem_img_7">assets/images/newitem.jpg</param>
+        <param label="宝贝07目标链接" formType="text" readonly="false" description="宝贝07图片的目标链接" ptype="url" name="neoitem_link_7">http://viviange.taobao.com/</param>
+        <param label="宝贝07标题文字" formType="text" readonly="false" description="宝贝07标题文字" ptype="text" name="neoitem_title_7">标题标题文字</param>
+        <param label="宝贝07价格" formType="text" readonly="false" description="宝贝07价格" ptype="text" name="neoitem_price_7">￥199</param>
+        <param label="宝贝08图片链接" formType="text" readonly="false" description="宝贝08图片的地址，图片230*350" ptype="url" name="neoitem_img_8">assets/images/newitem.jpg</param>
+        <param label="宝贝08目标链接" formType="text" readonly="false" description="宝贝08图片的目标链接" ptype="url" name="neoitem_link_8">http://viviange.taobao.com/</param>
+        <param label="宝贝08标题文字" formType="text" readonly="false" description="宝贝08标题文字" ptype="text" name="neoitem_title_8">标题标题文字</param>
+        <param label="宝贝08价格" formType="text" readonly="false" description="宝贝08价格" ptype="text" name="neoitem_price_8">￥199</param>
+    </parameters>
+</module>

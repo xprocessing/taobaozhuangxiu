@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="GBK"?>
+<module>
+    <id>tshop-um-ms02</id>
+    <uuid>f180acad3f9d4c9e883c94918b215421</uuid>
+    <name>链接设置</name>
+    <file>tshop-um-ms02.php</file>
+    <thumbnail>../../assets/images/default-thumbnail.png</thumbnail>
+    <description>链接设置</description>
+    <requiredCache>true</requiredCache>
+    <supportedWidth>990</supportedWidth>
+    <themes default="默认">
+        <theme name="默认">
+            <css>assets/stylesheets/default.css</css>
+        </theme>
+    </themes>
+    <parameters>
+        <group title="导航链接">
+            <section folded="true">
+                <param description="请输入图片地址(105*40),多个用#隔开" formType="textarea" label="导航图片" name="pic" ptype="textarea"></param>
+                <param description="请输入图片链接地址,多个用#隔开" formType="textarea" label="导航链接" name="link" ptype="textarea"></param>
+            </section>
+        </group>
+        <group title="客服设置">
+            <section folded="true">
+                <param description="格式：昵称|登录名#昵称|登录名" formType="textarea" label="售前客服" name="wangwang1" ptype="textarea" readonly="false">公鱼|大汉公子鱼:公子鱼</param>
+                <param description="请输入客服工作时间" formType="text" label="工作时间" name="time" ptype="text"></param>
+            </section>
+        </group>
+        <group title="弹出设置(请按顺序填...)">
+            <section title="分类1" folded="false">
+                <param description="格式：链接文字#链接地址" formType="textarea" label="大分类" name="f0" ptype="textarea">北京#http://zxn.taobao.com</param>
+                <param description="格式：链接文字#链接地址|链接文字#链接地址" formType="textarea" label="小分类" name="x0" ptype="textarea">快速充值#http://zxn.taobao.com|靓机天地#http://zxn.taobao.com|精选靓号#http://zxn.taobao.com|最新活动#http://zxn.taobao.com|精彩业务#http://zxn.taobao.com</param>
+            </section>
+            <section title="分类2" folded="false">
+                <param description="格式：链接文字#链接地址" formType="textarea" label="大分类" name="f1" ptype="textarea">天津#http://zxn.taobao.com</param>
+                <param description="格式：链接文字#链接地址|链接文字#链接地址" formType="textarea" label="小分类" name="x1" ptype="textarea">快速充值#http://zxn.taobao.com|靓机天地#http://zxn.taobao.com|精选靓号#http://zxn.taobao.com|最新活动#http://zxn.taobao.com|精彩业务#http://zxn.taobao.com</param>
+            </section>
+            <section title="分类3" folded="false">
+                <param description="格式：链接文字#链接地址" formType="textarea" label="大分类" name="f2" ptype="textarea">上海#http://zxn.taobao.com</param>
+                <param description="格式：链接文字#链接地址|链接文字#链接地址" formType="textarea" label="小分类" name="x2" ptype="textarea">快速充值#http://zxn.taobao.com|靓机天地#http://zxn.taobao.com|精选靓号#http://zxn.taobao.com|最新活动#http://zxn.taobao.com|精彩业务#http://zxn.taobao.com</param>
+            </section>
+            <section title="分类4" folded="false">
+                <param description="格式：链接文字#链接地址" formType="textarea" label="大分类" name="f3" ptype="textarea">重庆#http://zxn.taobao.com</param>
+                <param description="格式：链接文字#链接地址|链接文字#链接地址" formType="textarea" label="小分类" name="x3" ptype="textarea">快速充值#http://zxn.taobao.com|靓机天地#http://zxn.taobao.com|精选靓号#http://zxn.taobao.com|最新活动#http://zxn.taobao.com|精彩业务#http://zxn.taobao.com</param>
+            </section>
+            <section title="分类5" folded="false">
+                <param description="格式：链接文字#链接地址" formType="textarea" label="大分类" name="f4" ptype="textarea">河北#http://zxn.taobao.com</param>
+                <param description="格式：链接文字#链接地址|链接文字#链接地址" formType="textarea" label="小分类" name="x4" ptype="textarea">快速充值#http://zxn.taobao.com|靓机天地#http://zxn.taobao.com|精选靓号#http://zxn.taobao.com|最新活动#http://zxn.taobao.com|精彩业务#http://zxn.taobao.com</param>
+            </section>
+            <section title="分类6" folded="false">
+                <param description="格式：链接文字#链接地址" formType="textarea" label="大分类" name="f5" ptype="textarea">河南#http://zxn.taobao.com</param>
+                <param description="格式：链接文字#链接地址|链接文字#链接地址" formType="textarea" label="小分类" name="x5" ptype="textarea">快速充值#http://zxn.taobao.com|靓机天地#http://zxn.taobao.com|精选靓号#http://zxn.taobao.com|最新活动#http://zxn.taobao.com|精彩业务#http://zxn.taobao.com</param>
+            </section>
+            <section title="分类7" folded="false">
+                <param description="格式：链接文字#链接地址" formType="textarea" label="大分类" name="f6" ptype="textarea">云南#http://zxn.taobao.com</param>
+                <param description="格式：链接文字#链接地址|链接文字#链接地址" formType="textarea" label="小分类" name="x6" ptype="textarea">快速充值#http://zxn.taobao.com|靓机天地#http://zxn.taobao.com|精选靓号#http://zxn.taobao.com|最新活动#http://zxn.taobao.com|精彩业务#http://zxn.taobao.com</param>
+            </section>
+            <section title="分类8" folded="false">
+                <param description="格式：链接文字#链接地址" formType="textarea" label="大分类" name="f7" ptype="textarea">辽宁#http://zxn.taobao.com</param>
+                <param description="格式：链接文字#链接地址|链接文字#链接地址" formType="textarea" label="小分类" name="x7" ptype="textarea">快速充值#http://zxn.taobao.com|靓机天地#http://zxn.taobao.com|精选靓号#http://zxn.taobao.com|最新活动#http://zxn.taobao.com|精彩业务#http://zxn.taobao.com</param>
+            </section>
+            <section title="分类9" folded="false">
+                <param description="格式：链接文字#链接地址" formType="textarea" label="大分类" name="f8" ptype="textarea">黑龙江#http://zxn.taobao.com</param>
+                <param description="格式：链接文字#链接地址|链接文字#链接地址" formType="textarea" label="小分类" name="x8" ptype="textarea">快速充值#http://zxn.taobao.com|靓机天地#http://zxn.taobao.com|精选靓号#http://zxn.taobao.com|最新活动#http://zxn.taobao.com|精彩业务#http://zxn.taobao.com</param>
+            </section>
+            <section title="分类10" folded="false">
+                <param description="格式：链接文字#链接地址" formType="textarea" label="大分类" name="f9" ptype="textarea">湖南#http://zxn.taobao.com</param>
+                <param description="格式：链接文字#链接地址|链接文字#链接地址" formType="textarea" label="小分类" name="x9" ptype="textarea">快速充值#http://zxn.taobao.com|靓机天地#http://zxn.taobao.com|精选靓号#http://zxn.taobao.com|最新活动#http://zxn.taobao.com|精彩业务#http://zxn.taobao.com</param>
+            </section>
+            <section title="分类11" folded="false">
+                <param description="格式：链接文字#链接地址" formType="textarea" label="大分类" name="f10" ptype="textarea">安徽#http://zxn.taobao.com</param>
+                <param description="格式：链接文字#链接地址|链接文字#链接地址" formType="textarea" label="小分类" name="x10" ptype="textarea">快速充值#http://zxn.taobao.com|靓机天地#http://zxn.taobao.com|精选靓号#http://zxn.taobao.com|最新活动#http://zxn.taobao.com|精彩业务#http://zxn.taobao.com</param>
+            </section>
+            <section title="分类12" folded="false">
+                <param description="格式：链接文字#链接地址" formType="textarea" label="大分类" name="f11" ptype="textarea">山东#http://zxn.taobao.com</param>
+                <param description="格式：链接文字#链接地址|链接文字#链接地址" formType="textarea" label="小分类" name="x11" ptype="textarea">快速充值#http://zxn.taobao.com|靓机天地#http://zxn.taobao.com|精选靓号#http://zxn.taobao.com|最新活动#http://zxn.taobao.com|精彩业务#http://zxn.taobao.com</param>
+            </section>
+            <section title="分类13" folded="false">
+                <param description="格式：链接文字#链接地址" formType="textarea" label="大分类" name="f12" ptype="textarea">江苏#http://zxn.taobao.com</param>
+                <param description="格式：链接文字#链接地址|链接文字#链接地址" formType="textarea" label="小分类" name="x12" ptype="textarea">快速充值#http://zxn.taobao.com|靓机天地#http://zxn.taobao.com|精选靓号#http://zxn.taobao.com|最新活动#http://zxn.taobao.com|精彩业务#http://zxn.taobao.com</param>
+            </section>
+            <section title="分类14" folded="false">
+                <param description="格式：链接文字#链接地址" formType="textarea" label="大分类" name="f13" ptype="textarea">山西#http://zxn.taobao.com</param>
+                <param description="格式：链接文字#链接地址|链接文字#链接地址" formType="textarea" label="小分类" name="x13" ptype="textarea">快速充值#http://zxn.taobao.com|靓机天地#http://zxn.taobao.com|精选靓号#http://zxn.taobao.com|最新活动#http://zxn.taobao.com|精彩业务#http://zxn.taobao.com</param>
+            </section>
+            <section title="分类15" folded="false">
+                <param description="格式：链接文字#链接地址" formType="textarea" label="大分类" name="f14" ptype="textarea">江西#http://zxn.taobao.com</param>
+                <param description="格式：链接文字#链接地址|链接文字#链接地址" formType="textarea" label="小分类" name="x14" ptype="textarea">快速充值#http://zxn.taobao.com|靓机天地#http://zxn.taobao.com|精选靓号#http://zxn.taobao.com|最新活动#http://zxn.taobao.com|精彩业务#http://zxn.taobao.com</param>
+            </section>
+            <section title="分类16" folded="false">
+                <param description="格式：链接文字#链接地址" formType="textarea" label="大分类" name="f15" ptype="textarea">湖北#http://zxn.taobao.com</param>
+                <param description="格式：链接文字#链接地址|链接文字#链接地址" formType="textarea" label="小分类" name="x15" ptype="textarea">快速充值#http://zxn.taobao.com|靓机天地#http://zxn.taobao.com|精选靓号#http://zxn.taobao.com|最新活动#http://zxn.taobao.com|精彩业务#http://zxn.taobao.com</param>
+            </section>
+            <section title="分类17" folded="false">
+                <param description="格式：链接文字#链接地址" formType="textarea" label="大分类" name="f16" ptype="textarea">甘肃#http://zxn.taobao.com</param>
+                <param description="格式：链接文字#链接地址|链接文字#链接地址" formType="textarea" label="小分类" name="x16" ptype="textarea">快速充值#http://zxn.taobao.com|靓机天地#http://zxn.taobao.com|精选靓号#http://zxn.taobao.com|最新活动#http://zxn.taobao.com|精彩业务#http://zxn.taobao.com</param>
+            </section>
+            <section title="分类18" folded="false">
+                <param description="格式：链接文字#链接地址" formType="textarea" label="大分类" name="f17" ptype="textarea">广西#http://zxn.taobao.com</param>
+                <param description="格式：链接文字#链接地址|链接文字#链接地址" formType="textarea" label="小分类" name="x17" ptype="textarea">快速充值#http://zxn.taobao.com|靓机天地#http://zxn.taobao.com|精选靓号#http://zxn.taobao.com|最新活动#http://zxn.taobao.com|精彩业务#http://zxn.taobao.com</param>
+            </section>
+            <section title="分类19" folded="false">
+                <param description="格式：链接文字#链接地址" formType="textarea" label="大分类" name="f18" ptype="textarea">浙江#http://zxn.taobao.com</param>
+                <param description="格式：链接文字#链接地址|链接文字#链接地址" formType="textarea" label="小分类" name="x18" ptype="textarea">快速充值#http://zxn.taobao.com|靓机天地#http://zxn.taobao.com|精选靓号#http://zxn.taobao.com|最新活动#http://zxn.taobao.com|精彩业务#http://zxn.taobao.com</param>
+            </section>
+            <section title="分类20" folded="false">
+                <param description="格式：链接文字#链接地址" formType="textarea" label="大分类" name="f19" ptype="textarea">陕西#http://zxn.taobao.com</param>
+                <param description="格式：链接文字#链接地址|链接文字#链接地址" formType="textarea" label="小分类" name="x19" ptype="textarea">快速充值#http://zxn.taobao.com|靓机天地#http://zxn.taobao.com|精选靓号#http://zxn.taobao.com|最新活动#http://zxn.taobao.com|精彩业务#http://zxn.taobao.com</param>
+            </section>
+        </group>
+    </parameters>
+</module>

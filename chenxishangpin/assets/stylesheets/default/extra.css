@@ -1,0 +1,33 @@
+#content {
+	background-color:#3C291B ;
+}
+
+#hd {
+	background-image:url(assets/images/hdbg.png) ;
+	background-repeat:no-repeat ;
+	background-position:top center ;
+	margin-bottom:0px;
+}
+
+.skin-box .skin-box-hd {
+	border-width:0px;
+	border-style:solid;
+	background-image:url(assets/images/titlebg.png) ;
+
+	background-repeat:no-repeat;
+	height:57px;
+	line-height:57px;
+}
+
+.skin-box .skin-box-hd h3 span {
+	color:#1E0602;
+	font-weight:normal;
+	font-size:26px;
+	line-height:50px;
+	font-family:Microsoft YaHei;
+}
+
+.skin-box .skin-box-bd {
+	border-width:0px;
+	border-style:solid;
+}

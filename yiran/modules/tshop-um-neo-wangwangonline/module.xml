@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="GBK"?>
+<module>
+    <id>tshop-um-neo-wangwangonline</id>
+    <name>横条旺旺</name>
+    <file>tshop-um-neo-wangwangonline.php</file>
+    <thumbnail>assets/images/neo.jpg</thumbnail>
+    <description xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">横条旺旺</description>
+    <requiredCache>true</requiredCache>
+    <supportedWidth>750,950</supportedWidth>
+    <themes default="default">
+        <theme name="default">
+            <css>assets/stylesheets/default.css</css>
+        </theme>
+        <theme name="red">
+            <css>assets/stylesheets/red.css</css>
+        </theme>
+        <theme name="Blue">
+            <css>assets/stylesheets/Blue.css</css>
+        </theme>
+    </themes>
+    <parameters>
+        <group title="文字标题和旺旺设置">
+            <section folded="false" title="旺旺id建议为主号系统自动分流，也可以为子号。">
+                <param readonly="false" ptype="text" name="wangwang_time" label="工作时间" formType="text" description="工作时间">工作时间：早9：00-晚23：00;</param>
+                <param readonly="false" ptype="text" name="wangwang_title_01" label="客服团队01" formType="text" description="客服团队名字">售前客服：</param>
+                <param readonly="false" ptype="text" name="wangwangid_01" label="第01个旺旺ID" formType="text" description="输入旺旺ID,或子旺旺ID">大汉公子鱼</param>
+                <param readonly="false" ptype="text" name="wangwangid_02" label="第02个旺旺ID" formType="text" description="输入旺旺ID,或子旺旺ID">格格巫格格</param>
+                <param readonly="false" ptype="text" name="wangwangid_03" label="第03个旺旺ID" formType="text" description="输入旺旺ID,或子旺旺ID">格格巫格格</param>
+                <param readonly="false" ptype="text" name="wangwang_title_02" label="客服团队02" formType="text" description="客服团队名字">售后客服：</param>
+                <param readonly="false" ptype="text" name="wangwangid_04" label="第01个旺旺ID" formType="text" description="输入旺旺ID,或子旺旺ID">大汉公子鱼</param>
+                <param readonly="false" ptype="text" name="wangwangid_05" label="第02个旺旺ID" formType="text" description="输入旺旺ID,或子旺旺ID">格格巫格格</param>
+                <param readonly="false" ptype="text" name="wangwangid_06" label="第03个旺旺ID" formType="text" description="输入旺旺ID,或子旺旺ID">格格巫格格</param>
+                <param readonly="false" ptype="text" name="wangwang_title_03" label="客服团队03" formType="text" description="客服团队名字">投诉建议：</param>
+                <param readonly="false" ptype="text" name="wangwangid_07" label="第01个旺旺ID" formType="text" description="输入旺旺ID,或子旺旺ID">大汉公子鱼</param>
+                <param readonly="false" ptype="text" name="wangwangid_08" label="第02个旺旺ID" formType="text" description="输入旺旺ID,或子旺旺ID">格格巫格格</param>
+                <param readonly="false" ptype="text" name="wangwangid_09" label="第03个旺旺ID" formType="text" description="输入旺旺ID,或子旺旺ID">格格巫格格</param>
+                <param readonly="false" ptype="url" name="wangwang_bg" label="模块背景图" formType="text" description="可换背景图，尺寸950x122,更图片多见模版详情">assets/images/wangwang.png</param>
+            </section>
+        </group>
+    </parameters>
+</module>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="GBK"?>
+<module>
+    <id>tshop-um-leftfenleirightww</id>
+    <uuid>2b1ce27b13884bdd933999cfaff87cf1</uuid>
+    <name>左分类右旺旺</name>
+    <file>tshop-um-leftfenleirightww.php</file>
+    <thumbnail>../../assets/images/default-thumbnail.png</thumbnail>
+    <description>左分类右旺旺</description>
+    <requiredCache>true</requiredCache>
+    <supportedWidth>950</supportedWidth>
+    <themes default="默认">
+        <theme name="默认">
+            <css>assets/stylesheets/default.css</css>
+        </theme>
+    </themes>
+    <parameters>
+        <group title="设置分类">
+            <section title="设置显示分类" folded="false">
+                <param description="选择多个类目，" formType="categoryForm" label="选择分类" name="neo-category" ptype="category">[ {&#xd;
+  "childIds" : "536551092,536551093,536551094,536551095,626456609",&#xd;
+  "rid" : "536550735"&#xd;
+}, {&#xd;
+  "childIds" : "770696416,763160755,755886781,738346174,722449219",&#xd;
+  "rid" : "504428213"&#xd;
+}, {&#xd;
+  "childIds" : "409578586,409578587,409578588,409578589,409578591",&#xd;
+  "rid" : "409578585"&#xd;
+}, {&#xd;
+  "childIds" : "409578593,506077617,506077618",&#xd;
+  "rid" : "397408484"&#xd;
+} ]</param>
+            </section>
+        </group>
+        <group title="旺旺设置">
+            <section title="旺旺id建议为主号系统自动分流，也可以为子号。" folded="false">
+                <param description="客服团队名字" formType="text" label="客服01呢称" name="wangwang_nickname_01" ptype="text" readonly="false">售前客服</param>
+                <param description="输入旺旺ID,或子旺旺ID" formType="text" label="客服01旺旺ID" name="wangwangid_01" ptype="text" readonly="false">格格巫格格</param>
+                <param description="客服团队名字" formType="text" label="客服02呢称" name="wangwang_nickname_02" ptype="text" readonly="false">售前客服</param>
+                <param description="输入旺旺ID,或子旺旺ID" formType="text" label="客服02旺旺ID" name="wangwangid_02" ptype="text" readonly="false">格格巫格格</param>
+                <param description="客服团队名字" formType="text" label="客服03呢称" name="wangwang_nickname_03" ptype="text" readonly="false">售前客服</param>
+                <param description="输入旺旺ID,或子旺旺ID" formType="text" label="客服03旺旺ID" name="wangwangid_03" ptype="text" readonly="false">格格巫格格</param>
+                <param description="客服团队名字" formType="text" label="客服04呢称" name="wangwang_nickname_04" ptype="text" readonly="false">售前客服</param>
+                <param description="输入旺旺ID,或子旺旺ID" formType="text" label="客服04旺旺ID" name="wangwangid_04" ptype="text" readonly="false">格格巫格格</param>
+                <param description="客服团队名字" formType="text" label="客服05呢称" name="wangwang_nickname_05" ptype="text" readonly="false">售前客服</param>
+                <param description="输入旺旺ID,或子旺旺ID" formType="text" label="客服05旺旺ID" name="wangwangid_05" ptype="text" readonly="false">格格巫格格</param>
+                <param description="客服团队名字" formType="text" label="客服06呢称" name="wangwang_nickname_06" ptype="text" readonly="false">售前客服</param>
+                <param description="输入旺旺ID,或子旺旺ID" formType="text" label="客服06旺旺ID" name="wangwangid_06" ptype="text" readonly="false">格格巫格格</param>
+            </section>
+        </group>
+        <group title="工作时间">
+            <section title="工作时间" folded="false">
+                <param description="文字不要太多，保存后注意检查" formType="textarea" label="工作时间" name="open-time" ptype="text" readonly="false">工作时间：8：00am-22：00pm&lt;br&gt;如不在线，旺旺留言即可。</param>
+            </section>
+        </group>
+    </parameters>
+</module>

@@ -1,0 +1,18 @@
+#content {
+	background-color:#000000 ;
+}
+
+#hd {
+	background-color:#000000 ;
+	background-image:url(assets/images/hdbg.png) ;
+	background-repeat:repeat-x ;
+	background-position:top left ;
+}
+
+.skin-box .skin-box-hd {
+	border-style:solid;
+}
+
+.skin-box .skin-box-bd {
+	border-style:solid;
+}

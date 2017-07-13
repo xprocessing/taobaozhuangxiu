@@ -1,0 +1,46 @@
+/**
+ * 模块：tshop-um-ms10 
+ * 皮肤（主题）: 默认
+ * 规则:
+ * 		1. CSS选择器必须包含 ".tshop-um-ms10"，禁止使用模块页面元素的ID选择器
+ *		2. CSS样式声明的position属性值不能使用:fixed
+ *		3. CSS样式文件中z-index属性值必须在1-99之间
+ *		4. CSS URL地址必须是淘宝URL白名单中或者本地（相对或绝对）URL 
+ */
+
+.tshop-um-ms10{
+	width:100%;
+	height:auto;
+	position:relative;
+	margin-bottom:10px;
+	font-family: "微软雅黑";
+	z-index:99;
+ }
+.tshop-um-ms10 .nav { width:990px;}
+
+.tshop-um-ms10 .hidden {
+position: absolute;
+visibility: hidden;
+}
+.tshop-um-ms10 .hidden a { text-decoration: none;
+overflow: hidden;
+width: auto;
+font-size: 18px;
+display: block;
+height: 32px;
+line-height: 32px;
+float: left;
+padding: 0 15px;
+color: #FFF;
+font-weight: bold;
+position:relative;
+z-index:99;
+ }
+.tshop-um-ms10 .hidden a:hover {
+color: #F50707;
+}
+.tshop-um-ms10 .hidden .bj { width:650px; height:1000px; position:absolute; left:0; top:0;background-color: #000;
+filter: progid:DXImageTransform.Microsoft.Alpha(opacity=80);
+opacity: 0.8;z-index:1;}
+
+ 

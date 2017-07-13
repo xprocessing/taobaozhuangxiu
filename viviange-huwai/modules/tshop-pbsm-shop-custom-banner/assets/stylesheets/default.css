@@ -1,0 +1,90 @@
+/**
+ * 模块：tshop-pbsm-shop-custom-banner 
+ * 皮肤（主题）: 默认
+ * 规则:
+ * 		1. CSS选择器必须包含 ".tshop-pbsm-shop-custom-banner"，禁止使用模块页面元素的ID选择器
+ *		2. CSS样式声明的position属性值不能使用:fixed
+ *		3. CSS样式文件中z-index属性值必须在1-99之间
+ *		4. CSS URL地址必须是淘宝URL白名单中或者本地（相对或绝对）URL 
+ */
+
+
+ 
+.grid-m0 .tshop-pbsm-shop-custom-banner, .grid-m .tshop-pbsm-shop-custom-banner, .tshop-pbsm-shop-custom-banner {
+margin-bottom: 10px;
+*zoom: 1;
+height:125px;
+/* 在模块最外层添加清除浮动的样式，避免ie6下装修时，模块高度发生改变，模块之间错位的问题发生 */
+
+position: relative;
+width: 950px;
+overflow: hidden;
+margin-bottom: 0;
+}
+.grid-m0 .tshop-pbsm-shop-custom-banner:after, .grid-m .tshop-pbsm-shop-custom-banner:after, .tshop-pbsm-shop-custom-banner:after {
+content: '\20';
+display: block;
+height: 0;
+clear: both;
+}
+.grid-m0 .tshop-pbsm-shop-custom-banner .hidden, .grid-m .tshop-pbsm-shop-custom-banner .hidden, .tshop-pbsm-shop-custom-banner .hidden {
+visibility: hidden;
+}
+.grid-m0 .tshop-pbsm-shop-custom-banner .disappear, .grid-m .tshop-pbsm-shop-custom-banner .disappear,
+    .tshop-pbsm-shop-custom-banner .disappear {
+display: none;
+}
+.grid-m0 .tshop-pbsm-shop-custom-banner .skin-box-hd, .grid-m .tshop-pbsm-shop-custom-banner .skin-box-hd, .tshop-pbsm-shop-custom-banner .skin-box-hd {
+border-width: 1px 1px 0;
+border-color: #d5d5d5;
+border-style: solid;
+background: url(http://img03.taobaocdn.com/tps/i3/T1vEi4XnhyXXXm0Pva-454-340.png) no-repeat 0 0 transparent;
+padding: 4px 10px 3px;
+}
+.grid-m0 .tshop-pbsm-shop-custom-banner .skin-box-hd h3 span, .grid-m .tshop-pbsm-shop-custom-banner .skin-box-hd h3 span,
+    .tshop-pbsm-shop-custom-banner .skin-box-hd h3 span {
+border-bottom: 0 solid #666666;
+display: inline-block;
+font-weight: 700;
+font-size: 14px;
+color: #666666;
+}
+.grid-m0 .tshop-pbsm-shop-custom-banner .skin-box-bd, .grid-m .tshop-pbsm-shop-custom-banner .skin-box-bd, .tshop-pbsm-shop-custom-banner .skin-box-bd {
+*zoom: 1;
+border-color: #d5d5d5;
+border-width: 0 1px 1px;
+border-style: solid;
+background: none no-repeat 0 0 transparent;
+color: #2953a6;
+}
+.grid-m0 .tshop-pbsm-shop-custom-banner .skin-box-bd:after, .grid-m .tshop-pbsm-shop-custom-banner .skin-box-bd:after,
+    .tshop-pbsm-shop-custom-banner .skin-box-bd:after {
+content: '\20';
+display: block;
+height: 0;
+clear: both;
+}
+.grid-m0 .tshop-pbsm-shop-custom-banner .skin-box-bd a, .grid-m .tshop-pbsm-shop-custom-banner .skin-box-bd a, .tshop-pbsm-shop-custom-banner .skin-box-bd a {
+color: #2953a6;
+}
+.grid-m0 .tshop-pbsm-shop-custom-banner .skin-box-bd, .grid-m .tshop-pbsm-shop-custom-banner .skin-box-bd, .tshop-pbsm-shop-custom-banner .skin-box-bd {
+position: relative;
+margin-bottom: 0;
+border: none;
+}
+.grid-m0 .tshop-pbsm-shop-custom-banner .skin-box-bd .title, .grid-m .tshop-pbsm-shop-custom-banner .skin-box-bd .title,
+    .tshop-pbsm-shop-custom-banner .skin-box-bd .title {
+position: absolute;
+left: 60px;
+top: 35px;
+padding: 10px 25px;
+background-color: transparent;
+border-radius: 10px;
+color: #ff3366;
+font-size: 30px;
+font-weight: bolder;
+font-family:微软雅黑;
+display:none;
+}
+.grid-m0 .tshop-pbsm-shop-custom-banner .skin-box-bd .banner-box, .grid-m .tshop-pbsm-shop-custom-banner .skin-box-bd .banner-box,
+    .tshop-pbsm-shop-custom-banner .skin-box-bd .banner-box{ background-image:url(http://img04.taobaocdn.com/imgextra/i4/876980064/T2wWBaXmxOXXXXXXXX_!!876980064.jpg); height:125px;}

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="GBK"?>
+<module>
+    <id>tshop-um-remai</id>
+    <uuid>1a45b0fdc8b94881bd5b9090c144eb1e</uuid>
+    <name>热卖推荐-1</name>
+    <file>tshop-um-remai.php</file>
+    <thumbnail>assets/images/default-thumbnail.png</thumbnail>
+    <description>热卖推荐板块-1</description>
+    <requiredCache>true</requiredCache>
+    <supportedWidth>990</supportedWidth>
+    <themes default="默认">
+        <theme name="默认">
+            <css>assets/stylesheets/default.css</css>
+        </theme>
+        <theme name="备用">
+            <css>assets/stylesheets/another.css</css>
+        </theme>
+    </themes>
+</module>

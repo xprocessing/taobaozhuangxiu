@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="GBK"?>
+<module>
+    <id>tshop-um-shopnotice</id>
+    <uuid>ed2f7a9e143f4a8485baa2b1c7f58efe</uuid>
+    <name>店铺公告</name>
+    <file>tshop-um-shopnotice.php</file>
+    <thumbnail>../../assets/images/default-thumbnail.png</thumbnail>
+    <description>店铺公告</description>
+    <requiredCache>true</requiredCache>
+    <supportedWidth>950</supportedWidth>
+    <themes default="默认">
+        <theme name="默认">
+            <css>assets/stylesheets/default.css</css>
+        </theme>
+    </themes>
+    <parameters>
+        <group title="自定义内容">
+            <section title="设置自定义内容" folded="false">
+                <param description="可以是任意html切图代码，建议有代码基础的美工或技术人员操作。如出错，请清空这里。" formType="textarea" label="自定义全屏内容" name="shopnotice" ptype="htmlarea" readonly="false">实体店地址：北京市朝阳区朝外大街昆泰嘉华酒店-昆泰国际商业中心-淘宝街A42号&lt;br&gt;&#xd;
+「驾车路线」：东二环朝阳门桥向东第一个红绿灯东南角，昆泰国际大厦一层昆泰商业中心淘宝街A42号，或导航搜索＂昆泰嘉华酒店＂&lt;br&gt;&#xd;
+「地铁路线」：2号线朝阳门站A口出，一直向东走，第一个红绿灯东南角昆泰国际大厦&lt;br&gt;&#xd;
+「公交站是神路街站」&lt;br&gt;&#xd;
+营业时间为中午12点-晚上7点30分，「每周一休息」。&lt;br&gt;&#xd;
+实体店座机电话：010-58790911。</param>
+            </section>
+        </group>
+    </parameters>
+</module>

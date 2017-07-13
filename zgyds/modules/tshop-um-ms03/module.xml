@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="GBK"?>
+<module>
+    <id>tshop-um-ms03</id>
+    <uuid>4185302d2b9e4840831050ec24c9a92a</uuid>
+    <name>海报轮播</name>
+    <file>tshop-um-ms03.php</file>
+    <thumbnail>../../assets/images/default-thumbnail.png</thumbnail>
+    <description>海报轮播</description>
+    <requiredCache>true</requiredCache>
+    <supportedWidth>990</supportedWidth>
+    <themes default="默认">
+        <theme name="默认">
+            <css>assets/stylesheets/default.css</css>
+        </theme>
+    </themes>
+    <parameters>
+        <group title="全屏海报">
+            <section title="海报1" folded="false">
+                <param description="请输入海报图(990*520)" formType="text" label="图片" name="hb0" ptype="text"></param>
+                <param description="请输入海报略缩图(236*118)" formType="text" label="略缩图" name="hs0" ptype="text"></param>
+                <param description="输入海报图链接地址" formType="text" label="链接" name="hl0" ptype="text"></param>
+				<param description="输入更多图片地址(217*72)" formType="text" label="更多图片" name="gds0" ptype="text"></param>
+                <param description="输入更多链接地址" formType="text" label="更多链接" name="gd0" ptype="text"></param>
+            </section>
+            <section title="海报2" folded="false">
+                <param description="请输入海报图(990*520)" formType="text" label="图片" name="hb1" ptype="text"></param>
+                <param description="请输入海报略缩图(236*118)" formType="text" label="略缩图" name="hs1" ptype="text"></param>
+                <param description="输入海报图链接地址" formType="text" label="链接" name="hl1" ptype="text"></param>
+				<param description="输入更多图片地址(217*72)" formType="text" label="更多图片" name="gds1" ptype="text"></param>
+                <param description="输入更多链接地址" formType="text" label="更多链接" name="gd1" ptype="text"></param>
+            </section>
+            <section title="海报3" folded="false">
+                <param description="请输入海报图(990*520)" formType="text" label="图片" name="hb2" ptype="text"></param>
+                <param description="请输入海报略缩图(236*118)" formType="text" label="略缩图" name="hs2" ptype="text"></param>
+                <param description="输入海报图链接地址" formType="text" label="链接" name="hl2" ptype="text"></param>
+				<param description="输入更多图片地址(217*72)" formType="text" label="更多图片" name="gds2" ptype="text"></param>
+                <param description="输入更多链接地址" formType="text" label="更多链接" name="gd2" ptype="text"></param>
+            </section>
+            <section title="海报4" folded="false">
+                <param description="请输入海报图(990*520)" formType="text" label="图片" name="hb3" ptype="text"></param>
+                <param description="请输入海报略缩图(236*118)" formType="text" label="略缩图" name="hs3" ptype="text"></param>
+                <param description="输入海报图链接地址" formType="text" label="链接" name="hl3" ptype="text"></param>
+				<param description="输入更多图片地址(217*72)" formType="text" label="更多图片" name="gds3" ptype="text"></param>
+                <param description="输入更多链接地址" formType="text" label="更多链接" name="gd3" ptype="text"></param>
+            </section>
+        </group>
+        <group title="动画设置">
+            <section title="" folded="false">
+                <param description="" formType="range" label="图片滚动方向" name="effect" ptype="text" readonly="false">
+					<option value="scrollx" selected="selected">★水平滚动</option>
+					<option value="fade">☆渐变</option>
+			    </param>
+                <param description="" formType="select" label="图片滚动效果" name="easing" ptype="text" readonly="false">
+					<option value="easeBothStrong">★弹性效果</option>
+					<option value="easeInStrong">☆先慢后快（强）</option>
+					<option value="easeOutStrong">★先快后慢（强）</option>
+					<option value="elasticIn">☆抖动变幻</option>
+					<option value="elasticOut" selected="selected">★变换抖动</option>
+					<option value="backIn">☆起步跑</option>
+					<option value="backOut">★跑过头返回</option>
+					<option value="bounceIn">☆弹跳变幻</option>
+					<option value="bounceOut">★变幻弹跳</option>
+					<option value="bounceIn">☆弹跳变幻</option>
+					<option value="bounceBoth">★抖动弹跳</option>
+					<option value="easeIn">☆先慢后快（弱）</option>
+					<option value="easeOut">★先快后慢（弱）</option>
+					<option
+                        value="easeBoth">☆普通滚动</option>
+					<option value="easeNone">★匀速滚动</option>
+			  	</param>
+                <param description="单位：秒，例如0.5、2。数值越大时间越长" formType="text" label="图片停留时间" name="interval" ptype="text" readonly="false">3</param>
+                <param description="单位：秒，例如0.5、2。数值越大速度越慢" formType="text" label="图片切换速度" name="duration" ptype="text" readonly="false">1</param>
+            </section>
+        </group>
+    </parameters>
+</module>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="GBK"?>
+<module>
+    <id>tshop-um-neo-bannermaker</id>
+    <uuid>becb4576eb7742df8369edfd781d9665</uuid>
+    <name>会抠图做海报</name>
+    <file>tshop-um-neo-bannermaker.php</file>
+    <thumbnail>../../assets/images/default-thumbnail.png</thumbnail>
+    <description>会抠图做海报</description>
+    <requiredCache>true</requiredCache>
+    <supportedWidth>990</supportedWidth>
+    <themes default="默认">
+        <theme name="默认">
+            <css>assets/stylesheets/default.css</css>
+        </theme>
+    </themes>
+	<parameters>
+        <group title="设置产品图">
+            <section title="设置产品图" folded="false">
+                <param description="扣图，png格式，尺寸控制在400px宽以内" formType="text" label="产品图片" name="bgimage" ptype="text" readonly="false">600</param>
+				 <param label="宝贝链接" description="文字8个左右为宜" formType="text"  name="bgimage" ptype="text" readonly="false">600</param>
+				 
+                <param description="产品左右显示选择" formType="range" label="导航显示" name="leftorright" ptype="text">
+                  
+                   <option value="left" selected="selected">图片显示在左边</option>
+                   <option value="right">图片显示在右边</option>
+                </param>
+            </section>
+        </group>
+        <group title="设置文字部分">
+            <section title="设置文字" folded="false">
+              <param label="主标题" description="文字8个左右为宜" formType="text"  name="bgimage" ptype="text" readonly="false">600</param>
+			  <param label="副标题" description="文字8个左右为宜" formType="text"  name="bgimage" ptype="text" readonly="false">600</param>
+			  <param label="价格或折扣" description="文字8个左右为宜" formType="text"  name="bgimage" ptype="text" readonly="false">600</param>
+			 
+            </section>
+        </group>
+		<group title="背景，模块高度">
+            <section title="设置文字" folded="false">
+         
+			<param label="价格或折扣" description="文字8个左右为宜" formType="text"  name="bgimage" ptype="text" readonly="false">600</param>
+			 
+            </section>
+        </group>
+       
+    </parameters>
+</module>

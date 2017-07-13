@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="GBK"?>
+<module>
+    <id>tshop-um-ms10</id>
+    <uuid>cbb143361e7442f2b136b5bed5d09fe5</uuid>
+    <name>店铺说明</name>
+    <file>tshop-um-ms10.php</file>
+    <thumbnail>../../assets/images/default-thumbnail.png</thumbnail>
+    <description>店铺说明</description>
+    <requiredCache>true</requiredCache>
+    <supportedWidth>990</supportedWidth>
+    <themes default="默认">
+        <theme name="默认">
+            <css>assets/stylesheets/default.css</css>
+        </theme>
+    </themes>
+    <parameters>
+        <group title="店铺说明">
+            <section folded="true">
+                <param description="请输入数字值，例如：140" formType="text" label="图片高度" name="height" ptype="text"></param>
+                <param description="请输入店铺说明图片,宽度为990" formType="text" label="说明图片" name="gg1" ptype="text"></param>
+            </section>
+        </group>
+    </parameters>
+</module>

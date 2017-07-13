@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="GBK"?>
+<module>
+    <id>tshop-um-ms06</id>
+    <uuid>ea6684e2f74449658742c0faa2768ac9</uuid>
+    <name>产品展示2</name>
+    <file>tshop-um-ms06.php</file>
+    <thumbnail>../../assets/images/default-thumbnail.png</thumbnail>
+    <description>产品展示2</description>
+    <requiredCache>true</requiredCache>
+    <supportedWidth>990</supportedWidth>
+    <themes default="默认">
+        <theme name="默认">
+            <css>assets/stylesheets/default.css</css>
+        </theme>
+    </themes>
+    <parameters>
+        <group title="公告设置">
+            <section folded="true">
+                <param description="请输入公告图片(990*116)" formType="text" label="公告图片" name="gg0" ptype="text"></param>
+                <param description="请输入公告文字" formType="textarea" label="公告文字" name="gg1" ptype="textarea">以信誉，实力服务大众。打的放心，用的贴心。人逢知"机",机不可失，机缘巧合品牌齐全任你选 保质保修价格低。</param>
+                <param description="请输入公告链接" formType="text" label="公告链接" name="gg2" ptype="text"></param>
+            </section>
+        </group>
+        <group title="产品设置">
+            <section title="产品数设置" folded="false">
+                <param description="请选择" formType="select" label="产品数设置" name="number" ptype="text" readonly="false">
+					<option value="3">一行3个</option>
+					<option value="6" selected="selected">两行6个</option>
+					<option value="9">三行9个</option>
+					<option value="12">三行12个</option>
+				</param>
+            </section>
+            <section title="产品一" folded="false">
+                <param description="请输入产品图片(320*330),多个用#隔开" formType="textarea" label="产品图片" name="color0" ptype="textarea"></param>
+                <param description="请输入产品信息图片(320*145)" formType="text" label="信息图片" name="pics0" ptype="text"></param>
+                <param description="请输入产品链接" formType="text" label="产品链接" name="pic0" ptype="text"></param>
+            </section>
+            <section title="产品二" folded="true">
+                <param description="请输入产品图片(320*330),多个用#隔开" formType="textarea" label="产品图片" name="color1" ptype="textarea"></param>
+                <param description="请输入产品信息图片(320*145)" formType="text" label="信息图片" name="pics1" ptype="text"></param>
+                <param description="请输入产品链接" formType="text" label="产品链接" name="pic1" ptype="text"></param>
+            </section>
+            <section title="产品三" folded="true">
+                <param description="请输入产品图片(320*330),多个用#隔开" formType="textarea" label="产品图片" name="color2" ptype="textarea"></param>
+                <param description="请输入产品信息图片(320*145)" formType="text" label="信息图片" name="pics2" ptype="text"></param>
+                <param description="请输入产品链接" formType="text" label="产品链接" name="pic2" ptype="text"></param>
+            </section>
+            <section title="产品四" folded="true">
+                <param description="请输入产品图片(320*330),多个用#隔开" formType="textarea" label="产品图片" name="color3" ptype="textarea"></param>
+                <param description="请输入产品信息图片(320*145)" formType="text" label="信息图片" name="pics3" ptype="text"></param>
+                <param description="请输入产品链接" formType="text" label="产品链接" name="pic3" ptype="text"></param>
+            </section>
+            <section title="产品五" folded="true">
+                <param description="请输入产品图片(320*330),多个用#隔开" formType="textarea" label="产品图片" name="color4" ptype="textarea"></param>
+                <param description="请输入产品信息图片(320*145)" formType="text" label="信息图片" name="pics4" ptype="text"></param>
+                <param description="请输入产品链接" formType="text" label="产品链接" name="pic4" ptype="text"></param>
+            </section>
+            <section title="产品六" folded="true">
+                <param description="请输入产品图片(320*330),多个用#隔开" formType="textarea" label="产品图片" name="color5" ptype="textarea"></param>
+                <param description="请输入产品信息图片(320*145)" formType="text" label="信息图片" name="pics5" ptype="text"></param>
+                <param description="请输入产品链接" formType="text" label="产品链接" name="pic5" ptype="text"></param>
+            </section>
+            <section title="产品七" folded="true">
+                <param description="请输入产品图片(320*330),多个用#隔开" formType="textarea" label="产品图片" name="color6" ptype="textarea"></param>
+                <param description="请输入产品信息图片(320*145)" formType="text" label="信息图片" name="pics6" ptype="text"></param>
+                <param description="请输入产品链接" formType="text" label="产品链接" name="pic6" ptype="text"></param>
+            </section>
+            <section title="产品八" folded="true">
+                <param description="请输入产品图片(320*330),多个用#隔开" formType="textarea" label="产品图片" name="color7" ptype="textarea"></param>
+                <param description="请输入产品信息图片(320*145)" formType="text" label="信息图片" name="pics7" ptype="text"></param>
+                <param description="请输入产品链接" formType="text" label="产品链接" name="pic7" ptype="text"></param>
+            </section>
+            <section title="产品九" folded="true">
+                <param description="请输入产品图片(320*330),多个用#隔开" formType="textarea" label="产品图片" name="color8" ptype="textarea"></param>
+                <param description="请输入产品信息图片(320*145)" formType="text" label="信息图片" name="pics8" ptype="text"></param>
+                <param description="请输入产品链接" formType="text" label="产品链接" name="pic8" ptype="text"></param>
+            </section>
+            <section title="产品十" folded="true">
+                <param description="请输入产品图片(320*330),多个用#隔开" formType="textarea" label="产品图片" name="color9" ptype="textarea"></param>
+                <param description="请输入产品信息图片(320*145)" formType="text" label="信息图片" name="pics9" ptype="text"></param>
+                <param description="请输入产品链接" formType="text" label="产品链接" name="pic9" ptype="text"></param>
+            </section>
+            <section title="产品十一" folded="true">
+                <param description="请输入产品图片(320*330),多个用#隔开" formType="textarea" label="产品图片" name="color10" ptype="textarea"></param>
+                <param description="请输入产品信息图片(320*145)" formType="text" label="信息图片" name="pics10" ptype="text"></param>
+                <param description="请输入产品链接" formType="text" label="产品链接" name="pic10" ptype="text"></param>
+            </section>
+            <section title="产品十二" folded="true">
+                <param description="请输入产品图片(320*330),多个用#隔开" formType="textarea" label="产品图片" name="color11" ptype="textarea"></param>
+                <param description="请输入产品信息图片(320*145)" formType="text" label="信息图片" name="pics11" ptype="text"></param>
+                <param description="请输入产品链接" formType="text" label="产品链接" name="pic12" ptype="text"></param>
+            </section>
+        </group>
+        <group title="动画设置">
+            <section title="" folded="false">
+                <param description="" formType="range" label="图片滚动方向" name="effect" ptype="text" readonly="false">
+					<option value="scrollx" selected="selected">★水平滚动</option>
+					<option value="fade">☆渐变</option>
+			    </param>
+                <param description="" formType="select" label="图片滚动效果" name="easing" ptype="text" readonly="false">
+					<option value="easeBothStrong">★弹性效果</option>
+					<option value="easeInStrong">☆先慢后快（强）</option>
+					<option value="easeOutStrong">★先快后慢（强）</option>
+					<option value="elasticIn">☆抖动变幻</option>
+					<option value="elasticOut" selected="selected">★变换抖动</option>
+					<option value="backIn">☆起步跑</option>
+					<option value="backOut">★跑过头返回</option>
+					<option value="bounceIn">☆弹跳变幻</option>
+					<option value="bounceOut">★变幻弹跳</option>
+					<option value="bounceIn">☆弹跳变幻</option>
+					<option value="bounceBoth">★抖动弹跳</option>
+					<option value="easeIn">☆先慢后快（弱）</option>
+					<option value="easeOut">★先快后慢（弱）</option>
+					<option
+                        value="easeBoth">☆普通滚动</option>
+					<option value="easeNone">★匀速滚动</option>
+			  	</param>
+                <param description="单位：秒，例如0.5、2。数值越大时间越长" formType="text" label="图片停留时间" name="interval" ptype="text" readonly="false">3</param>
+                <param description="单位：秒，例如0.5、2。数值越大速度越慢" formType="text" label="图片切换速度" name="duration" ptype="text" readonly="false">1</param>
+            </section>
+        </group>
+    </parameters>
+</module>

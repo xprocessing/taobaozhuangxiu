@@ -1,0 +1,53 @@
+{
+  "title" : null,
+  "layouts" : [ {
+    "type" : "grid-m0s5",
+    "modules" : {
+      "sub" : [ {
+        "moduleID" : "tshop-pbsm-shop-full-self-defined"
+      } ],
+      "main" : [ {
+        "moduleID" : "tshop-pbsm-shop-main-slide"
+      } ]
+    }
+  }, {
+    "type" : "grid-m0",
+    "modules" : {
+      "main" : [ {
+        "moduleID" : "tshop-pbsm-shop-main-slide"
+      }, {
+        "moduleID" : "tshop-pbsm-shop-srch-inshop"
+      }, {
+        "moduleID" : "tshop-pbsm-shop-item-recommend"
+      }, {
+        "moduleID" : "tshop-pbsm-shop-item-recommend"
+      } ]
+    }
+  }, {
+    "type" : "grid-s5m0",
+    "modules" : {
+      "sub" : [ {
+        "moduleID" : "tshop-pbsm-shop-srch-inshop"
+      }, {
+        "moduleID" : "tshop-pbsm-shop-item-cates"
+      }, {
+        "moduleID" : "tshop-pbsm-other-liangzi"
+      }, {
+        "moduleID" : "tshop-pbsm-other-wireless-code"
+      }, {
+        "moduleID" : "tshop-pbsm-shop-top-list"
+      } ],
+      "main" : [ {
+        "moduleID" : "tshop-pbsm-shop-main-slide"
+      }, {
+        "moduleID" : "tshop-pbsm-shop-srch-inshop"
+      }, {
+        "moduleID" : "tshop-pbsm-shop-full-self-defined"
+      }, {
+        "moduleID" : "tshop-pbsm-shop-item-recommend"
+      }, {
+        "moduleID" : "tshop-pbsm-shop-item-recommend"
+      } ]
+    }
+  } ]
+}

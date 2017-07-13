@@ -1,0 +1,17 @@
+{
+  "layouts" : [ {
+    "type" : "grid-s5m0",
+    "modules" : {
+      "sub" : [ {
+        "moduleID" : "tshop-um-neo-vwangwangline"
+      }, {
+        "moduleID" : "tshop-pbsm-shop-item-cates"
+      }, {
+        "moduleID" : "tshop-pbsm-shop-top-list"
+      }, {
+        "moduleID" : "tshop-pbsm-shop-srch-inshop"
+      } ],
+      "main" : [ ]
+    }
+  } ]
+}

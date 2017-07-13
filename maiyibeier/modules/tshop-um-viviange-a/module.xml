@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="GBK"?>
+<module>
+    <id>tshop-um-viviange-a</id>
+    <uuid>de292423c8104b4b991d1ab5efa5feca</uuid>
+    <name>薇薇安格设计-a</name>
+    <file>tshop-um-viviange-a.php</file>
+    <thumbnail>assets/images/default-thumbnail.png</thumbnail>
+    <description>备用模块</description>
+    <requiredCache>true</requiredCache>
+    <supportedWidth>990</supportedWidth>
+    <themes default="默认">
+        <theme name="默认">
+            <css>assets/stylesheets/default.css</css>
+        </theme>
+        <theme name="备用">
+            <css>assets/stylesheets/another.css</css>
+        </theme>
+    </themes>
+</module>

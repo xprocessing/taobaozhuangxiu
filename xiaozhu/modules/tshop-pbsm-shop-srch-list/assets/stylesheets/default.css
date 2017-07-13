@@ -1,0 +1,27 @@
+/**
+ * 模块：tshop-pbsm-shop-srch-list 
+ * 皮肤（主题）: 默认
+ * 规则:
+ * 		1. CSS选择器必须包含 ".tshop-pbsm-shop-srch-list"，禁止使用模块页面元素的ID选择器
+ *		2. CSS样式声明的position属性值不能使用:fixed
+ *		3. CSS样式文件中z-index属性值必须在1-99之间
+ *		4. CSS URL地址必须是淘宝URL白名单中或者本地（相对或绝对）URL 
+ */
+
+.tshop-pbsm-shop-srch-list {font-size:12px;}
+.tshop-pbsm-shop-srch-list .grid .item3line1 .item .photo a,
+.tshop-pbsm-shop-srch-list .rmd-bd .item3line1 .item .photo a,
+.tshop-pbsm-shop-srch-list .grid .item30line1 .item .photo a,
+.tshop-pbsm-shop-srch-list .rmd-bd .item30line1 .item .photo a,
+.tshop-pbsm-shop-srch-list .grid .item4line1 .item .photo a,
+.tshop-pbsm-shop-srch-list .rmd-bd .item4line1 .item .photo a {
+display: table-cell;
+vertical-align: middle;
+text-align: center;
+background: #fff;
+*display: block;
+*font-size: 175px;
+*font-family: Arial;
+border: 1px solid #fff;
+}
+ 

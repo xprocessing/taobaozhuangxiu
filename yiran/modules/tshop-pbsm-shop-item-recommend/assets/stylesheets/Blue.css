@@ -1,0 +1,26 @@
+/**
+ * 模块：tshop-pbsm-shop-item-recommend 
+ * 皮肤（主题）: Blue
+ * 规则:
+ * 		1. CSS选择器必须包含 ".tshop-pbsm-shop-item-recommend"，禁止使用模块页面元素的ID选择器
+ *		2. CSS样式声明的position属性值不能使用:fixed
+ *		3. CSS样式文件中z-index属性值必须在1-99之间
+ *		4. CSS URL地址必须是淘宝URL白名单中或者本地（相对或绝对）URL 
+ */
+
+.tshop-pbsm-shop-item-recommend { background-color:#FFF;}
+
+.tshop-pbsm-shop-item-recommend .skin-box-hd{  height:30px; line-height:30px;  background-color:#0072c6; }
+.tshop-pbsm-shop-item-recommend .skin-box-hd .hd-icon{ height:auto;}
+.tshop-pbsm-shop-item-recommend .skin-box-hd h3{height:auto;}
+.tshop-pbsm-shop-item-recommend .skin-box-hd h3 span{ font-size:18px; font-weight:bold; color:#fff; font-family:微软雅黑; padding-left:10px;}
+.tshop-pbsm-shop-item-recommend .skin-box-hd .skin-box-act{height:auto;}
+.tshop-pbsm-shop-item-recommend .skin-box-hd .skin-box-act a.more{height:auto; color:#fff;}
+
+.tshop-pbsm-shop-item-recommend .skin-box-bd{height:auto;}
+.tshop-pbsm-shop-item-recommend .skin-box-bt{height:auto;}
+
+
+
+.tshop-pbsm-shop-item-recommend .skin-box-bd .item .detail a.item-name{ color:#0072c6;}
+ 

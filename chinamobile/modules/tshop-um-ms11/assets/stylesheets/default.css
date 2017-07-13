@@ -1,0 +1,21 @@
+/**
+ * 模块：tshop-um-ms11 
+ * 皮肤（主题）: 默认
+ * 规则:
+ * 		1. CSS选择器必须包含 ".tshop-um-ms11"，禁止使用模块页面元素的ID选择器
+ *		2. CSS样式声明的position属性值不能使用:fixed
+ *		3. CSS样式文件中z-index属性值必须在1-99之间
+ *		4. CSS URL地址必须是淘宝URL白名单中或者本地（相对或绝对）URL 
+ */
+
+
+.tshop-um-ms11 { width:990px; height:100%; overflow:hidden; margin-bottom:10px; font-family:"微软雅黑";  position:relative; z-index:99;}
+ 
+.tshop-um-ms11 .dds { width:990px; overflow:visible; position:relative; margin:0 auto;}
+.tshop-um-ms11 .dds .mall-content { width:990px; padding-bottom:30px; background:url(assets/images/jj.png) repeat-x 0 bottom; position:absolute; left:0; top:0; overflow:hidden;}
+.tshop-um-ms11 .dds .mall-content li { display:block; width:990px; float:left;} 
+.tshop-um-ms11 .dds .mall-content li a{ display:block; width:990px;} 
+.tshop-um-ms11 .dds .ks-switchable-nav { display:none;}
+
+
+ 

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="GBK"?>
+<module>
+    <id>tshop-um-neo-smallwaterfall</id>
+    <name>小瀑布流展示</name>
+    <file>tshop-um-neo-smallwaterfall.php</file>
+    <thumbnail>assets/images/neo.jpg</thumbnail>
+    <description>小瀑布流展示</description>
+    <requiredCache>true</requiredCache>
+    <supportedWidth>950</supportedWidth>
+    <themes default="默认">
+        <theme name="默认">
+            <css>assets/stylesheets/default.css</css>
+        </theme>
+        <theme name="紫色系">
+            <css>assets/stylesheets/purple.css</css>
+        </theme>
+    </themes>
+    <parameters>
+        <group title="小瀑布流展示">
+            <section title="给每列选择宝贝即可，建议选择8款以上，注意保持队形" folded="false">
+                <param description="选择第1列宝贝" formType="itemForm" label="选择第1列宝贝" name="rowoneitems" ptype="item" readonly="false"/>
+                <param description="选择第2列宝贝" formType="itemForm" label="选择第2列宝贝" name="rowtwoitems" ptype="item" readonly="false"/>
+                <param description="选择第3列宝贝" formType="itemForm" label="选择第3列宝贝" name="rowthreeitems" ptype="item" readonly="false"/>
+                <param description="选择第4列宝贝" formType="itemForm" label="选择第4列宝贝" name="rowfouritems" ptype="item" readonly="false"/>
+                <param description="选择第5列宝贝" formType="itemForm" label="选择第5列宝贝" name="rowfiveitems" ptype="item" readonly="false"/>
+            </section>
+        </group>
+    </parameters>
+</module>

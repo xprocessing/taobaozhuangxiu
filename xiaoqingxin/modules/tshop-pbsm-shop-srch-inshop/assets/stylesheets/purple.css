@@ -1,0 +1,263 @@
+/**
+ * 模块：tshop-pbsm-shop-srch-inshop 
+ * 皮肤（主题）: 紫色系
+ * 规则:
+ * 		1. CSS选择器必须包含 ".tshop-pbsm-shop-srch-inshop"，禁止使用模块页面元素的ID选择器
+ *		2. CSS样式声明的position属性值不能使用:fixed
+ *		3. CSS样式文件中z-index属性值必须在1-99之间
+ *		4. CSS URL地址必须是淘宝URL白名单中或者本地（相对或绝对）URL 
+ */
+
+.tshop-pbsm-shop-srch-inshop {
+background-color:#000;
+
+height: 48px;
+*zoom: 1;
+}
+.tshop-pbsm-shop-srch-inshop:after {
+content: '\20';
+display: block;
+height: 0;
+clear: both;
+}
+.tshop-pbsm-shop-srch-inshop .skin-box-hd {
+padding: 0;
+border-width: 0;
+_display: inline;
+*zoom: 1;
+max-width: 110px;
+height:48px;
+
+background-image:none;
+background-color:transparent;
+overflow:hidden;
+}
+.tshop-pbsm-shop-srch-inshop .skin-box-hd:after {
+content: '\20';
+display: block;
+height: 0;
+clear: both;
+}
+.tshop-pbsm-shop-srch-inshop .skin-box-hd h3 {
+font-size: 14px;
+font-weight: 700;
+margin-left: 10px;
+height: 48px;
+line-height: 48px;
+float: left;
+
+}
+.tshop-pbsm-shop-srch-inshop .skin-box-hd h3 span {
+color: #fff;
+margin-left:0px;
+}
+.tshop-pbsm-shop-srch-inshop .skin-box-bd {
+*zoom: 1;
+height: 28px;
+border-width: 0;
+margin: 10px 0;
+margin-left: 10px;
+}
+.tshop-pbsm-shop-srch-inshop .skin-box-bd:after {
+content: '\20';
+display: block;
+height: 0;
+clear: both;
+}
+.tshop-pbsm-shop-srch-inshop .skin-box-bd ul {
+float: left;
+}
+.tshop-pbsm-shop-srch-inshop .skin-box-bd li {
+float: left;
+height: 28px;
+line-height: 28px;
+margin-right: 10px;
+}
+.tshop-pbsm-shop-srch-inshop .skin-box-bd li label {
+display: inline-block;
+height: 18px;
+line-height: 18px;
+}
+.tshop-pbsm-shop-srch-inshop .skin-box-bd input {
+display: inline-block;
+border: 1px solid #a7a6aa;
+}
+.tshop-pbsm-shop-srch-inshop .skin-box-bd .keyword .key {
+display: none;
+float: left;
+margin-right: 4px;
+}
+.tshop-pbsm-shop-srch-inshop .skin-box-bd .keyword input {
+width: 180px;
+height: 26px;
+line-height: 26px;
+text-indent: 4px;
+color:#ff0033;
+}
+.tshop-pbsm-shop-srch-inshop .skin-box-bd .keyword .prompt {
+color: gray;
+}
+.tshop-pbsm-shop-srch-inshop .skin-box-bd .price label {
+color: #fff;
+height: 28px;
+line-height: 28px;
+}
+.tshop-pbsm-shop-srch-inshop .skin-box-bd .price .key {
+height: 28px;
+line-height: 28px;
+margin-right: 4px;
+display: block;
+float: left;
+}
+.tshop-pbsm-shop-srch-inshop .skin-box-bd .price input {
+width: 35px;
+height: 26px;
+line-height: 26px;
+text-indent: 4px;
+margin-right: 4px;
+display: block;
+float: left;
+}
+.tshop-pbsm-shop-srch-inshop .skin-box-bd .price .connect-line {
+color: #fff;
+display: block;
+float: left;
+margin-right: 4px;
+}
+.tshop-pbsm-shop-srch-inshop .skin-box-bd .hotkeywords {
+height: auto;
+clear: left;
+width: 70%;
+
+}
+.tshop-pbsm-shop-srch-inshop .skin-box-bd .btn {
+border: 0;
+display: inline-block;
+width: 49px;
+height: 26px;
+line-height: 26px;
+text-align: center;
+cursor: pointer;
+background: #cc0033;
+}
+.tshop-pbsm-shop-srch-inshop .skin-box-bd .btn:hover{ background:#ff0033;}
+.tshop-pbsm-shop-srch-inshop .skin-box-bd .hot-keys {
+float: left;
+height: 27px;
+line-height: 27px;
+width: 210px;
+overflow: hidden;
+
+
+white-space: nowrap;
+text-align: left;
+}
+.tshop-pbsm-shop-srch-inshop .skin-box-bd .hot-keys span {
+display: none;
+}
+.tshop-pbsm-shop-srch-inshop .skin-box-bd .hot-keys a {
+margin-right: 6px;
+display: block;
+float: left;
+white-space: nowrap;
+color:#ff0033;
+}
+.grid-m .col-main .tshop-pbsm-shop-srch-inshop .skin-box-hd,
+.grid-m0 .col-main .tshop-pbsm-shop-srch-inshop .skin-box-hd,
+.grid-s5m0 .col-main .tshop-pbsm-shop-srch-inshop .skin-box-hd,
+.grid-m0s5 .col-main .tshop-pbsm-shop-srch-inshop .skin-box-hd {
+float: left;
+}
+.grid-m .col-main .tshop-pbsm-shop-srch-inshop .skin-box-bd,
+.grid-m0 .col-main .tshop-pbsm-shop-srch-inshop .skin-box-bd,
+.grid-s5m0 .col-main .tshop-pbsm-shop-srch-inshop .skin-box-bd,
+.grid-m0s5 .col-main .tshop-pbsm-shop-srch-inshop .skin-box-bd {
+float: left;
+width: 625px;
+}
+.grid-s5m0e5 .col-main .tshop-pbsm-shop-srch-inshop .skin-box-hd,
+.grid-m0s5e5 .col-main .tshop-pbsm-shop-srch-inshop .skin-box-hd,
+.grid-s5e5m0 .col-main .tshop-pbsm-shop-srch-inshop .skin-box-hd,
+.grid-e5s5m0 .col-main .tshop-pbsm-shop-srch-inshop .skin-box-hd,
+.grid-e5m0s5 .col-main .tshop-pbsm-shop-srch-inshop .skin-box-hd,
+.grid-m0e5s5 .col-main .tshop-pbsm-shop-srch-inshop .skin-box-hd {
+float: left;
+}
+.grid-s5m0e5 .col-main .tshop-pbsm-shop-srch-inshop .skin-box-bd,
+.grid-m0s5e5 .col-main .tshop-pbsm-shop-srch-inshop .skin-box-bd,
+.grid-s5e5m0 .col-main .tshop-pbsm-shop-srch-inshop .skin-box-bd,
+.grid-e5s5m0 .col-main .tshop-pbsm-shop-srch-inshop .skin-box-bd,
+.grid-e5m0s5 .col-main .tshop-pbsm-shop-srch-inshop .skin-box-bd,
+.grid-m0e5s5 .col-main .tshop-pbsm-shop-srch-inshop .skin-box-bd {
+float: left;
+width: 430px;
+}
+.grid-s5m0e5 .col-main .tshop-pbsm-shop-srch-inshop .hot-keys,
+.grid-m0s5e5 .col-main .tshop-pbsm-shop-srch-inshop .hot-keys,
+.grid-s5e5m0 .col-main .tshop-pbsm-shop-srch-inshop .hot-keys,
+.grid-e5s5m0 .col-main .tshop-pbsm-shop-srch-inshop .hot-keys,
+.grid-e5m0s5 .col-main .tshop-pbsm-shop-srch-inshop .hot-keys,
+.grid-m0e5s5 .col-main .tshop-pbsm-shop-srch-inshop .hot-keys {
+display: none;
+}
+.col-sub .tshop-pbsm-shop-srch-inshop, .col-extra .tshop-pbsm-shop-srch-inshop {
+	background-color:#cc0000;
+
+height: auto;
+}
+.col-sub .tshop-pbsm-shop-srch-inshop .skin-box-hd h3, .col-extra .tshop-pbsm-shop-srch-inshop .skin-box-hd h3 {
+height: 30px;
+line-height: 30px;
+}
+.col-sub .tshop-pbsm-shop-srch-inshop .skin-box-bd, .col-extra .tshop-pbsm-shop-srch-inshop .skin-box-bd {
+margin-top: 0;
+border: 1px;
+height: auto;
+margin-left: 0;
+}
+.col-sub .tshop-pbsm-shop-srch-inshop .skin-box-bd li, .col-extra .tshop-pbsm-shop-srch-inshop .skin-box-bd li {
+margin-top: 10px;
+}
+.col-sub .tshop-pbsm-shop-srch-inshop .skin-box-bd li .key, .col-extra .tshop-pbsm-shop-srch-inshop .skin-box-bd li .key {
+display: block;
+width: 50px;
+text-align: right;
+}
+.col-sub .tshop-pbsm-shop-srch-inshop .skin-box-bd .keyword, .col-extra .tshop-pbsm-shop-srch-inshop .skin-box-bd .keyword {
+height: 28px;
+padding-left: 0;
+}
+.col-sub .tshop-pbsm-shop-srch-inshop .skin-box-bd .keyword .key, .col-extra .tshop-pbsm-shop-srch-inshop .skin-box-bd .keyword .key {
+display: block;
+height: 28px;
+line-height: 28px;
+}
+.col-sub .tshop-pbsm-shop-srch-inshop .skin-box-bd .keyword input, .col-extra .tshop-pbsm-shop-srch-inshop .skin-box-bd .keyword input {
+width: 110px;
+}
+.col-sub .tshop-pbsm-shop-srch-inshop .skin-box-bd .btn, .col-extra .tshop-pbsm-shop-srch-inshop .skin-box-bd .btn {
+margin-left: 53px;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+padding: 0 10px;
+}
+.col-sub .tshop-pbsm-shop-srch-inshop .skin-box-bd .hot-keys, .col-extra .tshop-pbsm-shop-srch-inshop .skin-box-bd .hot-keys {
+_display: inline;
+padding: 10px 0;
+margin-left: 52px;
+width: 130px;
+text-align: left;
+height: auto;
+white-space: normal;
+line-height: normal;
+}
+.col-sub .tshop-pbsm-shop-srch-inshop .skin-box-bd .hot-keys span, .col-extra .tshop-pbsm-shop-srch-inshop .skin-box-bd .hot-keys span {
+display: none;
+}
+
+
+ 
+
+
+ 

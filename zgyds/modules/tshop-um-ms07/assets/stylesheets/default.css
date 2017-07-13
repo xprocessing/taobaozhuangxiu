@@ -1,0 +1,29 @@
+/**
+ * 模块：tshop-um-ms07 
+ * 皮肤（主题）: 默认
+ * 规则:
+ * 		1. CSS选择器必须包含 ".tshop-um-ms07"，禁止使用模块页面元素的ID选择器
+ *		2. CSS样式声明的position属性值不能使用:fixed
+ *		3. CSS样式文件中z-index属性值必须在1-99之间
+ *		4. CSS URL地址必须是淘宝URL白名单中或者本地（相对或绝对）URL 
+ */
+
+.tshop-um-ms07{
+	width:100%;
+	height:auto;
+	position:relative;
+	margin-bottom:10px;
+	font-family:"微软雅黑";
+ }
+.tshop-um-ms07 .hd { display:block; width:560px; height:72px;text-decoration:none;  padding-left:420px; padding-right:10px; padding-top:41px; padding-bottom:15px; margin-bottom:10px;}
+.tshop-um-ms07 .hd span { cursor:pointer; overflow:hidden; display:block; width:560px; height:72px; line-height:24px; font-size:18px; color:#111111; font-weight:bold;} 
+.tshop-um-ms07 .bd { width:978px; background-color:#fff; padding:15px 6px; height:305px;}
+.tshop-um-ms07 .bd .left { width:260px; height:305px; float:left; margin-right:6px;}
+.tshop-um-ms07 .bd .left a { width:260px; height:305px; display:block;} 
+.tshop-um-ms07 .bd .right { width:708px; height:305px; float:right;}
+.tshop-um-ms07 .bd .right .eve { width:708px; height:305px;}
+.tshop-um-ms07 .bd .right .eve .mall-content { width:708px; height:305px; overflow:hidden;}
+.tshop-um-ms07 .bd .right .eve .mall-content .item { width:708px; height:305px; float:left;}
+.tshop-um-ms07 .bd .right .eve .mall-content .item .pi { width:172px; height:150px; float:left; margin-right:6px; margin-bottom:5px;}
+.tshop-um-ms07 .bd .right .eve .mall-content .item .pi a { width:172px; height:150px; display:block;}
+.tshop-um-ms07 .bd .right .eve .ks-switchable-nav { display:none;}

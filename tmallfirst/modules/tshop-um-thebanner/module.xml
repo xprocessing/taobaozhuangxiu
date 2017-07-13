@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="GBK"?>
+<module>
+    <id>tshop-um-thebanner</id>
+    <uuid>90c4124b3dc345c5a75ea7e70cde7bf0</uuid>
+    <name>橱窗banner</name>
+    <file>tshop-um-thebanner.php</file>
+    <thumbnail>../../assets/images/default-thumbnail.png</thumbnail>
+    <description>橱窗banner</description>
+    <requiredCache>true</requiredCache>
+    <supportedWidth>990</supportedWidth>
+    <themes default="默认">
+        <theme name="默认">
+            <css>assets/stylesheets/default.css</css>
+        </theme>
+    </themes>
+	 <parameters>
+    
+	 <param label="图片链接" formType="text" readonly="false" description="图片的地址，图片963*487" ptype="url" name="thebanner_img_1">assets/images/banneronly.jpg</param>
+        <param label="目标链接" formType="text" readonly="false" description="图片的目标链接" ptype="url" name="thebanner_link_1">http://viviange.taobao.com/</param>
+	</parameters>
+</module>

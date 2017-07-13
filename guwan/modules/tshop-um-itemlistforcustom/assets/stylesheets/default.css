@@ -1,0 +1,47 @@
+/**
+ * 模块：tshop-um-itemlistforcustom 
+ * 皮肤（主题）: 默认
+ * 规则:
+ * 		1. CSS选择器必须包含 ".tshop-um-itemlistforcustom"，禁止使用模块页面元素的ID选择器
+ *		2. CSS样式声明的position属性值不能使用:fixed
+ *		3. CSS样式文件中z-index属性值必须在1-99之间
+ *		4. CSS URL地址必须是淘宝URL白名单中或者本地（相对或绝对）URL 
+ */
+
+.tshop-um-itemlistforcustom {
+	color: black;
+}
+.tshop-um-itemlistforcustom img{ display:block;}
+.tshop-um-itemlistforcustom .list-box {
+	border: 3px solid #7e5a46;
+	padding: 12px 7px;
+	background-color: #4c3529;
+	height:auto;
+}
+.tshop-um-itemlistforcustom .list-box ul,.tshop-um-itemlistforcustom .list-box ul li{ border:none; padding:0; margin:0;
+
+}
+.tshop-um-itemlistforcustom .list-box ul:after {
+		content: '\20';
+	display: block;
+	height: 0;
+	clear: both;
+}
+.tshop-um-itemlistforcustom .list-box ul li {
+	width: 310px;
+	height: 410px;
+	float: left;
+}
+.tshop-um-itemlistforcustom .list-box ul li .item {
+	width: 300px;
+	height: 400px;
+	padding: 5px;
+		transition-property: margin-top;
+	transition-duration: 0.5s;
+}
+
+.tshop-um-itemlistforcustom .list-box ul li .item:hover {
+	margin-top: -3px;
+	position: absolute;
+	box-shadow: 0px 0px 5px #000000;
+}

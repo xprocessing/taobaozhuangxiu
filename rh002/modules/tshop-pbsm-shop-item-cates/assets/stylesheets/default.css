@@ -1,0 +1,158 @@
+/**
+ * 模块：tshop-pbsm-shop-item-cates 
+ * 皮肤（主题）: 默认
+ * 规则:
+ * 		1. CSS选择器必须包含 ".tshop-pbsm-shop-item-cates"，禁止使用模块页面元素的ID选择器
+ *		2. CSS样式声明的position属性值不能使用:fixed
+ *		3. CSS样式文件中z-index属性值必须在1-99之间
+ *		4. CSS URL地址必须是淘宝URL白名单中或者本地（相对或绝对）URL 
+ */
+
+.tshop-pbsm-shop-item-cates {
+margin-bottom: 10px;
+*zoom: 1;
+position: relative;
+}
+.tshop-pbsm-shop-item-cates:after {
+content: '\20';
+display: block;
+height: 0;
+clear: both;
+}
+.tshop-pbsm-shop-item-cates .hidden {
+visibility: hidden;
+}
+.tshop-pbsm-shop-item-cates .disappear {
+display: none;
+}
+.tshop-pbsm-shop-item-cates .skin-box-hd {
+border-width: 0px;
+height:190px;
+
+
+border-style: solid;
+background: url(assets/images/fenlei.gif) no-repeat 0 0 transparent;
+padding: 4px 10px 3px;
+}
+.tshop-pbsm-shop-item-cates .skin-box-hd h3 span {
+border-bottom: 0 solid #666666;
+display: none;
+font-weight: 700;
+font-size: 14px;
+color: #666666;
+}
+.tshop-pbsm-shop-item-cates .skin-box-bd {
+*zoom: 1;
+border-color: #d5d5d5;
+border-width: 0px;
+border-style: solid;
+background: none no-repeat 0 0 #ffffff;
+color: #2953a6;
+}
+.tshop-pbsm-shop-item-cates .skin-box-bd:after {
+content: '\20';
+display: block;
+height: 0;
+clear: both;
+}
+.tshop-pbsm-shop-item-cates .skin-box-bd a {
+color: #2953a6;
+}
+.tshop-pbsm-shop-item-cates .skin-box-bd {
+padding: 0;
+position: relative;
+width: 188px;
+}
+.tshop-pbsm-shop-item-cates .cats-tree .cat-hd {
+font-weight: 400;
+
+}
+.tshop-pbsm-shop-item-cates .cats-tree .cat-hd:hover, .tshop-pbsm-shop-item-cates .cats-tree .cat-hd-hover {
+	color:#000;
+	background-color:transparent;
+}
+.tshop-pbsm-shop-item-cates .cats-tree .fst-cat{ padding-bottom:10px;}
+.tshop-pbsm-shop-item-cates .cats-tree .fst-cat-hd {
+padding-left: 15px;
+line-height: 26px;
+vertical-align: middle;
+height:74px;
+background-image:url(assets/images/fenleibg.gif);
+background-color:transparent;
+background-repeat:no-repeat;
+background-position:right;
+margin-bottom:10px;
+}
+.tshop-pbsm-shop-item-cates .cats-tree .fst-cat-hd .fst-cat-name{ padding-top:45px;  color:#ff7361; text-align:center;}
+.tshop-pbsm-shop-item-cates .cats-tree .snd-cat-hd {
+padding-left: 15px;
+line-height: 26px;
+vertical-align: middle;
+}
+.tshop-pbsm-shop-item-cates .cats-tree .cat-icon {
+display: inline-block;
+width: 11px;
+height: 11px;
+line-height: 11px;
+vertical-align: top;
+margin-top: 8px;
+outline: none;
+position: absolute;
+
+*top: -1px;
+_top: 3px;
+margin-right: 5px;
+}
+.tshop-pbsm-shop-item-cates .cats-tree .fst-cat-icon {
+background: url(http://img03.taobaocdn.com/tps/i3/T1vEi4XnhyXXXm0Pva-454-340.png) no-repeat scroll 0 -112px transparent;
+}
+.tshop-pbsm-shop-item-cates .cats-tree .snd-cat-icon {
+display: none;
+}
+.tshop-pbsm-shop-item-cates .cats-tree .acrd-trigger {
+background-position: -30px -112px;
+}
+.tshop-pbsm-shop-item-cates .cats-tree .active-trigger {
+background-position: -15px -112px;
+}
+.tshop-pbsm-shop-item-cates .cats-tree .cat-name {
+display: inline-block;
+line-height: 26px;
+vertical-align: middle;
+color:#625249;
+}
+.tshop-pbsm-shop-item-cates .cats-tree .cat-name:hover {
+color: #ff4400;
+background-color:transparent;
+}
+.tshop-pbsm-shop-item-cates .cats-tree .fst-cat-name {
+width: 157px;
+overflow: hidden;
+
+white-space: nowrap;
+}
+.tshop-pbsm-shop-item-cates .cats-tree .snd-cat-name {
+width: 140px;
+margin-left:15px;
+overflow: hidden;
+
+white-space: nowrap;
+color:#625249;
+text-align:center;
+border-bottom:1px solid #e0e0e0;
+
+}
+.tshop-pbsm-shop-item-cates .cats-tree .cat-selected .cat-name {
+color: #ff4400;
+font-weight: 700;
+}
+.tshop-pbsm-shop-item-cates .cats-tree .fst-cat-name{
+font-weight:700;
+}
+.tshop-pbsm-shop-item-cates .cats-tree .float .fst-cat-bd{
+padding-left:15px;
+
+}
+
+
+ 

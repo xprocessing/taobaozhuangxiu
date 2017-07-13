@@ -1,0 +1,29 @@
+/**
+ * 模块：tshop-um-ms13 
+ * 皮肤（主题）: 默认
+ * 规则:
+ * 		1. CSS选择器必须包含 ".tshop-um-ms13"，禁止使用模块页面元素的ID选择器
+ *		2. CSS样式声明的position属性值不能使用:fixed
+ *		3. CSS样式文件中z-index属性值必须在1-99之间
+ *		4. CSS URL地址必须是淘宝URL白名单中或者本地（相对或绝对）URL 
+ */
+
+.tshop-um-ms13{
+	width:100%;
+	height:auto;
+	position:relative;
+	margin-bottom:10px;
+	font-family:"微软雅黑";
+ }
+.tshop-um-ms13 .hd { width:560px; height:72px; padding-left:420px; padding-right:10px; padding-top:41px; padding-bottom:15px; margin-bottom:10px;}
+.tshop-um-ms13 .hd a { text-decoration:none; overflow:hidden; display:block; width:560px; height:72px; line-height:24px; font-size:18px; color:#111111; font-weight:bold;} 
+.tshop-um-ms13 .dds { width:990px; height:640px;} 
+.tshop-um-ms13 .dds .ks-switchable-nav { width:360px; height:640px; overflow:visible; float:left; z-index:99;} 
+.tshop-um-ms13 .dds .ks-switchable-nav li { display:block; position:relative; float:left; z-index:99; width:387px; height:128px;}
+.tshop-um-ms13 .dds .ks-switchable-nav li a { display:block; width:360px; height:128px; position:absolute; left:0; top:0;}
+.tshop-um-ms13 .dds .ks-switchable-nav li span {display:block; width:21px; height:128px; position:absolute; top:0; background:url(assets/images/1.png) no-repeat left center; z-index:99; right:999999px;}
+.tshop-um-ms13 .dds .ks-switchable-nav li.ks-active span { right:0; z-index:99; }
+.tshop-um-ms13 .dds .mall-content { overflow:hidden; background-color:#acacac; float:left; width:618px; height:628px; border:6px solid #317eb5;} 
+.tshop-um-ms13 .dds .mall-content li { display:block; width:618px; height:628px;}
+.tshop-um-ms13 .dds .mall-content li a { display:block; width:309px; height:314px; background-color:#fff; float:left;}
+.tshop-um-ms13 .dds .mall-content li a img { vertical-align:middle;}

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="GBK"?>
+<module>
+    <id>tshop-um-neo-labsc</id>
+    <uuid>6eb433490a4b40c8913666fe7ba97145</uuid>
+    <name>神秘模块三</name>
+    <file>tshop-um-neo-labsc.php</file>
+    <thumbnail>../../assets/images/default-thumbnail.png</thumbnail>
+    <description>神秘模块三</description>
+    <requiredCache>true</requiredCache>
+    <supportedWidth>950</supportedWidth>
+    <themes default="默认">
+        <theme name="默认">
+            <css>assets/stylesheets/default.css</css>
+        </theme>
+    </themes>
+</module>

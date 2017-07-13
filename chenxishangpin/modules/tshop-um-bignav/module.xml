@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="GBK"?>
+<module>
+    <id>tshop-um-bignav</id>
+    <uuid>d6b28d37dfdf40b59b47f64055e22647</uuid>
+    <name>店铺大导航</name>
+    <file>tshop-um-bignav.php</file>
+    <thumbnail>../../assets/images/default-thumbnail.png</thumbnail>
+    <description>店铺大导航</description>
+    <requiredCache>true</requiredCache>
+    <supportedWidth>950</supportedWidth>
+    <themes default="默认">
+        <theme name="默认">
+            <css>assets/stylesheets/default.css</css>
+        </theme>
+    </themes>
+	 <parameters>
+       
+        <group title="设置导航海报内容">
+            <section title="设置导航海报内容" folded="false">
+                <param description="图片-1的地址，图片尺寸306x139px。" formType="text" label="导航1-图片链接" name="nav_img_1" ptype="text" readonly="false">assets/images/nav01.jpg</param>
+                <param description="图片-1的目标链接" formType="text" label="导航1-目标链接" name="nav_link_1" ptype="url" readonly="false">http://vivian-ge.taobao.com/</param>
+                <param description="图片-2的地址，图片尺寸306x139px。" formType="text" label="导航2-图片链接" name="nav_img_2" ptype="text" readonly="false">assets/images/nav02.jpg</param>
+                <param description="图片-2的目标链接" formType="text" label="导航2-目标链接" name="nav_link_2" ptype="url" readonly="false">http://vivian-ge.taobao.com/</param>
+                <param description="图片-3的地址，图片尺寸306x139px。。" formType="text" label="导航3-图片链接" name="nav_img_3" ptype="text" readonly="false">assets/images/nav03.jpg</param>
+                <param description="图片-3的目标链接" formType="text" label="导航3-目标链接" name="nav_link_3" ptype="url" readonly="false">http://vivian-ge.taobao.com/</param>
+            </section>
+        </group>
+        
+    </parameters>
+</module>

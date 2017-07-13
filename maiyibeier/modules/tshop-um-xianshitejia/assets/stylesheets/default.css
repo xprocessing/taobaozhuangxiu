@@ -1,0 +1,33 @@
+/**
+ * 模块：tshop-um-xianshitejia 
+ * 皮肤（主题）: 默认
+ * 规则:
+ * 		1. CSS选择器必须包含 ".tshop-um-xianshitejia"，禁止使用模块页面元素的ID选择器
+ *		2. CSS样式声明的position属性值不能使用:fixed
+ *		3. CSS样式文件中z-index属性值必须在1-99之间
+ *		4. CSS URL地址必须是淘宝URL白名单中或者本地（相对或绝对）URL 
+ */
+
+.tshop-um-xianshitejia {color:black; line-height:1.5;}
+.tshop-um-xianshitejia img{ display:block;}
+
+.tshop-um-xianshitejia .neo-bd { width:990px; background-color:#ff9c00; padding-bottom:10px;}
+
+.tshop-um-xianshitejia .neo-bd:after { content: '\20'; display: block; height: 0; clear: both;  }
+ 
+.tshop-um-xianshitejia .neo-bd .itemlist li{ width:480px; float:left; background-color:#fff;margin-left:10px; margin-top:10px;}
+
+ 
+.tshop-um-xianshitejia .neo-bd .itemlist li .neo-item-220pic{ width:220px; float:left;}
+.tshop-um-xianshitejia .neo-bd .itemlist li .neo-item-desc{ width:220px; padding:20px 20px 10px 20px; float:left;}
+
+.tshop-um-xianshitejia .neo-bd .itemlist li .neo-item-desc .neo-discountprice{ font-family:微软雅黑; font-size:26px; font-weight:bold; color:#f75d57;}
+.tshop-um-xianshitejia .neo-bd .itemlist li .neo-item-desc .neo-price{ font-family:微软雅黑; font-size:14px; color:#999;}
+.tshop-um-xianshitejia .neo-bd .itemlist li .neo-item-desc .neo-fav a{ font-family:微软雅黑; font-size:12px; color:#999; padding-left:15px;}
+
+
+.tshop-um-xianshitejia .neo-bd .itemlist li .neo-item-desc .neo-item-title a{ font-family:微软雅黑; font-size:14px; color:#000;}
+.tshop-um-xianshitejia .neo-bd .itemlist li .neo-item-desc .neo-addcart{ padding-top:10px;}
+.tshop-um-xianshitejia .neo-bd .itemlist li .neo-item-desc .neo-addcart a{ display:block; width:200px; height:36px; background-color:#f75d57; text-align:center; line-height:35px; color:#fff; font-size:20px; font-family:微软雅黑; text-decoration:none; border-radius:5px; }
+
+.tshop-um-xianshitejia .neo-bd .itemlist li .neo-item-desc .neo-addcart a:hover{ background-color:#ff0000;}

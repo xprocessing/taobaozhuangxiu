@@ -1,0 +1,25 @@
+{
+  "title" : null,
+  "layouts" : [ {
+    "type" : "grid-m0",
+    "modules" : {
+      "main" : [ {
+        "moduleID" : "tshop-um-fullscreenwithTicket"
+      }, {
+        "moduleID" : "tshop-um-neo-itemlist"
+      }, {
+        "moduleID" : "tshop-um-neo-kefu"
+      }, {
+        "moduleID" : "tshop-um-neo-itemlistbig"
+      }, {
+        "moduleID" : "tshop-um-hengtiaofenlei"
+      } ]
+    }
+  }, {
+    "type" : "grid-s5m0",
+    "modules" : {
+      "sub" : [ ],
+      "main" : [ ]
+    }
+  } ]
+}

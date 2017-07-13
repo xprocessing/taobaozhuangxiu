@@ -1,0 +1,27 @@
+/**
+ * 模块：tshop-um-ms01 
+ * 皮肤（主题）: 默认
+ * 规则:
+ * 		1. CSS选择器必须包含 ".tshop-um-ms01"，禁止使用模块页面元素的ID选择器
+ *		2. CSS样式声明的position属性值不能使用:fixed
+ *		3. CSS样式文件中z-index属性值必须在1-99之间
+ *		4. CSS URL地址必须是淘宝URL白名单中或者本地（相对或绝对）URL 
+ */
+
+.tshop-um-ms01 { width:990px; height:150px; background-color:#fff; position:relative; z-index:99;}
+.tshop-um-ms01 .nav{ width:990px; height:100px; padding:5px 0 ;} 
+.tshop-um-ms01 .nav .one { display:block; width:495px; height:100px; float:left;}
+.tshop-um-ms01 .nav .one a { display:block; width:495px; height:100px;}
+.tshop-um-ms01 .nav .two { display:block; width:195px; height:100px; float:left;}
+.tshop-um-ms01 .nav .two a { display:block; width:195px; height:100px; }
+.tshop-um-ms01 .nav .three { display:block; width:180px; height:100px; float:left;}
+.tshop-um-ms01 .nav .three a { display:block; width:180px; height:100px;}
+.tshop-um-ms01 .nav .four { display:block; width:114px; height:100px; padding-left:6px; float:left; padding-top:10px;}
+.tshop-um-ms01 .nav .four a { display:block; width:88px; height:26px; float:left; margin-top:1px;}
+
+.tshop-um-ms01 .navs { width:990px; height:40px; position:relative;}
+.tshop-um-ms01 .navs .left{ overflow:hidden; width:840px; height:40px; float:left;}
+.tshop-um-ms01 .navs .left .ts { width:105px; height:40px; float:left; background:url(assets/images/hds.jpg) no-repeat center center; cursor:pointer;}
+.tshop-um-ms01 .navs .left a { display:block; width:105px; height:40px; float:left;}
+.tshop-um-ms01 .navs .right { overflow:hidden; width:150px; height:40px; float:left;} 
+.tshop-um-ms01 .navs .right a  { display:block; width:150px; height:40px;background:url(assets/images/scs.jpg) no-repeat center center; } 

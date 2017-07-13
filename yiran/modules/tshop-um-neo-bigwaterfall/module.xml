@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="GBK"?>
+<module>
+    <id>tshop-um-neo-bigwaterfall</id>
+    <name>大瀑布流展示</name>
+    <file>tshop-um-neo-bigwaterfall.php</file>
+    <thumbnail>assets/images/neo.jpg</thumbnail>
+    <description>大瀑布流展示</description>
+    <requiredCache>true</requiredCache>
+    <supportedWidth>950</supportedWidth>
+    <themes default="default">
+        <theme name="default">
+            <css>assets/stylesheets/default.css</css>
+        </theme>
+        <theme name="red">
+            <css>assets/stylesheets/red.css</css>
+        </theme>
+        <theme name="Blue">
+            <css>assets/stylesheets/Blue.css</css>
+        </theme>
+    </themes>
+    <parameters>
+        <group title="大瀑布流展示">
+            <section folded="false" title="给每列选择宝贝即可，建议选择8款以上，注意保持4列队形">
+                <param readonly="false" ptype="item" name="bigrowoneitems" label="选择第1列宝贝" formType="itemForm" description="选择第1列宝贝"></param>
+                <param readonly="false" ptype="item" name="bigrowtwoitems" label="选择第2列宝贝" formType="itemForm" description="选择第2列宝贝"></param>
+                <param readonly="false" ptype="item" name="bigrowthreeitems" label="选择第3列宝贝" formType="itemForm" description="选择第3列宝贝"></param>
+                <param readonly="false" ptype="item" name="bigrowfouritems" label="选择第4列宝贝" formType="itemForm" description="选择第4列宝贝"></param>
+            </section>
+        </group>
+    </parameters>
+</module>

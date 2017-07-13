@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="GBK"?>
+<module>
+    <id>tshop-um-neo-labs-cba</id>
+    <uuid>962be56de67f4fbf80aa0c5315050080</uuid>
+    <name>占坑模块cba</name>
+    <file>tshop-um-neo-labs-cba.php</file>
+    <thumbnail>../../assets/images/default-thumbnail.png</thumbnail>
+    <description>占坑模块cba</description>
+    <requiredCache>true</requiredCache>
+    <supportedWidth>950</supportedWidth>
+    <themes default="默认">
+        <theme name="默认">
+            <css>assets/stylesheets/default.css</css>
+        </theme>
+    </themes>
+</module>

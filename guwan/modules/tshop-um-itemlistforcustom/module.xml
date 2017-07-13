@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="GBK"?>
+<module>
+  <id>tshop-um-itemlistforcustom</id>
+  <uuid>1ccf9fa5bdd440b0a3cdea51b47aa1fa</uuid>
+  <name>自制图商品列表</name>
+  <file>tshop-um-itemlistforcustom.php</file>
+  <thumbnail>../../assets/images/default-thumbnail.png</thumbnail>
+  <description>自制图商品列表，自由更换标题，商品图片，商品图片尺寸300x400</description>
+  <requiredCache>true</requiredCache>
+  <supportedWidth>950</supportedWidth>
+  <themes default="默认">
+    <theme name="默认">
+      <css>assets/stylesheets/default.css</css>
+    </theme>
+  </themes>
+  <parameters>
+  
+  <group title="模块标题">
+      <section title="设置标题图片和链接" folded="false">
+        <param description="标题图片地址，图片宽度950px" formType="text" label="标题图片" name="itemlist_title_img" ptype="text" readonly="false">assets/images/list-title.png</param>
+        <param description="目标链接" formType="text" label="标题链接" name="itemlist_title_link" ptype="text" readonly="false">http://vivian-ge.taobao.com/</param>		
+		
+      </section>
+    </group>
+  
+    <group title="第一行宝贝">
+      <section title="第一行宝贝" folded="false">
+        <param description="宝贝01图片地址，图片尺寸300x400。" formType="text" label="宝贝01图片" name="itemlist_img_1" ptype="text" readonly="false">assets/images/itempic.jpg</param>
+        <param description="宝贝01的目标链接" formType="text" label="宝贝01链接" name="itemlist_link_1" ptype="text" readonly="false">http://vivian-ge.taobao.com/</param>
+		
+		 <param description="宝贝02图片地址，图片尺寸300x400。" formType="text" label="宝贝02图片" name="itemlist_img_2" ptype="text" readonly="false">assets/images/itempic.jpg</param>
+        <param description="宝贝02的目标链接" formType="text" label="宝贝02链接" name="itemlist_link_2" ptype="text" readonly="false">http://vivian-ge.taobao.com/</param>
+		
+		 <param description="宝贝03图片地址，图片尺寸300x400。" formType="text" label="宝贝03图片" name="itemlist_img_3" ptype="text" readonly="false">assets/images/itempic.jpg</param>
+        <param description="宝贝03的目标链接" formType="text" label="宝贝03链接" name="itemlist_link_3" ptype="text" readonly="false">http://vivian-ge.taobao.com/</param>       
+      </section>
+    </group>
+	
+	<group title="第二行宝贝">
+      <section title="第二行宝贝" folded="false">
+        <param description="宝贝04图片地址，图片尺寸300x400。" formType="text" label="宝贝04图片" name="itemlist_img_4" ptype="text" readonly="false">assets/images/itempic.jpg</param>
+        <param description="宝贝04的目标链接" formType="text" label="宝贝04链接" name="itemlist_link_4" ptype="text" readonly="false">http://vivian-ge.taobao.com/</param>
+		
+		 <param description="宝贝05图片地址，图片尺寸300x400。" formType="text" label="宝贝05图片" name="itemlist_img_5" ptype="text" readonly="false">assets/images/itempic.jpg</param>
+        <param description="宝贝05的目标链接" formType="text" label="宝贝05链接" name="itemlist_link_5" ptype="text" readonly="false">http://vivian-ge.taobao.com/</param>
+		
+		 <param description="宝贝06图片地址，图片尺寸300x400。" formType="text" label="宝贝06图片" name="itemlist_img_6" ptype="text" readonly="false">assets/images/itempic.jpg</param>
+        <param description="宝贝06的目标链接" formType="text" label="宝贝06链接" name="itemlist_link_6" ptype="text" readonly="false">http://vivian-ge.taobao.com/</param>       
+      </section>
+    </group>
+	
+	
+		<group title="第三行宝贝">
+      <section title="第三行宝贝，清空不填就不显示" folded="false">
+        <param description="宝贝07图片地址，图片尺寸300x400。" formType="text" label="宝贝07图片" name="itemlist_img_7" ptype="text" readonly="false">assets/images/itempic.jpg</param>
+        <param description="宝贝07的目标链接" formType="text" label="宝贝07链接" name="itemlist_link_7" ptype="text" readonly="false">http://vivian-ge.taobao.com/</param>
+		
+		 <param description="宝贝08图片地址，图片尺寸300x400。" formType="text" label="宝贝08图片" name="itemlist_img_8" ptype="text" readonly="false">assets/images/itempic.jpg</param>
+        <param description="宝贝08的目标链接" formType="text" label="宝贝08链接" name="itemlist_link_8" ptype="text" readonly="false">http://vivian-ge.taobao.com/</param>
+		
+		 <param description="宝贝09图片地址，图片尺寸300x400。" formType="text" label="宝贝09图片" name="itemlist_img_9" ptype="text" readonly="false">assets/images/itempic.jpg</param>
+        <param description="宝贝09的目标链接" formType="text" label="宝贝09链接" name="itemlist_link_9" ptype="text" readonly="false">http://vivian-ge.taobao.com/</param>       
+      </section>
+    </group>
+	
+  </parameters>
+</module>

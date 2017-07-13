@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="GBK"?>
+<module>
+    <id>tshop-um-cuxiao</id>
+    <name>人人都爱促销</name>
+    <file>tshop-um-cuxiao.php</file>
+    <thumbnail>assets/images/default-thumbnail.png</thumbnail>
+    <description>人人都爱促销</description>
+    <requiredCache>true</requiredCache>
+    <supportedWidth>190,950</supportedWidth>
+    <themes default="默认">
+        <theme name="默认">
+            <css>assets/stylesheets/default.css</css>
+        </theme>
+        <theme name="紫色系">
+            <css>assets/stylesheets/purple.css</css>
+        </theme>
+    </themes>
+    <parameters>
+        <group title="设置模块标题和内容">
+            <section title="设置模块标题内容," folded="false">
+                <param description="模块标题" formType="text" label="模块标题" name="neo-hd-title-a" ptype="text" readonly="false">人人都爱促销</param>
+            </section>
+            <section title="设置模块内容" folded="false">
+                <param description="需要选择6个宝贝" formType="itemForm" label="选择横排展示宝贝" name="good-items" ptype="item" readonly="false"/>
+                <param description="设置宝贝的排序方式，默认按照人气宝贝升序排序" formType="select" label="设置宝贝排序方式" name="neo-items-option" ptype="text">
+                    <option value="ceofp" selected="selected">人气宝贝升序排序</option>
+                    <option value="_ceofp">以人气宝贝降序排序</option>
+                    <option value="hotsell">以热销宝贝升序排序</option>
+                    <option value="_hotsell">以热销宝贝降序排序</option>
+                    <option value="price">以宝贝价格升序排序</option>
+                    <option value="_price">以宝贝价格降序排序</option>
+                    <option value="newOn">以最新上架宝贝升序排序</option>
+                    <option value="_newOn">以最新上架宝贝降序排序</option>
+                    <option value="HotKeep">以热门搜藏升序排序</option>
+                    <option value="_HotKeep">以热门搜藏降序排序</option>
+        </param>
+            </section>
+        </group>
+    </parameters>
+</module>

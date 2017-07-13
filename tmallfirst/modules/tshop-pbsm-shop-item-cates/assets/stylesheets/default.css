@@ -1,0 +1,88 @@
+/**
+ * 模块：tshop-pbsm-shop-item-cates 
+ * 皮肤（主题）: 默认
+ * 规则:
+ * 		1. CSS选择器必须包含 ".tshop-pbsm-shop-item-cates"，禁止使用模块页面元素的ID选择器
+ *		2. CSS样式声明的position属性值不能使用:fixed
+ *		3. CSS样式文件中z-index属性值必须在1-99之间
+ *		4. CSS URL地址必须是淘宝URL白名单中或者本地（相对或绝对）URL 
+ */
+
+.tshop-pbsm-shop-item-cates .skin-box-bd .cats-tree{
+	padding:0 0 20px
+}
+
+.tshop-pbsm-shop-item-cates .skin-box-bd .cats-tree .cat-name{
+	color:#903255
+}
+
+.tshop-pbsm-shop-item-cates .skin-box-bd .cats-tree .cat-name:hover{
+	color:#c00
+}
+.tshop-pbsm-shop-item-cates .cats-tree .cat-icon{ display:none;}
+.tshop-pbsm-shop-item-cates .skin-box-bd .cats-tree .fst-cat-name{
+	color:#fff;
+	font-weight:bold
+	
+}
+
+.tshop-pbsm-shop-item-cates .skin-box-bd .cats-tree .fst-cat .fst-cat-hd{
+	border-top:1px solid #e5e5e5;
+	border-bottom:1px solid #e5e5e5;
+	background-image:url(assets/images/fenleibg.png);
+	height:29px;
+	
+	_zoom:1
+}
+
+.tshop-pbsm-shop-item-cates .skin-box-bd .cats-tree .fst-cat .cat-hd:hover,.tshop-pbsm-shop-item-cates .skin-box-bd .cats-tree .fst-cat .cat-hd-hover{
+	background-position:0px -29px;
+	
+}
+
+.tshop-pbsm-shop-item-cates .skin-box-bd .cats-tree .fst-cat .snd-cat .cat-hd:hover,.tshop-pbsm-shop-item-cates .skin-box-bd .cats-tree .fst-cat .snd-cat .cat-hd-hover{
+	background-color:#f9f9f9
+}
+
+.tshop-pbsm-shop-item-cates .skin-box-bd .cats-tree .fst-cat .snd-cat .snd-cat-hd{
+	padding-left:19px
+}
+
+.tshop-pbsm-shop-item-cates .skin-box-bd .cats-tree .fst-cat .snd-cat .snd-cat-hd .snd-cat-icon{
+	display:inline-block;
+	width:3px;
+	height:3px;
+	_overflow:hidden;
+	background:#666;
+	margin:0;
+	margin-right:9px;
+	vertical-align:middle;
+	display:none;
+}
+
+.tshop-pbsm-shop-item-cates .skin-box-bd .cats-tree .fst-cat .snd-cat .snd-cat-hd .snd-cat-name{
+	width:138px
+}
+
+.tshop-pbsm-shop-item-cates .skin-box-bd .cats-tree .fst-cat .snd-cat .cat-selected{
+	background-color:#f9f9f9
+}
+
+.tshop-pbsm-shop-item-cates .skin-box-bd .cats-tree .fst-cat .snd-cat .cat-selected .cat-name{
+	color:#b10000;
+	font-weight:bold
+}
+
+.tshop-pbsm-shop-item-cates .cats-tree .acrd-trigger{
+	background-position:-24px -99px;
+	margin-top:10px;
+	*margin-top:8px;
+	cursor:pointer
+}
+
+.tshop-pbsm-shop-item-cates .cats-tree .active-trigger{
+	background-position:-6px -99px
+}
+
+
+ 

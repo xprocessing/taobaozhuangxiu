@@ -1,0 +1,39 @@
+#content {
+	background-color:#535353 ;
+	background-image:url(assets/images/bdbg.png) ;
+	background-repeat:repeat-x ;
+	background-position:top left ;
+}
+
+#hd {
+	background-color:#F7F2E7 ;
+	background-image:url(assets/images/hdbg.png) ;
+	background-repeat:repeat-x ;
+	background-position:top left ;
+	margin-bottom:0px;
+}
+
+.skin-box .skin-box-hd {
+	border-width:0px 0px 1px 0px;
+	border-color:#E0E0E0;
+	border-style:solid;
+	background-color:#CC0000;
+	background-image:url(assets/images/skinhd.png) ;
+	background-position:top left;
+	background-repeat:no-repeat;
+	height:36px;
+	line-height:36px;
+}
+
+.skin-box .skin-box-hd h3 span {
+	color:#FFFFFF;
+	font-weight:normal;
+	font-size:18px;
+	font-family:Microsoft YaHei;
+	margin-left:40px;
+}
+
+.skin-box .skin-box-bd {
+	border-width:0px;
+	border-style:solid;
+}

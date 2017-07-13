@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="GBK"?>
+<module>
+    <id>tshop-um-daohangtiepian</id>
+    <uuid>9a11c9ce46824267bbc42d83f553b1f0</uuid>
+    <name>导航贴片</name>
+    <file>tshop-um-daohangtiepian.php</file>
+    <thumbnail>../../assets/images/default-thumbnail.png</thumbnail>
+    <description>导航贴片</description>
+    <requiredCache>true</requiredCache>
+    <supportedWidth>950</supportedWidth>
+    <themes default="默认">
+        <theme name="默认">
+            <css>assets/stylesheets/default.css</css>
+        </theme>
+    </themes>
+	 <parameters>
+       
+        <group title="设置贴片内容">
+            <section title="设置贴片图片" folded="false">
+                <param description="图片-1的地址，宽度为393px，高度530px" formType="text" label="1-图片链接" name="tiepian_img_1" ptype="text" readonly="false">assets/images/cube-01.png</param>
+                <param description="图片-1的目标链接" formType="text" label="1-目标链接" name="tiepian_link_1" ptype="text" readonly="false">http://vivian-ge.taobao.com/</param>
+				
+				
+				 <param description="图片-2的地址，宽度为260px，高度260px" formType="text" label="2-图片链接" name="tiepian_img_2" ptype="text" readonly="false">assets/images/cube-02.png</param>
+                <param description="图片-2的目标链接" formType="text" label="2-目标链接" name="tiepian_link_2" ptype="text" readonly="false">http://vivian-ge.taobao.com/</param>
+				
+				
+				 <param description="图片-3的地址，宽度为260px，高度260px" formType="text" label="3-图片链接" name="tiepian_img_3" ptype="text" readonly="false">assets/images/cube-03.png</param>
+                <param description="图片-3的目标链接" formType="text" label="3-目标链接" name="tiepian_link_3" ptype="text" readonly="false">http://vivian-ge.taobao.com/</param>
+				
+				 <param description="图片-4的地址，宽度为260px，高度260px" formType="text" label="4-图片链接" name="tiepian_img_4" ptype="text" readonly="false">assets/images/cube-04.png</param>
+                <param description="图片-4的目标链接" formType="text" label="4-目标链接" name="tiepian_link_4" ptype="text" readonly="false">http://vivian-ge.taobao.com/</param>
+			
+			 <param description="图片-5的地址，宽度为260px，高度260px" formType="text" label="5-图片链接" name="tiepian_img_5" ptype="text" readonly="false">assets/images/cube-05.png</param>
+                <param description="图片-5的目标链接" formType="text" label="5-目标链接" name="tiepian_link_5" ptype="text" readonly="false">http://vivian-ge.taobao.com/</param>
+			
+			
+            </section>
+        </group>
+       
+    </parameters>
+	
+</module>

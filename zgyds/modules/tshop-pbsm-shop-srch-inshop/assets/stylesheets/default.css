@@ -1,0 +1,160 @@
+/**
+ * 模块：tshop-pbsm-shop-srch-inshop 
+ * 皮肤（主题）: 默认
+ * 规则:
+ * 		1. CSS选择器必须包含 ".tshop-pbsm-shop-srch-inshop"，禁止使用模块页面元素的ID选择器
+ *		2. CSS样式声明的position属性值不能使用:fixed
+ *		3. CSS样式文件中z-index属性值必须在1-99之间
+ *		4. CSS URL地址必须是淘宝URL白名单中或者本地（相对或绝对）URL 
+ */
+
+#page #content .tshop-pbsm-shop-srch-inshop .skin-box-bd .keyword-input {
+background:#fff;
+ color: #000;
+}
+#page #content .tshop-pbsm-shop-srch-inshop .skin-box-bd .J_TCheckPrice {
+background:#fff;
+ color: #000;
+}
+.tshop-pbsm-shop-srch-inshop .skin-box-bd .price .connect-line {
+color:#000;
+}
+
+.tshop-pbsm-shop-srch-inshop {
+ background:none;
+ font-family:"微软雅黑";
+}
+.grid-m0 .col-main .tshop-pbsm-shop-srch-inshop {
+height: 42px;
+background-color:#fff;
+}
+
+.grid-m0 .col-main .tshop-pbsm-shop-srch-inshop .skin-box-bd {
+background: none;
+padding-bottom: 0;
+}
+.grid-m0 .col-main .tshop-pbsm-shop-srch-inshop .skin-box-hd {
+padding-left:20px;
+padding-right:5px;
+}
+
+#page #content .tshop-pbsm-shop-srch-inshop .skin-box-bd {
+border: none; 
+}
+
+
+.grid-m0 .col-main .tshop-pbsm-shop-srch-inshop .skin-box-hd {
+ height: 43px;
+ width: 90px;
+ overflow: hidden;
+}
+.grid-m0 .col-main  .tshop-pbsm-shop-srch-inshop .skin-box-hd  h3 span{
+ font-size: 14px;
+ line-height: 43px;
+ text-align: center;
+ color: #000;
+ font-family: 微软雅黑;
+}
+.grid-m0 .col-main   .tshop-pbsm-shop-srch-inshop .skin-box-hd h3 { height:43px; line-height:43px; margin:0;}
+.grid-m0 .col-main .tshop-pbsm-shop-srch-inshop .skin-box-bd .price ,.grid-m0 .col-main .tshop-pbsm-shop-srch-inshop .skin-box-bd .hot-keys {
+ font-size: 12px;
+ text-align: center;
+ color: #000;
+}
+.tshop-pbsm-shop-srch-inshop .skin-box-bd .price label {
+color: #000;
+font-size:12px;
+font-weight: bold;
+ font-family: 微软雅黑;
+}
+
+.grid-m0 .col-main .tshop-pbsm-shop-srch-inshop .skin-box-bd .btn {
+ background: #e40808 url(assets/images/1.gif) no-repeat center center;
+ border: none;
+ cursor: pointer;
+ text-align: center;
+font-size: 12px;
+display: block;
+height: 30px;
+color: #ffffff;
+margin-top:0;
+}
+.grid-m0 .col-main .tshop-pbsm-shop-srch-inshop .skin-box-bd .hot-keys a  {
+ text-decoration: none;
+ 
+}
+
+.grid-m0 .col-main .tshop-pbsm-shop-srch-inshop .skin-box-bd  input {
+ color: #000;
+ border: 1px solid #e0e0e0;
+}
+/*-------------------------------------------------------*/
+
+.col-main .tshop-pbsm-shop-srch-inshop .skin-box-hd{
+ height: 48px;
+ width: 70px;
+ overflow: hidden;
+}
+.col-main  .tshop-pbsm-shop-srch-inshop .skin-box-hd h3 span{
+ font-size: 14px;
+ line-height: 32px;
+ text-align: center;
+ color: #000;
+ font-family: 微软雅黑;
+}
+.col-main .tshop-pbsm-shop-srch-inshop .skin-box-bd .price{
+ color: #000;
+  font-family: 微软雅黑;
+}
+.col-main .tshop-pbsm-shop-srch-inshop .skin-box-bd  input{
+ color: #000;
+ border: 1px solid #8DC7C9;
+}
+.col-main .tshop-pbsm-shop-srch-inshop .skin-box-bd .btn{
+ background: #FF7DA8;
+ cursor: pointer;
+ height: 30px;
+ line-height: 26px;
+ text-align: center;
+ width: 49px;
+  color: #ffffff ;
+ font-weight: bold;
+ border: none;
+  font-family: 微软雅黑;
+}
+.col-main .tshop-pbsm-shop-srch-inshop .skin-box-bd .key {
+ color: #000;
+}
+.col-main .tshop-pbsm-shop-srch-inshop .skin-box-bd .hot-keys a {
+  font-family: 微软雅黑;
+} 
+
+
+/******950******/
+.tshop-pbsm-shop-srch-inshop .skin-box-hd h3 { height:32px; line-height:32px;}
+.tshop-pbsm-shop-srch-inshop .skin-box-bd { margin:10px 0 5px 0; height:23px;}
+.tshop-pbsm-shop-srch-inshop .skin-box-bd li { height:22px; line-height:22px; margin-right:22px;}
+.tshop-pbsm-shop-srch-inshop .skin-box-bd li label { height:23px;}
+.tshop-pbsm-shop-srch-inshop .skin-box-bd .keyword input { height:21px; border:1px solid #ededed; width:110px; line-height:21px; color:#000;}
+.tshop-pbsm-shop-srch-inshop .skin-box-bd .price label { height:23px; line-height:23px; }
+.tshop-pbsm-shop-srch-inshop .skin-box-bd .price .key { height:23px; line-height:23px; *line-height:25px; }
+.tshop-pbsm-shop-srch-inshop .skin-box-bd .price input { height:21px; width:30px; border:1px solid #ededed; line-height:21px; }
+.grid-m0 .col-main .tshop-pbsm-shop-srch-inshop .skin-box-bd .btn { width:52px; height:22px; line-height:22px; text-align:center; font-weight:bold; background:none;}
+.tshop-pbsm-shop-srch-inshop .skin-box-bd .submit { position:relative; background:#e40808 url(assets/images/1.gif) no-repeat center center;}
+.grid-m0 .col-main .tshop-pbsm-shop-srch-inshop .skin-box-bd { width:990px;}
+.tshop-pbsm-shop-srch-inshop .skin-box-bd .hot-keys { width:520px; height:23px; line-height:23px;}
+.tshop-pbsm-shop-srch-inshop .skin-box-bd .hot-keys a { margin-right:22px; color:#000;}
+
+.grid-s5m0 .col-main .tshop-pbsm-shop-srch-inshop .skin-box-bd { width:670px;}
+.grid-s5m0 .col-main .tshop-pbsm-shop-srch-inshop .skin-box-bd .btn { width:58px; height:23px; line-height:23px; text-align:center; font-weight:bold; background-color:#000;}
+.grid-s5m0 .col-main .tshop-pbsm-shop-srch-inshop .skin-box-bd .hot-keys { width:210px;}
+.grid-s5m0 .col-main .tshop-pbsm-shop-srch-inshop { overflow:hidden;}
+.grid-s5m0 .col-main  .tshop-pbsm-shop-srch-inshop .skin-box-hd { height:32px; margin:0 5px;}
+#page #content .tshop-pbsm-shop-srch-inshop .skin-box-bd input { outline:none;  background: #e40808 url(assets/images/1.gif) no-repeat center center; }
+#page #content .tshop-pbsm-shop-srch-inshop .skin-box-bd input.btn { text-indent:-9999px;}
+.grid-m0 .col-main .tshop-pbsm-shop-srch-inshop .skin-box-hd { display:none;}
+.col-main .tshop-pbsm-shop-srch-inshop .skin-box-bd .key { display:block; font-size:14px; padding-left:10px; padding-right:5px; font-weight:bold; color:#555555;}
+.col-main .tshop-pbsm-shop-srch-inshop .skin-box-bd .price .key { display:block;}
+.tshop-pbsm-shop-srch-inshop .skin-box-bd .hot-keys span { font-size:14px; font-weight:bold; color:#555555;}
+.grid-m0 .col-main .tshop-pbsm-shop-srch-inshop .skin-box-bd .hot-keys a { font-size:14px; color:#555555; margin-right:3px;}
+

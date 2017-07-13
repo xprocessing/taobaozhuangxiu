@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="GBK"?>
+<module>
+    <id>tshop-um-fullscreen-02</id>
+    <name>全屏模块数字版本</name>
+    <file>tshop-um-fullscreen-02.php</file>
+    <thumbnail>../../assets/images/default-thumbnail-fullscreen-02.png</thumbnail>
+    <description>全屏模块数字导航版本</description>
+    <requiredCache>true</requiredCache>
+    <supportedWidth>950</supportedWidth>
+    <themes default="默认">
+        <theme name="默认">
+            <css>assets/stylesheets/default.css</css>
+        </theme>
+    </themes>
+    <parameters>
+        <group title="设置模块高度">
+            <section title="设置模块高度" folded="false">
+                <param description="模块内容图片宽度为1920px，高度需要自定" formType="text" label="高" name="fullbanner_height" ptype="text" readonly="false">650</param>
+            </section>
+        </group>
+        <group title="设置轮播海报内容">
+            <section title="设置轮播海报内容" folded="false">
+                <param description="图片-1的地址，宽度为1920px，高度不限制。" formType="text" label="轮播1-图片链接" name="fullbanner_img_1" ptype="url" readonly="false">assets/images/haibao1920.jpg</param>
+                <param description="图片-1的目标链接" formType="text" label="轮播1-目标链接" name="fullbanner_link_1" ptype="url" readonly="false">http://gongziyu.taobao.com/</param>
+                <param description="图片-2的地址，宽度为1920px，高度不限制。" formType="text" label="轮播2-图片链接" name="fullbanner_img_2" ptype="url" readonly="false">assets/images/haibao1920.jpg</param>
+                <param description="图片-2的目标链接" formType="text" label="轮播2-目标链接" name="fullbanner_link_2" ptype="url" readonly="false">http://gongziyu.taobao.com/</param>
+                <param description="图片-3的地址，宽度为1920px，高度不限制。" formType="text" label="轮播3-图片链接" name="fullbanner_img_3" ptype="url" readonly="false">assets/images/haibao1920.jpg</param>
+                <param description="图片-3的目标链接" formType="text" label="轮播3-目标链接" name="fullbanner_link_3" ptype="url" readonly="false">http://gongziyu.taobao.com/</param>				
+				<param description="图片-4的地址，宽度为1920px，高度不限制。" formType="text" label="轮播4-图片链接" name="fullbanner_img_4" ptype="url" readonly="false">assets/images/haibao1920.jpg</param>
+                <param description="图片-4的目标链接" formType="text" label="轮播4-目标链接" name="fullbanner_link_4" ptype="url" readonly="false">http://gongziyu.taobao.com/</param>
+            </section>
+        </group>
+        <group title="自定义全屏内容">
+            <section title="设置自定义全屏内容" folded="false">
+                <param description="可以是任意html切图代码，建议有代码基础的美工或技术人员操作。如出错，请清空这里。" formType="textarea" label="自定义全屏内容" name="fullbanner_html" ptype="htmlarea" readonly="false"/>
+            </section>
+        </group>
+    </parameters>
+</module>

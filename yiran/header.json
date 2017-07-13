@@ -1,0 +1,12 @@
+{
+  "layouts" : [ {
+    "type" : "grid-m",
+    "modules" : {
+      "main" : [ {
+        "moduleID" : "tshop-pbsm-shop-custom-banner"
+      }, {
+        "moduleID" : "tshop-pbsm-shop-nav-ch"
+      } ]
+    }
+  } ]
+}

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="GBK"?>
+<site>
+    <id>86a3d04cb9484963af890d96f89eb365</id>
+    <name>maiyibeier</name>
+    <author name="[提示：请添加模板作者名称]" url="http://www.yourwebsite.com" wangwang="[提示：请添加模板作者的旺旺]"></author>
+    <thumbnail>assets/images/default-thumbnail.png</thumbnail>
+    <language>PHP</language>
+    <version>1.0.0</version>
+    <apply-sites>3</apply-sites>
+    <apply-user>迈衣贝尔旗舰店</apply-user>
+    <template-type>2</template-type>
+    <sale-type>1</sale-type>
+    <change-notes>[提示：请添加模板修改日志]</change-notes>
+    <description>迈衣贝尔旗舰店定制by薇薇安格设计</description>
+    <global>
+        <header>header.json</header>
+        <footer>footer.json</footer>
+    </global>
+    <themes default="默认">
+        <theme name="默认">
+            <css>assets/stylesheets/default/extra.css</css>
+            <thumbnail>assets/images/default-thumbnail.png</thumbnail>
+        </theme>
+        <theme name="备用">
+            <css>assets/stylesheets/another/extra.css</css>
+            <thumbnail>assets/images/default-thumbnail.png</thumbnail>
+        </theme>
+    </themes>
+    <pages>
+        <page type="1">
+            <name>首页</name>
+            <file>index.json</file>
+            <thumbnail>assets/images/default-thumbnail.png</thumbnail>
+            <description xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">[提示：请添加首页的描述]</description>
+        </page>
+        <page type="5">
+            <name>默认宝贝分类页</name>
+            <file>category.json</file>
+            <thumbnail>assets/images/default-thumbnail.png</thumbnail>
+            <description xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">[提示：请添加默认宝贝分类页的描述]</description>
+        </page>
+        <page type="2">
+            <name>默认宝贝详情页</name>
+            <file>detail.json</file>
+            <thumbnail>assets/images/default-thumbnail.png</thumbnail>
+            <description xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">[提示：请添加默认宝贝详情页的描述]</description>
+        </page>
+        <page type="4">
+            <name>自定义页</name>
+            <file>other.json</file>
+            <thumbnail>assets/images/default-thumbnail.png</thumbnail>
+            <description xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">[提示：请添加自定义页的描述]</description>
+        </page>
+    </pages>
+</site>

@@ -1,0 +1,133 @@
+/**
+ * 模块：tshop-um-fullscreen-02 
+ * 皮肤（主题）: 默认
+ * 规则:
+ * 		1. CSS选择器必须包含 ".tshop-um-fullscreen-02-02"，禁止使用模块页面元素的ID选择器
+ *		2. CSS样式声明的position属性值不能使用:fixed
+ *		3. CSS样式文件中z-index属性值必须在1-99之间
+ *		4. CSS URL地址必须是淘宝URL白名单中或者本地（相对或绝对）URL 
+ */
+
+
+
+.tshop-um-fullscreen-02 { position:relative; }
+
+.tshop-um-fullscreen-02 .fullscreen-content{ position:relative;  width:1920px; left:-485px; background-color:#F96;}
+.tshop-um-fullscreen-02 .fullscreen-content:after {
+content: '\20';
+display: block;
+height: 0;
+clear: both;
+}
+.tshop-um-fullscreen-02 .fullscreen-content .neo-fullcarou{
+position:relative;
+margin-top:0px;
+margin-left:0px;
+
+overflow:visible;
+
+}
+.tshop-um-fullscreen-02 .fullscreen-content .neo-fullcarou .neo-carousel{
+position:relative;
+z-index:0;
+border:none;
+}
+.tshop-um-fullscreen-02 .fullscreen-content .neo-fullcarou .neo-carousel .neo-content{
+	width:7680px;
+	
+
+
+
+}
+.tshop-um-fullscreen-02 .fullscreen-content .neo-fullcarou .neo-carousel .neo-content li{
+	width:1920px;
+
+	float: left;
+overflow: hidden;
+
+
+
+}
+.tshop-um-fullscreen-02 .fullscreen-content .neo-fullcarou .neo-carousel .neo-content li a{
+display: block;
+font-size: 0;
+}
+.tshop-um-fullscreen-02 .fullscreen-content .neo-fullcarou .neo-carousel .neo-nav{
+width:230px;
+position: absolute;
+bottom:5px;
+left:45%;
+z-index:99;
+}
+.tshop-um-fullscreen-02 .fullscreen-content .neo-fullcarou .neo-carousel .neo-nav li{
+width:30px;
+height:30px;
+margin-left:15px;
+
+float:left;
+overflow:hidden;
+cursor:pointer;
+background-image:url(assets/images/inactive.png);
+background-repeat:no-repeat;
+text-align:center;
+font-size:20px;
+font-family:Arial;
+
+color:#fe3e3e;
+}
+.tshop-um-fullscreen-02 .fullscreen-content .neo-fullcarou .neo-carousel .neo-nav li.neo-active{background-image:url(assets/images/active.png);color:#fef4f4;}
+.tshop-um-fullscreen-02 .fullscreen-content .neo-fullcarou .neo-carousel .neo-nav li img{ width:100px;opacity:0.7;-webkit-box-shadow:0px 0px 3px 3px #999;
+-moz-box-shadow:0px 0px 3px 3px #999;
+box-shadow:0px 0px 3px 3px #999;}
+.tshop-um-fullscreen-02 .fullscreen-content .neo-fullcarou .neo-carousel .neo-nav li.neo-active img{
+-webkit-box-shadow:0px 0px 5px 3px #CCC;
+-moz-box-shadow:0px 0px 5px 3px #CCC;
+box-shadow:0px 0px 5px 3px #CCC;
+opacity:1;
+
+}
+.tshop-um-fullscreen-02 .fullscreen-content .neo-fullcarou .neo-carousel .neo-prev{
+position: absolute;
+background-color:transparent;
+text-indent:-100px;
+width:53px;
+height:62px;
+display:block;
+background-image:url(assets/images/prenext.png);
+background-repeat:no-repeat;
+top:250px;
+
+left:400px;
+cursor:pointer;
+z-index:10;
+}
+.tshop-um-fullscreen-02 .fullscreen-content .neo-fullcarou .neo-carousel .neo-prev:hover{
+background-position:-54px 0px;
+}
+.tshop-um-fullscreen-02 .fullscreen-content .neo-fullcarou .neo-carousel .neo-next{
+position:absolute;
+background-color:transparent;
+text-indent:-100px;
+width:53px;
+height:62px;
+display:block;
+background-image:url(assets/images/prenext.png);
+background-position:0px -63px;
+background-repeat:no-repeat;
+top:250px;
+right:400px;
+cursor:pointer;
+z-index:10;
+}
+.tshop-um-fullscreen-02 .fullscreen-content .neo-fullcarou .neo-carousel .neo-next:hover{
+background-position:-54px -64px;
+}
+.tshop-um-fullscreen-02 .fullscreen-content .neo-fullcarou .neo-carousel .neo-disable{
+color:#CCC;
+cursor:default;
+}
+
+ 
+
+
+ 

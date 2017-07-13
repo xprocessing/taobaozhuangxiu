@@ -1,0 +1,18 @@
+{
+  "title" : null,
+  "layouts" : [ {
+    "type" : "grid-s5m0",
+    "modules" : {
+      "sub" : [ {
+        "moduleID" : "tshop-pbsm-other-customer-service"
+      }, {
+        "moduleID" : "tshop-pbsm-shop-item-cates"
+      }, {
+        "moduleID" : "tshop-pbsm-shop-top-list"
+      } ],
+      "main" : [ {
+        "moduleID" : "tshop-pbsm-other-guanliantuijian"
+      } ]
+    }
+  } ]
+}

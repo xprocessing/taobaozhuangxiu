@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="GBK"?>
+<module>
+    <id>tshop-um-neo-bannerwithpoints</id>
+    <name>多点大海报</name>
+    <file>tshop-um-neo-bannerwithpoints.php</file>
+    <thumbnail>assets/images/neo.jpg</thumbnail>
+    <description>一张海报上可加几个点，分别选择商品，鼠标划过弹出商品，可购买收藏操作。</description>
+    <requiredCache>true</requiredCache>
+    <supportedWidth>190,550,750,950</supportedWidth>
+    <themes default="default">
+        <theme name="default">
+            <css>assets/stylesheets/default.css</css>
+        </theme>
+        <theme name="red">
+            <css>assets/stylesheets/red.css</css>
+        </theme>
+        <theme name="Blue">
+            <css>assets/stylesheets/Blue.css</css>
+        </theme>
+    </themes>
+    <parameters>
+        <group title="海报设置">
+            <section folded="false" title="输入海报的图片地址即可">
+                <param readonly="false" ptype="url" name="banner" label="海报图片" formType="text" description="图片的地址，从淘宝图片空间复制链接。">http://img01.taobaocdn.com/imgextra/i1/297619552/T2mF0WXf4dXXXXXXXX-297619552.jpg</param>
+                <param readonly="false" ptype="text" name="banner-height" label="强制高度" formType="text" description="图片的高度xxxxpx">356</param>
+            </section>
+        </group>
+        <group title="第1点">
+            <section folded="false" title="配置点的位置">
+                <param readonly="false" ptype="text" name="point01-x" label="x坐标" formType="text" description="点距离海报左侧xxx像素">427</param>
+                <param readonly="false" ptype="text" name="point01-y" label="y坐标" formType="text" description="点距离海报顶部xxx像素">301</param>
+                <param readonly="false" ptype="item" name="point01-item" label="选择第1列宝贝" formType="itemForm" description="选择这个点对应的宝贝"></param>
+                <param ptype="text" name="point01-show" label="是否显示" formType="select" description="可选择是否显示这个点">
+                    <option selected="selected"
+                        value="display:inline-block;">显示这个点</option>
+                    <option value="display:none;">不显示这个点</option>
+      </param>
+            </section>
+        </group>
+        <group title="第2点">
+            <section folded="false" title="配置点的位置">
+                <param readonly="false" ptype="text" name="point02-x" label="x坐标" formType="text" description="点距离海报左侧xxx像素">570</param>
+                <param readonly="false" ptype="text" name="point02-y" label="y坐标" formType="text" description="点距离海报顶部xxx像素">314</param>
+                <param readonly="false" ptype="item" name="point02-item" label="选择第1列宝贝" formType="itemForm" description="选择这个点对应的宝贝"></param>
+                <param ptype="text" name="point02-show" label="是否显示" formType="select" description="可选择是否显示这个点">
+                    <option selected="selected"
+                        value="display:inline-block;">显示这个点</option>
+                    <option value="display:none;">不显示这个点</option>
+      </param>
+            </section>
+        </group>
+        <group title="第3点">
+            <section folded="false" title="配置点的位置">
+                <param readonly="false" ptype="text" name="point03-x" label="x坐标" formType="text" description="点距离海报左侧xxx像素">715</param>
+                <param readonly="false" ptype="text" name="point03-y" label="y坐标" formType="text" description="点距离海报顶部xxx像素">253</param>
+                <param readonly="false" ptype="item" name="point03-item" label="选择第1列宝贝" formType="itemForm" description="选择这个点对应的宝贝"></param>
+                <param ptype="text" name="point03-show" label="是否显示" formType="select" description="可选择是否显示这个点">
+                    <option selected="selected"
+                        value="display:inline-block;">显示这个点</option>
+                    <option value="display:none;">不显示这个点</option>
+      </param>
+            </section>
+        </group>
+        <group title="第4点">
+            <section folded="false" title="配置点的位置">
+                <param readonly="false" ptype="text" name="point04-x" label="x坐标" formType="text" description="点距离海报左侧xxx像素">250</param>
+                <param readonly="false" ptype="text" name="point04-y" label="y坐标" formType="text" description="点距离海报顶部xxx像素">150</param>
+                <param readonly="false" ptype="item" name="point04-item" label="选择第1列宝贝" formType="itemForm" description="选择这个点对应的宝贝"></param>
+                <param ptype="text" name="point04-show" label="是否显示" formType="select" description="可选择是否显示这个点">
+                    <option
+                        value="display:inline-block;">显示这个点</option>
+                    <option selected="selected" value="display:none;">不显示这个点</option>
+      </param>
+            </section>
+        </group>
+        <group title="第5点">
+            <section folded="false" title="配置点的位置">
+                <param readonly="false" ptype="text" name="point05-x" label="x坐标" formType="text" description="点距离海报左侧xxx像素">300</param>
+                <param readonly="false" ptype="text" name="point05-y" label="y坐标" formType="text" description="点距离海报顶部xxx像素">150</param>
+                <param readonly="false" ptype="item" name="point05-item" label="选择第1列宝贝" formType="itemForm" description="选择这个点对应的宝贝"></param>
+                <param ptype="text" name="point05-show" label="是否显示" formType="select" description="可选择是否显示这个点">
+                    <option
+                        value="display:inline-block;">显示这个点</option>
+                    <option selected="selected" value="display:none;">不显示这个点</option>
+      </param>
+            </section>
+        </group>
+        <group title="第6点">
+            <section folded="false" title="配置点的位置">
+                <param readonly="false" ptype="text" name="point06-x" label="x坐标" formType="text" description="点距离海报左侧xxx像素">350</param>
+                <param readonly="false" ptype="text" name="point06-y" label="y坐标" formType="text" description="点距离海报顶部xxx像素">150</param>
+                <param readonly="false" ptype="item" name="point06-item" label="选择第1列宝贝" formType="itemForm" description="选择这个点对应的宝贝"></param>
+                <param ptype="text" name="point06-show" label="是否显示" formType="select" description="可选择是否显示这个点">
+                    <option
+                        value="display:inline-block;">显示这个点</option>
+                    <option selected="selected" value="display:none;">不显示这个点</option>
+      </param>
+            </section>
+        </group>
+        <group title="第7点">
+            <section folded="false" title="配置点的位置">
+                <param readonly="false" ptype="text" name="point07-x" label="x坐标" formType="text" description="点距离海报左侧xxx像素">400</param>
+                <param readonly="false" ptype="text" name="point07-y" label="y坐标" formType="text" description="点距离海报顶部xxx像素">150</param>
+                <param readonly="false" ptype="item" name="point07-item" label="选择第1列宝贝" formType="itemForm" description="选择这个点对应的宝贝"></param>
+                <param ptype="text" name="point07-show" label="是否显示" formType="select" description="可选择是否显示这个点">
+                    <option
+                        value="display:inline-block;">显示这个点</option>
+                    <option selected="selected" value="display:none;">不显示这个点</option>
+      </param>
+            </section>
+        </group>
+    </parameters>
+</module>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="GBK"?>
+<module>
+    <id>tshop-um-forfoot</id>
+    <uuid>6b7a7e7ba53d444f9e7a0deefe945b9d</uuid>
+    <name>页底模块</name>
+    <file>tshop-um-forfoot.php</file>
+    <thumbnail>../../assets/images/default-thumbnail.png</thumbnail>
+    <description>页底模块</description>
+    <requiredCache>true</requiredCache>
+    <supportedWidth>990</supportedWidth>
+    <themes default="默认">
+        <theme name="默认">
+            <css>assets/stylesheets/default.css</css>
+        </theme>
+    </themes>
+	 <parameters>
+        <param label="页底购物信息标题" formType="text" readonly="false" description="页底购物信息标题01，建议4个字" ptype="text" name="foot_title_1">温馨提示</param>
+        <param label="页底购物信息描述" formType="text" readonly="false" description="页底购物信息01描述文字" ptype="text" name="foot_detail_1">购买后如发现质量问题请不要直接差评，否额不予任何售后服务。</param>
+        <param label="页底购物信息标题" formType="text" readonly="false" description="页底购物信息标题01，建议4个字" ptype="text" name="foot_title_2">关于色差</param>
+        <param label="页底购物信息描述" formType="text" readonly="false" description="页底购物信息02描述文字" ptype="text" name="foot_detail_2">所有宝贝均为实物拍摄，由于各显示器不同，对色彩要求高的买家请慎拍。</param>
+        <param label="页底购物信息标题" formType="text" readonly="false" description="页底购物信息标题01，建议4个字" ptype="text" name="foot_title_3">关于快递</param>
+        <param label="页底购物信息描述" formType="text" readonly="false" description="页底购物信息03描述文字" ptype="text" name="foot_detail_3">本店默认EMS航空快递，如需发发其他快递请提前与客服交流。</param>
+        <param label="页底购物信息标题" formType="text" readonly="false" description="页底购物信息标题01，建议4个字" ptype="text" name="foot_title_4">关于退换货</param>
+        <param label="页底购物信息描述" formType="text" readonly="false" description="页底购物信息04描述文字" ptype="text" name="foot_detail_4">如尺寸不合，顾客可自理来回运费调换，如商品质量问题，本店承担调换费用。</param>
+        <param label="导航链接标题1" formType="text" readonly="false" description="输入导航链接01的文字" ptype="text" name="foot_text_1">店铺首页</param>
+        <param label="导航链接01地址" formType="text" readonly="false" description="输入链接01的地址" ptype="text" name="foot_link_1">http://viviange.taobao.com/</param>
+        <param label="导航链接标题2" formType="text" readonly="false" description="输入导航链接02的文字" ptype="text" name="foot_text_2">店铺评分</param>
+        <param label="导航链接02地址" formType="text" readonly="false" description="输入链接02的地址" ptype="text" name="foot_link_2">http://viviange.taobao.com/</param>
+        <param label="导航链接标题3" formType="text" readonly="false" description="输入导航链接03的文字" ptype="text" name="foot_text_3">关于我们</param>
+        <param label="导航链接03地址" formType="text" readonly="false" description="输入链接03的地址" ptype="text" name="foot_link_3">http://viviange.taobao.com/</param>
+        <param label="导航链接标题4" formType="text" readonly="false" description="输入导航链接04的文字" ptype="text" name="foot_text_4">全部宝贝</param>
+        <param label="导航链接04地址" formType="text" readonly="false" description="输入链接04的地址" ptype="text" name="foot_link_4">http://viviange.taobao.com/</param>
+        <param label="导航链接标题5" formType="text" readonly="false" description="输入导航链接05的文字" ptype="text" name="foot_text_5">新款推荐</param>
+        <param label="导航链接05地址" formType="text" readonly="false" description="输入链接05的地址" ptype="text" name="foot_link_5">http://viviange.taobao.com/</param>
+        <param label="导航链接标题6" formType="text" readonly="false" description="输入导航链接06的文字" ptype="text" name="foot_text_6">联系我们</param>
+        <param label="导航链接06地址" formType="text" readonly="false" description="输入链接06的地址" ptype="text" name="foot_link_6">http://viviange.taobao.com/</param>
+        <param label="导航链接标题7" formType="text" readonly="false" description="输入导航链接07的文字" ptype="text" name="foot_text_7">招商合作</param>
+        <param label="导航链接07地址" formType="text" readonly="false" description="输入链接07的地址" ptype="text" name="foot_link_7">http://viviange.taobao.com/</param>
+        <param label="导航链接标题8" formType="text" readonly="false" description="输入导航链接08的文字" ptype="text" name="foot_text_8"></param>
+        <param label="导航链接08地址" formType="text" readonly="false" description="输入链接08的地址" ptype="text" name="foot_link_8">http://viviange.taobao.com/</param>
+    </parameters>
+</module>

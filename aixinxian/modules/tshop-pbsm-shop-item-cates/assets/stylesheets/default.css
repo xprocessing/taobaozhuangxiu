@@ -1,0 +1,93 @@
+/**
+ * 模块：tshop-pbsm-shop-item-cates 
+ * 皮肤（主题）: 默认
+ * 规则:
+ * 		1. CSS选择器必须包含 ".tshop-pbsm-shop-item-cates"，禁止使用模块页面元素的ID选择器
+ *		2. CSS样式声明的position属性值不能使用:fixed
+ *		3. CSS样式文件中z-index属性值必须在1-99之间
+ *		4. CSS URL地址必须是淘宝URL白名单中或者本地（相对或绝对）URL 
+ */
+
+.tshop-pbsm-shop-item-cates .skin-box-hd {
+	background-image: none;
+	color: black;
+	border: 1px solid #e1e1e1;
+	border-bottom: 3px solid #e4e4e4;
+	line-height:35px;
+	background-color:#ffffff;
+	
+	 padding:0px;
+	 text-align:center;
+	 margin-bottom:13px;
+}
+.tshop-pbsm-shop-item-cates .skin-box-hd h3 span{ font-size:14px; color:#8b5656;}
+
+.tshop-pbsm-shop-item-cates {
+	margin-bottom: 20px
+}
+.tshop-pbsm-shop-item-cates .skin-box-bd {
+	border-color: #e4e4e4;
+	border: none;
+}
+.tshop-pbsm-shop-item-cates .cats-tree .fst-cat-hd {
+	position: relative;
+	padding-left: 0;
+	background: white;
+	border-color: #e4e4e4;
+	border-width: 0 0 0 0;
+	border-style: solid;
+	background-color: #086869;
+	margin-bottom: 15px;
+	line-height: 35px;
+	text-align: center;
+}
+.tshop-pbsm-shop-item-cates .cats-tree .fst-cat-icon {
+	
+	cursor: pointer
+}
+.tshop-pbsm-shop-item-cates .cats-tree .acrd-trigger {
+	background: url(assets/images/catsicon.png) -40px -10px no-repeat
+}
+.tshop-pbsm-shop-item-cates .cats-tree .active-trigger {
+	background: url(assets/images/catsicon.png) -40px -30px no-repeat
+}
+.tshop-pbsm-shop-item-cates .cats-tree .cat-icon {
+	position: absolute;
+	right: 6px;
+	margin-right: 0
+}
+.tshop-pbsm-shop-item-cates .cats-tree .fst-cat-hd a {
+	color: #FFF;
+	font-size: 14px;
+	padding-left: 0px;
+	line-height: 25px
+}
+.tshop-pbsm-shop-item-cates .cats-tree .fst-cat-hd a:hover {
+	color: black;
+	text-decoration: none
+}
+.tshop-pbsm-shop-item-cates .cats-tree .fst-cat-bd a {
+	color: #333
+}
+.tshop-pbsm-shop-item-cates .cats-tree .cat-hd-hover {
+	background-color: #009999
+}
+.tshop-pbsm-shop-item-cates .cats-tree .snd-cat-hd {
+	margin: 0 0px;
+	line-height: 30px;
+	text-align: center;
+	padding-left: 0px;
+	margin-bottom: 10px;
+	background-color: #e1e1e1;
+}
+.tshop-pbsm-shop-item-cates .cats-tree .snd-cat-hd .cat-name {
+	color: #999999;
+	line-height: 30px;
+	text-decoration: none;
+}
+.tshop-pbsm-shop-item-cates .cats-tree .fst-cat .fst-cat-bd .snd-cat .cat-hd-hover {
+	background: #ffe0cc
+}
+.tshop-pbsm-shop-item-cates .cats-tree .fst-cat .fst-cat-bd .snd-cat .cat-hd-hover a {
+	color: #000
+}

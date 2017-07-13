@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="GBK"?>
+<module>
+    <id>tshop-um-ms12</id>
+    <uuid>818ad0515ab34d4c88c5e284dfe7dab9</uuid>
+    <name>店铺尾部</name>
+    <file>tshop-um-ms12.php</file>
+    <thumbnail>../../assets/images/default-thumbnail.png</thumbnail>
+    <description>店铺尾部</description>
+    <requiredCache>true</requiredCache>
+    <supportedWidth>990</supportedWidth>
+    <themes default="默认">
+        <theme name="默认">
+            <css>assets/stylesheets/default.css</css>
+        </theme>
+    </themes>
+    <parameters>
+        <group title="尾部设置">
+            <section title="尾部图片1" folded="false">
+                <param description="请输入海报的显示高度,例如:40" formType="text" label="高度" name="height0" ptype="text"></param>
+                <param description="请输入尾部图片,宽度为990" formType="text" label="图片" name="pic0" ptype="text"></param>
+            </section>
+            <section title="尾部图片2" folded="false">
+                <param description="请输入海报的显示高度,例如:92" formType="text" label="高度" name="height1" ptype="text"></param>
+                <param description="请输入尾部图片,宽度为990" formType="text" label="图片" name="pic1" ptype="text"></param>
+            </section>
+        </group>
+    </parameters>
+</module>

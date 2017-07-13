@@ -1,0 +1,17 @@
+/**
+ * 模块：tshop-um-leftfenleirightww 
+ * 皮肤（主题）: 默认
+ * 规则:
+ * 		1. CSS选择器必须包含 ".tshop-um-leftfenleirightww"，禁止使用模块页面元素的ID选择器
+ *		2. CSS样式声明的position属性值不能使用:fixed
+ *		3. CSS样式文件中z-index属性值必须在1-99之间
+ *		4. CSS URL地址必须是淘宝URL白名单中或者本地（相对或绝对）URL 
+ */
+
+.tshop-um-leftfenleirightww {font-family:microsoft yahei;}
+.tshop-um-leftfenleirightww .neo-leftcats { padding-left:32px; padding-top:5px;}
+.tshop-um-leftfenleirightww .neo-leftcats  .catlv1lv2{ padding-bottom:7px; height:25px; overflow:hidden;}
+.tshop-um-leftfenleirightww .neo-leftcats a{ color:#fae9cd; padding-left:7px; padding-right:7px; font-size:12px; line-height:22px;font-family:microsoft yahei;}
+.tshop-um-leftfenleirightww .neo-leftcats a.catlv1{ display:inline-block; padding:1px 15px; background-color:#000000; color:#ffffff;}
+.tshop-um-leftfenleirightww .neo-leftcats a.catlv1:hover{  padding:0px 14px; border:1px solid #000000; background-color:#ecc78b; color:#000000;}
+ 

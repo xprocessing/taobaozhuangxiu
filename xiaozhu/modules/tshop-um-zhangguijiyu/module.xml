@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="GBK"?>
+<module>
+    <id>tshop-um-zhangguijiyu</id>
+    <uuid>368287fd44f34b28a25d450d0b4911ea</uuid>
+    <name>掌柜寄语</name>
+    <file>tshop-um-zhangguijiyu.php</file>
+    <thumbnail>../../assets/images/default-thumbnail.png</thumbnail>
+    <description>掌柜寄语</description>
+    <requiredCache>true</requiredCache>
+    <supportedWidth>950</supportedWidth>
+    <themes default="默认">
+        <theme name="默认">
+            <css>assets/stylesheets/default.css</css>
+        </theme>
+    </themes>
+    <parameters>
+        <group title="设置掌柜寄语">
+            <section title="掌柜寄语" folded="false">
+                <param description="掌柜寄语" formType="textarea" label="掌柜寄语" name="zhangguijiyu" ptype="text" readonly="false">11年的夏天，店铺刚刚起步，那时候的我还是个准妈妈，和老公两个人要付出比别人更多的努力才能让店铺上轨。我们有个目标，尽可能的让亲们都能在第一时间收到宝贝，希望发出的每条丝巾都能降低退货！所以开店到现在我们的每条丝巾都会检查后，再发。或许亲们不能完全相信，我们会把好的宝贝都给亲，不好的自己留下压库存。夏天最热的时候，有时汗水会不小心滴在丝巾上，这样检查好就要装货的宝贝却要被无情的丢到一边，再拿新的检查。压力特别的大，最开始，我问老公要不要把我们检查后告诉亲，因为这样说了亲们会寄予我们很大的希望，但是我们货物发多了，人有时疲惫了，会出现失误的，向一直以来关系我们包容我们的亲们，致敬！</param>
+            </section>
+        </group>
+    </parameters>
+</module>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="GBK"?>
+<module>
+    <id>tshop-um-neo1</id>
+    <name>备用添加模块</name>
+    <file>tshop-um-neo1.php</file>
+    <thumbnail>../../assets/images/default-neo1.png</thumbnail>
+    <description>备用添加模块</description>
+    <requiredCache>true</requiredCache>
+    <supportedWidth>950</supportedWidth>
+    <themes default="默认">
+        <theme name="默认">
+            <css>assets/stylesheets/default.css</css>
+        </theme>
+    </themes>
+</module>

@@ -1,0 +1,44 @@
+/**
+ * 模块：tshop-um-ms04 
+ * 皮肤（主题）: 默认
+ * 规则:
+ * 		1. CSS选择器必须包含 ".tshop-um-ms04"，禁止使用模块页面元素的ID选择器
+ *		2. CSS样式声明的position属性值不能使用:fixed
+ *		3. CSS样式文件中z-index属性值必须在1-99之间
+ *		4. CSS URL地址必须是淘宝URL白名单中或者本地（相对或绝对）URL 
+ */
+
+
+.tshop-um-ms04 {
+	width:990px;
+	height:60px;
+	position:relative;
+	margin-bottom:10px;
+	background:#fff;
+}
+.tshop-um-ms04 .navss {
+	 width:990px;
+	 height:60px;
+ }
+.tshop-um-ms04 .mb_servcenter .bd {
+    height: 60px;
+    color: #666666;
+    padding: 0;
+	width:1000px;
+}
+.tshop-um-ms04  .mb_servcenter .subhd {
+    height: 60px;
+    overflow: hidden;
+    width: 155px;
+	float:left;
+	background:url(assets/images/1.jpg) no-repeat center;
+	border-right:1px solid #eaeaea;
+}
+
+.tshop-um-ms04 .ww { width:278px; overflow:hidden; height:60px; display:block; overflow:hidden; float:left; border-right:1px solid #eaeaea;}
+.tshop-um-ms04 .ww .bt { display:block; width:90px; height:60px; border-right:1px solid #eaeaea; float:left;}
+.tshop-um-ms04 .ww .kf { display:block; width:62px; height:20px; float:left; margin-left:20px; margin-top:22px;}
+.tshop-um-ms04 .ww .kf .nick { width:40px; height:20px; text-align:center; line-height:20px; overflow:hidden; font-size:14px; font-weight:bold; color:#626262; float:left;}
+.tshop-um-ms04 .ww .kf a { display:block; width:20px; height:20px; float:right;}
+.tshop-um-ms04 .ww .kf a img { vertical-align:middle;}
+ 

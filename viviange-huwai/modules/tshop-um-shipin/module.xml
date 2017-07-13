@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="GBK"?>
+<module>
+    <id>tshop-um-shipin</id>
+    <name>视频模块</name>
+    <file>tshop-um-shipin.php</file>
+    <thumbnail>../../assets/images/default-thumbnail-shipin.png</thumbnail>
+    <description>视频模块，需要粘入视频代码，注意高宽</description>
+    <requiredCache>true</requiredCache>
+    <supportedWidth>950</supportedWidth>
+    <themes default="默认">
+        <theme name="默认">
+            <css>assets/stylesheets/default.css</css>
+        </theme>
+    </themes>
+    <parameters>
+        <group title="设置模块标题">
+            <section title="设置模块标题" folded="false">
+                <param description="模块标题" formType="textarea" label="标题文字" name="video_title-new" ptype="htmlarea" readonly="false"></param>
+            </section>
+        </group>
+        <group title="视频代码">
+            <section title="设置视频" folded="false">
+                <param description="视频代码，宽609px;高501px,从淘宝媒体中心复制代码修改尺寸" formType="textarea" label="视频代码内容" name="video_html" ptype="htmlarea" readonly="false"></param>
+            </section>
+        </group>
+        <group title="其他文字描述">
+            <section title="标题内容" folded="false">
+                <param description="限制一行文字" formType="text" label="标题内容" name="video_other_title" ptype="text" readonly="false">GoPro自拍高山自由滑雪</param>
+            </section>
+            <section title="详细内容" folded="false">
+                <param description="文字不要太多，保存后注意检查" formType="textarea" label="详细内容" name="video_other_detail-new" ptype="htmlarea" readonly="false">XSories为所有体育，旅游或视频爱好者带来了创新的解决方案。我们所有的配件设计旨在使您能以全新的方式共享激情。</param>
+            </section>
+        </group>
+    </parameters>
+</module>

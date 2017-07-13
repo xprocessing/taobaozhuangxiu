@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="GBK"?>
+<module>
+    <id>tshop-um-foot</id>
+    <uuid>c3b32e2d23ed4106b1e7264ade5b9f87</uuid>
+    <name>页底板块</name>
+    <file>tshop-um-foot.php</file>
+    <thumbnail>assets/images/default-thumbnail.png</thumbnail>
+    <description>页底板块</description>
+    <requiredCache>true</requiredCache>
+    <supportedWidth>990</supportedWidth>
+    <themes default="默认">
+        <theme name="默认">
+            <css>assets/stylesheets/default.css</css>
+        </theme>
+        <theme name="备用">
+            <css>assets/stylesheets/another.css</css>
+        </theme>
+    </themes>
+</module>

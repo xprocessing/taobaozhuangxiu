@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="GBK"?>
+<site>
+    <id>b273b18519ab43ffbf2db15db76bd51a</id>
+    <name>日韩002</name>
+    <author wangwang="[提示：请添加模板作者的旺旺]" url="http://www.yourwebsite.com" name="[提示：请添加模板作者名称]"></author>
+    <thumbnail>assets/images/default-thumbnail.png</thumbnail>
+    <language>PHP</language>
+    <version>1.0.1</version>
+    <apply-sites>2</apply-sites>
+    <template-type>1</template-type>
+    <change-notes>[提示：css修改]</change-notes>
+    <description>日韩002by薇薇安格设计</description>
+    <global>
+        <header>header.json</header>
+        <footer>footer.json</footer>
+    </global>
+    <themes default="默认">
+        <theme name="默认">
+            <css>assets/stylesheets/default/extra.css</css>
+            <thumbnail>assets/images/default-thumbnail.png</thumbnail>
+        </theme>
+    </themes>
+    <pages>
+        <page type="index">
+            <name>首页</name>
+            <file>index.json</file>
+            <thumbnail>assets/images/default-thumbnail.png</thumbnail>
+            <description xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">[提示：请添加首页的描述]</description>
+        </page>
+        <page type="detail">
+            <name>默认宝贝详情页</name>
+            <file>detail.json</file>
+            <thumbnail>assets/images/default-thumbnail.png</thumbnail>
+            <description xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">[提示：请添加默认宝贝详情页的描述]</description>
+        </page>
+        <page type="list">
+            <name>默认宝贝分类页</name>
+            <file>list.json</file>
+            <thumbnail>assets/images/default-thumbnail.png</thumbnail>
+            <description xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">[提示：请添加默认宝贝分类页的描述]</description>
+        </page>
+    </pages>
+</site>

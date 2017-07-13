@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="GBK"?>
+<module>
+    <id>tshop-um-labs-c</id>
+    <uuid>c8a1be5dedcd4987bce72a60aad73c50</uuid>
+    <name>labs-c</name>
+    <file>tshop-um-labs-c.php</file>
+    <thumbnail>../../assets/images/default-thumbnail.png</thumbnail>
+    <description>labs-c</description>
+    <requiredCache>true</requiredCache>
+    <supportedWidth>990</supportedWidth>
+    <themes default="默认">
+        <theme name="默认">
+            <css>assets/stylesheets/default.css</css>
+        </theme>
+    </themes>
+</module>

@@ -1,0 +1,15 @@
+
+#hd {
+	background-image:url(assets/images/hdbg.jpg) ;
+	background-repeat:no-repeat ;
+	background-position:top center ;
+	margin-bottom:0px;
+}
+
+.skin-box .skin-box-hd {
+	border-style:solid;
+}
+
+.skin-box .skin-box-bd {
+	border-style:solid;
+}

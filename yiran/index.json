@@ -1,0 +1,48 @@
+{
+  "layouts" : [ {
+    "type" : "grid-m0",
+    "modules" : {
+      "main" : [ {
+        "moduleID" : "tshop-um-neo-slidewithhumbnail"
+      }, {
+        "moduleID" : "tshop-um-neo-bannerwithpoints"
+      }, {
+        "moduleID" : "tshop-um-neo-2dishopmap"
+      }, {
+        "moduleID" : "tshop-um-neo-listfloor"
+      }, {
+        "moduleID" : "tshop-um-neo-listfloor"
+      }, {
+        "moduleID" : "tshop-um-neo-accordionlr"
+      }, {
+        "moduleID" : "tshop-um-neo-wangwangonline"
+      }, {
+        "moduleID" : "tshop-um-neo-bigwaterfall"
+      } ]
+    }
+  }, {
+    "type" : "grid-s5m0",
+    "modules" : {
+      "sub" : [ {
+        "moduleID" : "tshop-um-neo-vwangwangline"
+      }, {
+        "moduleID" : "tshop-um-neo-accordiontb"
+      }, {
+        "moduleID" : "tshop-pbsm-shop-item-cates"
+      }, {
+        "moduleID" : "tshop-pbsm-shop-srch-inshop"
+      }, {
+        "moduleID" : "tshop-pbsm-shop-top-list"
+      } ],
+      "main" : [ {
+        "moduleID" : "tshop-pbsm-shop-srch-inshop"
+      }, {
+        "moduleID" : "tshop-pbsm-shop-main-slide"
+      }, {
+        "moduleID" : "tshop-pbsm-shop-item-recommend"
+      }, {
+        "moduleID" : "tshop-pbsm-shop-item-recommend"
+      } ]
+    }
+  } ]
+}

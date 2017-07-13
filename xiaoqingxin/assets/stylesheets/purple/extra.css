@@ -1,0 +1,38 @@
+#content {
+	background-color:#EAEAEA ;
+	background-image:url(assets/images/bdbg.png) ;
+	background-repeat:repeat-x ;
+	background-position:top left ;
+}
+
+#hd {
+	background-color:transparent ;
+	background-image:url(assets/images/hdbg.png) ;
+	background-repeat:repeat-x ;
+	background-position:top left ;
+	margin-bottom:0px;
+}
+
+.skin-box .skin-box-hd {
+	border-width:1px 1px 1px 1px;
+	border-color:#e7e8e2;
+	border-style:solid;
+	background-image:url(assets/images/skinhd-purple.png) ;
+	background-position:top left;
+	background-repeat:no-repeat;
+	height:45px;
+	line-height:45px;
+}
+
+.skin-box .skin-box-hd h3 span {
+	color:#333;
+	font-weight:normal;
+	font-size:18px;
+	font-family:microsoft yahei;
+	margin-left:60px;
+}
+
+.skin-box .skin-box-bd {
+	border-width:0px;
+	border-style:solid;
+}

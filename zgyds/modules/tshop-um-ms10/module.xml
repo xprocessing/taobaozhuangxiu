@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="GBK"?>
+<module>
+    <id>tshop-um-ms10</id>
+    <uuid>cbb143361e7442f2b136b5bed5d09fe5</uuid>
+    <name>店铺说明</name>
+    <file>tshop-um-ms10.php</file>
+    <thumbnail>../../assets/images/default-thumbnail.png</thumbnail>
+    <description>店铺说明</description>
+    <requiredCache>true</requiredCache>
+    <supportedWidth>990</supportedWidth>
+    <themes default="默认">
+        <theme name="默认">
+            <css>assets/stylesheets/default.css</css>
+        </theme>
+    </themes>
+    <parameters>
+        <group title="店铺说明">
+            <section folded="true">
+                <param description="请输入数字值，例如：140" formType="text" label="图片高度" name="height" ptype="text"></param>
+                <param description="请输入店铺说明图片,宽度为990" formType="text" label="说明图片" name="gg1" ptype="text"></param>
+            </section>
+        </group>
+        <group title="导航设置">
+            <section title="分类1" folded="false">
+                <param description="请选择显示/隐藏" formType="range" label="显示设置" name="xs0" ptype="text">
+					<option value="block" selected="selected">★显示</option>
+					<option value="none">☆隐藏</option>
+			    </param>
+                <param description="请输入分类文字,多个用#隔开" formType="text" label="分类文字" name="fw0" ptype="text"></param>
+                <param description="请输入分类链接,多个用#隔开" formType="text" label="分类链接" name="fl0" ptype="text"></param>
+            </section>
+            <section title="分类2" folded="true">
+                <param description="请选择显示/隐藏" formType="range" label="显示设置" name="xs1" ptype="text">
+					<option value="block" selected="selected">★显示</option>
+					<option value="none">☆隐藏</option>
+			    </param>
+                <param description="请输入分类文字,多个用#隔开" formType="text" label="分类文字" name="fw1" ptype="text"></param>
+                <param description="请输入分类链接,多个用#隔开" formType="text" label="分类链接" name="fl1" ptype="text"></param>
+            </section>
+            <section title="分类3" folded="true">
+                <param description="请选择显示/隐藏" formType="range" label="显示设置" name="xs2" ptype="text">
+					<option value="block" selected="selected">★显示</option>
+					<option value="none">☆隐藏</option>
+			    </param>
+                <param description="请输入分类文字,多个用#隔开" formType="text" label="分类文字" name="fw2" ptype="text"></param>
+                <param description="请输入分类链接,多个用#隔开" formType="text" label="分类链接" name="fl2" ptype="text"></param>
+            </section>
+            <section title="分类4" folded="true">
+                <param description="请选择显示/隐藏" formType="range" label="显示设置" name="xs3" ptype="text">
+					<option value="block" selected="selected">★显示</option>
+					<option value="none">☆隐藏</option>
+			    </param>
+                <param description="请输入分类文字,多个用#隔开" formType="text" label="分类文字" name="fw3" ptype="text"></param>
+                <param description="请输入分类链接,多个用#隔开" formType="text" label="分类链接" name="fl3" ptype="text"></param>
+            </section>
+            <section title="分类5" folded="true">
+                <param description="请选择显示/隐藏" formType="range" label="显示设置" name="xs4" ptype="text">
+					<option value="block" selected="selected">★显示</option>
+					<option value="none">☆隐藏</option>
+			    </param>
+                <param description="请输入分类文字,多个用#隔开" formType="text" label="分类文字" name="fw4" ptype="text"></param>
+                <param description="请输入分类链接,多个用#隔开" formType="text" label="分类链接" name="fl4" ptype="text"></param>
+            </section>
+            <section title="分类6" folded="true">
+                <param description="请选择显示/隐藏" formType="range" label="显示设置" name="xs5" ptype="text">
+					<option value="block" selected="selected">★显示</option>
+					<option value="none">☆隐藏</option>
+			    </param>
+                <param description="请输入分类文字,多个用#隔开" formType="text" label="分类文字" name="fw5" ptype="text"></param>
+                <param description="请输入分类链接,多个用#隔开" formType="text" label="分类链接" name="fl5" ptype="text"></param>
+            </section>
+            <section title="分类7" folded="true">
+                <param description="请选择显示/隐藏" formType="range" label="显示设置" name="xs6" ptype="text">
+					<option value="block" selected="selected">★显示</option>
+					<option value="none">☆隐藏</option>
+			    </param>
+                <param description="请输入分类文字,多个用#隔开" formType="text" label="分类文字" name="fw6" ptype="text"></param>
+                <param description="请输入分类链接,多个用#隔开" formType="text" label="分类链接" name="fl6" ptype="text"></param>
+            </section>
+        </group>
+    </parameters>
+</module>

@@ -1,0 +1,31 @@
+
+
+#hd {
+	background-color:#FFFFFF ;
+	background-image:url(assets/images/hdbg.png) ;
+	background-repeat:repeat-x ;
+	background-position:top left ;
+}
+
+.skin-box .skin-box-hd {
+	border-width:0px;
+	border-style:solid;
+	background-color:#550c22;
+	background-image:url(assets/images/mhdbg.png) ;
+
+	background-repeat:no-repeat;
+	height:49px;
+	line-height:49px;
+}
+
+.skin-box .skin-box-hd h3 span {
+	color:#FFF;
+	font-weight:bold;
+	font-size:14px;
+	font-family:simsun;
+	margin-left:60px;
+}
+
+.skin-box .skin-box-bd {
+	border-style:solid;
+}

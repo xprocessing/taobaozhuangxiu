@@ -1,0 +1,25 @@
+/**
+ * 模块：tshop-um-tuangou 
+ * 皮肤（主题）: 默认
+ * 规则:
+ * 		1. CSS选择器必须包含 ".tshop-um-cuxiao"，禁止使用模块页面元素的ID选择器
+ *		2. CSS样式声明的position属性值不能使用:fixed
+ *		3. CSS样式文件中z-index属性值必须在1-99之间
+ *		4. CSS URL地址必须是淘宝URL白名单中或者本地（相对或绝对）URL 
+ */
+
+.tshop-um-cuxiao { height:auto; background-color:#fff;}
+
+ 
+.tshop-um-cuxiao h2{ height:40px; line-height:40px; font-size:18px; font-weight: bold; font-family:微软雅黑; color:#ff7738; padding:0px; margin:0px; margin-top:5px;padding-left:15px; }
+
+.tshop-um-cuxiao .goods_list{ width:100%; min-height:230px; padding-bottom:20px;}
+.tshop-um-cuxiao .goods_list:after{content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+.tshop-um-cuxiao .goods_list li{ width:150px; height:230px; float: left; overflow:hidden; position:relative; padding-left:3px; }
+.tshop-um-cuxiao .goods_list li a{ display:inline-block; width:150px; height:170px; position:relative; overflow:hidden;}
+.tshop-um-cuxiao .goods_list li img{ width:170px; margin-left:-10px;}
+.tshop-um-cuxiao .goods_list li .item-info{ width:150px; height:33px;}
+.tshop-um-cuxiao .goods_list li .item-zhekou{ width:68px; height:33px; float:left; background-image:url(assets/images/free_tuan.png); background-repeat:no-repeat; font-family:微软雅黑; font-weight:bold; color:#fff; font-size:16px; line-height:33px; text-indent:10px;}
+.tshop-um-cuxiao .goods_list li .item-price{width:82px; height:33px; float:left; color:#999999; font-size:12px; font-family:微软雅黑; line-height:15px; text-indent:5px; }
+.tshop-um-cuxiao .goods_list li .item-yuanjia em{ color:#88b713; text-decoration:line-through;}
+.tshop-um-cuxiao .goods_list li .item-zhekoujia em{ color:#ff7237; font-weight:bold;}

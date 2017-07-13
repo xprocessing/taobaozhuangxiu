@@ -1,0 +1,33 @@
+{
+  "title" : null,
+  "layouts" : [ {
+    "type" : "grid-m0",
+    "modules" : {
+      "main" : [ {
+        "moduleID" : "tshop-um-fullscreen-02"
+      }, {
+        "moduleID" : "tshop-um-hotsale"
+      }, {
+        "moduleID" : "tshop-um-shipin"
+      } ]
+    }
+  }, {
+    "type" : "grid-s5m0",
+    "modules" : {
+      "sub" : [ {
+        "moduleID" : "tshop-pbsm-shop-item-cates"
+      }, {
+        "moduleID" : "tshop-pbsm-other-wireless-code"
+      }, {
+        "moduleID" : "tshop-pbsm-other-liangzi"
+      } ],
+      "main" : [ {
+        "moduleID" : "tshop-pbsm-shop-item-recommend"
+      }, {
+        "moduleID" : "tshop-pbsm-shop-item-recommend"
+      }, {
+        "moduleID" : "tshop-pbsm-shop-item-recommend"
+      } ]
+    }
+  } ]
+}

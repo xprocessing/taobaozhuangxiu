@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="GBK"?>
+<module>
+    <id>tshop-um-ms09</id>
+    <uuid>6510d8c9c9554db3b93e231ef656f68a</uuid>
+    <name>业务展示</name>
+    <file>tshop-um-ms09.php</file>
+    <thumbnail>../../assets/images/default-thumbnail.png</thumbnail>
+    <description>业务展示</description>
+    <requiredCache>true</requiredCache>
+    <supportedWidth>990</supportedWidth>
+    <themes default="默认">
+        <theme name="默认">
+            <css>assets/stylesheets/default.css</css>
+        </theme>
+    </themes>
+    <parameters>
+        <group title="公告设置">
+            <section folded="true">
+                <param description="请输入公告图片(990*128)" formType="text" label="公告图片" name="gg0" ptype="text"></param>
+                <param description="请输入公告文字" formType="textarea" label="公告文字" name="gg1" ptype="textarea">针对不同的客户群和市场需求开通的可供客户选择使用的业务。它充分挖掘了移动的网络的潜力，满足了用户的多种需求，因此在市场上取得了巨大的成功。</param>
+                <param description="请输入公告链接" formType="text" label="公告链接" name="gg2" ptype="text"></param>
+            </section>
+        </group>
+        <group title="业务设置">
+            <section folded="true">
+                <param description="请输入数字值，例如：142" formType="text" label="高度" name="height" ptype="text"></param>
+                <param description="请输入公告图片(160*142),多个用#隔开" formType="textarea" label="图片" name="pic" ptype="textarea"></param>
+                <param description="请输入公告链接" formType="textarea" label="链接" name="link" ptype="textarea"></param>
+            </section>
+        </group>
+    </parameters>
+</module>

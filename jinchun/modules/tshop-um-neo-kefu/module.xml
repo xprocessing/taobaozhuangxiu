@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="GBK"?>
+<module>
+    <id>tshop-um-neo-kefu</id>
+    <uuid>2ebe6603f81849168e6fcea238e82446</uuid>
+    <name>客服模块</name>
+    <file>tshop-um-neo-kefu.php</file>
+    <thumbnail>assets/images/default-thumbnail.png</thumbnail>
+    <description>客服模块</description>
+    <requiredCache>true</requiredCache>
+    <supportedWidth>990</supportedWidth>
+    <themes default="默认">
+        <theme name="默认">
+            <css>assets/stylesheets/default.css</css>
+        </theme>
+        <theme name="活动风格">
+            <css>assets/stylesheets/huodong.css</css>
+        </theme>
+    </themes>
+    <parameters>
+        <group title="旺旺设置">
+            <section title="旺旺id建议为主号系统自动分流，也可以为子号。" folded="false">
+                <param description="客服团队名字" formType="text" label="客服01呢称" name="wangwang_nickname_01" ptype="text" readonly="false">客服</param>
+                <param description="输入旺旺ID,或子旺旺ID" formType="text" label="客服01旺旺ID" name="wangwangid_01" ptype="text" readonly="false">锦春食品专营店</param>
+                <param description="客服团队名字" formType="text" label="客服02呢称" name="wangwang_nickname_02" ptype="text" readonly="false">客服</param>
+                <param description="输入旺旺ID,或子旺旺ID" formType="text" label="客服02旺旺ID" name="wangwangid_02" ptype="text" readonly="false">锦春食品专营店</param>
+                <param description="客服团队名字" formType="text" label="客服03呢称" name="wangwang_nickname_03" ptype="text" readonly="false">客服</param>
+                <param description="输入旺旺ID,或子旺旺ID" formType="text" label="客服03旺旺ID" name="wangwangid_03" ptype="text" readonly="false">锦春食品专营店</param>
+                <param description="客服团队名字" formType="text" label="客服04呢称" name="wangwang_nickname_04" ptype="text" readonly="false">客服</param>
+                <param description="输入旺旺ID,或子旺旺ID" formType="text" label="客服04旺旺ID" name="wangwangid_04" ptype="text" readonly="false">锦春食品专营店</param>
+                <param description="客服团队名字" formType="text" label="客服05呢称" name="wangwang_nickname_05" ptype="text" readonly="false">客服</param>
+                <param description="输入旺旺ID,或子旺旺ID" formType="text" label="客服05旺旺ID" name="wangwangid_05" ptype="text" readonly="false">锦春食品专营店</param>
+                <param description="客服团队名字" formType="text" label="客服06呢称" name="wangwang_nickname_06" ptype="text" readonly="false">客服</param>
+                <param description="输入旺旺ID,或子旺旺ID" formType="text" label="客服06旺旺ID" name="wangwangid_06" ptype="text" readonly="false">锦春食品专营店</param>
+                <param description="客服团队名字" formType="text" label="客服07呢称" name="wangwang_nickname_07" ptype="text" readonly="false">客服</param>
+                <param description="输入旺旺ID,或子旺旺ID" formType="text" label="客服06旺旺ID" name="wangwangid_07" ptype="text" readonly="false">锦春食品专营店</param>
+                <param description="客服团队名字" formType="text" label="客服08呢称" name="wangwang_nickname_08" ptype="text" readonly="false">客服</param>
+                <param description="输入旺旺ID,或子旺旺ID" formType="text" label="客服08旺旺ID" name="wangwangid_08" ptype="text" readonly="false">锦春食品专营店</param>
+            </section>
+        </group>
+        <group title="设置提示信息">
+            <section title="提示信息" folded="false">
+                <param description="文字不要太多，保存后注意检查" formType="textarea" label="提示信息" name="info_detail_04" ptype="text" readonly="false">工作时间8：30-22：00
+为了保证您的问题能够及时得到回复和解决，请联系亮灯的客服进行咨询！</param>
+            </section>
+        </group>
+    </parameters>
+</module>

@@ -1,0 +1,117 @@
+/**
+ * 模块：tshop-um-itemlist750 
+ * 皮肤（主题）: 默认
+ * 规则:
+ * 		1. CSS选择器必须包含 ".tshop-um-itemlist750"，禁止使用模块页面元素的ID选择器
+ *		2. CSS样式声明的position属性值不能使用:fixed
+ *		3. CSS样式文件中z-index属性值必须在1-99之间
+ *		4. CSS URL地址必须是淘宝URL白名单中或者本地（相对或绝对）URL 
+ */
+
+
+
+.tshop-um-itemlist750 {
+	color: black;
+	line-height: 1.5;
+	width: 750px;
+	overflow: hidden;
+	background-color: #fff;
+}
+.tshop-um-itemlist750 .neo-hd-title {
+	width: 748px;
+	height: 35px;
+	border: 1px solid #e1e1e1;
+	border-bottom: 3px solid #e4e4e4;
+	line-height: 35px;
+	background-color: #ffffff;
+	
+	
+	font-weight: bold;
+	text-indent: 15px;
+	font-size:14px; color:#8b5656;
+	margin-bottom:10px;
+}
+.tshop-um-itemlist750 img {
+	display: block;
+}
+.tshop-um-itemlist750 .neo-bd {
+	width: 730px;
+	background-color: transparent;
+	padding-left: 13px;
+	padding-right: 7px;
+}
+.tshop-um-itemlist750 .neo-bd:after {
+	content: '\20';
+	display: block;
+	height: 0;
+	clear: both;
+}
+.tshop-um-itemlist750 .neo-bd .itemlist li {
+	width: 241px;
+	float: left;
+	background-color: #fff;
+}
+.tshop-um-itemlist750 .neo-bd .itemlist li .neo-item {
+	width: 235px;
+	height: 360px;
+	border-left: 3px solid #fff;
+	border-right: 3px solid #fff;
+	border-bottom: 6px solid #fff;
+	background-color: #f2f2f2;
+}
+.tshop-um-itemlist750 .neo-bd .itemlist li .neo-item-pic {
+	width: 235px;
+	float: left;
+}
+.tshop-um-itemlist750 .neo-bd .itemlist li .neo-item-pic img {
+	width: 235px;
+}
+.tshop-um-itemlist750 .neo-bd .itemlist li .neo-item-desc {
+	width: 225px;
+	padding: 10px 10px 10px 10px;
+	float: left;
+	position: relative;
+}
+.tshop-um-itemlist750 .neo-bd .itemlist li .neo-item-desc .neo-item-title {
+	height: 40px;
+}
+.tshop-um-itemlist750 .neo-bd .itemlist li .neo-item-desc .neo-discountprice {
+	font-family: 宋体;
+	font-size: 14px;
+	line-height: 25px;
+	color: #ff8b7f;
+}
+.tshop-um-itemlist750 .neo-bd .itemlist li .neo-item-desc .neo-price {
+	font-family: 宋体;
+	font-size: 14px;
+	color: #999;
+}
+.tshop-um-itemlist750 .neo-bd .itemlist li .neo-item-desc .neo-soldCount {
+	color: #ab7d69;
+}
+.tshop-um-itemlist750 .neo-bd .itemlist li .neo-item-desc .neo-soldCount span {
+	color: #ff8b7f;
+}
+.tshop-um-itemlist750 .neo-bd .itemlist li .neo-item-desc .neo-fav a {
+	font-family: 宋体;
+	font-size: 12px;
+	color: #999999;
+	padding-left: 15px;
+}
+.tshop-um-itemlist750 .neo-bd .itemlist li .neo-item-desc .neo-item-title a {
+	font-family: 宋体;
+	font-size: 12px;
+	color: #999999;
+}
+.tshop-um-itemlist750 .neo-bd .itemlist li .neo-item-desc .neo-addcart {
+	width: 55px;
+	height: 55px;
+	position: absolute;
+	top: 50px;
+	right: 15px;
+}
+.tshop-um-itemlist750 .neo-bd .itemlist li .neo-item-desc .neo-addcart a {
+	display: block;
+	width: 55px;
+	height: 55px;
+}

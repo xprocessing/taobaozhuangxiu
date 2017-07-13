@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="GBK"?>
+<module>
+    <id>tshop-um-ms07</id>
+    <uuid>e76da65dc68a487f9991372fd94016a3</uuid>
+    <name>产品展示3</name>
+    <file>tshop-um-ms07.php</file>
+    <thumbnail>../../assets/images/default-thumbnail.png</thumbnail>
+    <description>产品展示2</description>
+    <requiredCache>true</requiredCache>
+    <supportedWidth>990</supportedWidth>
+    <themes default="默认">
+        <theme name="默认">
+            <css>assets/stylesheets/default.css</css>
+        </theme>
+    </themes>
+    <parameters>
+        <group title="公告设置">
+            <section folded="true">
+                <param description="请输入公告图片(990*128)" formType="text" label="公告图片" name="gg0" ptype="text"></param>
+                <param description="请输入公告文字" formType="textarea" label="公告文字" name="gg1" ptype="textarea">随您所爱，尽心挑选！尊贵靓号，专为成功的您而设。珍贵，稀有，独我，绝世，11位号码中不可复制的精品，有足够的理由值得您去购买。好手机用一阵子，好号码用一辈子</param>
+                <param description="请输入公告链接" formType="text" label="公告链接" name="gg2" ptype="text"></param>
+            </section>
+        </group>
+        <group title="产品设置">
+            <section title="左侧海报" folded="false">
+                <param description="请输入海报图片(260*305)" formType="text" label="海报图片" name="hpic" ptype="text"></param>
+                <param description="请输入海报链接" formType="text" label="海报链接" name="hlink" ptype="text"></param>
+            </section>
+            <section title="右侧产品" folded="false">
+                <param description="请输入产品图片(172*150)，多个用#隔开" formType="textarea" label="产品图片" name="cpic" ptype="textarea"></param>
+                <param description="请输入产品链接，多个用#隔开" formType="textarea" label="产品链接" name="clink" ptype="textarea"></param>
+            </section>
+        </group>
+        <group title="动画设置">
+            <section title="" folded="false">
+                <param description="" formType="range" label="图片滚动方向" name="effect" ptype="text" readonly="false">
+					<option value="scrollx" selected="selected">★水平滚动</option>
+					<option value="fade">☆渐变</option>
+			    </param>
+                <param description="" formType="select" label="图片滚动效果" name="easing" ptype="text" readonly="false">
+					<option value="easeBothStrong">★弹性效果</option>
+					<option value="easeInStrong">☆先慢后快（强）</option>
+					<option value="easeOutStrong">★先快后慢（强）</option>
+					<option value="elasticIn">☆抖动变幻</option>
+					<option value="elasticOut" selected="selected">★变换抖动</option>
+					<option value="backIn">☆起步跑</option>
+					<option value="backOut">★跑过头返回</option>
+					<option value="bounceIn">☆弹跳变幻</option>
+					<option value="bounceOut">★变幻弹跳</option>
+					<option value="bounceIn">☆弹跳变幻</option>
+					<option value="bounceBoth">★抖动弹跳</option>
+					<option value="easeIn">☆先慢后快（弱）</option>
+					<option value="easeOut">★先快后慢（弱）</option>
+					<option
+                        value="easeBoth">☆普通滚动</option>
+					<option value="easeNone">★匀速滚动</option>
+			  	</param>
+                <param description="单位：秒，例如0.5、2。数值越大时间越长" formType="text" label="图片停留时间" name="interval" ptype="text" readonly="false">3</param>
+                <param description="单位：秒，例如0.5、2。数值越大速度越慢" formType="text" label="图片切换速度" name="duration" ptype="text" readonly="false">1</param>
+            </section>
+        </group>
+    </parameters>
+</module>

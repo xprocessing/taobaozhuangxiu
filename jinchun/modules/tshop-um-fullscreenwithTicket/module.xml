@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="GBK"?>
+<module>
+    <id>tshop-um-fullscreenwithTicket</id>
+    <uuid>b3259d9588ce4eb2bbb498963b559d5b</uuid>
+    <name>全屏自定义全屏</name>
+    <file>tshop-um-fullscreenwithTicket.php</file>
+    <thumbnail>assets/images/default-thumbnail.png</thumbnail>
+    <description>全屏自定义全屏</description>
+    <requiredCache>true</requiredCache>
+    <supportedWidth>990</supportedWidth>
+    <themes default="默认">
+        <theme name="默认">
+            <css>assets/stylesheets/default.css</css>
+        </theme>
+        <theme name="活动风格">
+            <css>assets/stylesheets/huodong.css</css>
+        </theme>
+    </themes>
+    <parameters>
+        <group title="设置模块">
+            <section title="设置模块高度" folded="false">
+                <param description="模块内容图片宽度为1920px，高度需要自定" formType="text" label="高" name="fullbanner_height" ptype="text" readonly="false">728</param>
+                <param description="是否显示缩略图导航" formType="range" label="导航显示" name="navshowhide" ptype="text">
+                  
+                   <option value="block" selected="selected">显示</option>
+                   <option value="none">隐藏</option>
+                </param>
+            </section>
+            <section title="设置模块背景" folded="false">
+                <param description="背景图片，宽度1920px，默认x，y平铺" formType="text" label="背景图片" name="fullbanner_bg" ptype="text" readonly="false">assets/images/haibao1920-2.jpg</param>
+                <param description="背景颜色,如transparent，#ffffff;" formType="text" label="背景颜色" name="fullbanner_bgcolor" ptype="text" readonly="false">transparent</param>
+                <param description="模块顶部空白高度" formType="text" label="模块顶部空白高度" name="fullbanner_paddingtopheight" ptype="text" readonly="false">0</param>
+            </section>
+            <section title="设置叠加层内容" folded="false">
+                <param description="可以是任意html切图代码，建议有代码基础的美工或技术人员操作。如出错，请清空这里。" formType="textarea" label="自定义全屏内容" name="layermore" ptype="htmlarea" readonly="false"/>
+            </section>
+        </group>
+        <group title="设置轮播海报内容">
+            <section title="设置轮播海报内容" folded="false">
+                <param description="图片-1的地址，宽度为1920px，高度不限制。" formType="text" label="轮播1-图片链接" name="fullbanner_img_1" ptype="text" readonly="false">assets/images/haibao1920-2.jpg</param>
+                <param description="图片-1的目标链接" formType="text" label="轮播1-目标链接" name="fullbanner_link_1" ptype="url" readonly="false">http://vivian-ge.taobao.com/</param>
+                <param description="图片-2的地址，宽度为1920px，高度不限制。" formType="text" label="轮播2-图片链接" name="fullbanner_img_2" ptype="text" readonly="false">assets/images/haibao1920-2.jpg</param>
+                <param description="图片-2的目标链接" formType="text" label="轮播2-目标链接" name="fullbanner_link_2" ptype="url" readonly="false">http://vivian-ge.taobao.com/</param>
+                <param description="图片-3的地址，宽度为1920px，高度不限制。" formType="text" label="轮播3-图片链接" name="fullbanner_img_3" ptype="text" readonly="false">assets/images/haibao1920-2.jpg</param>
+                <param description="图片-3的目标链接" formType="text" label="轮播3-目标链接" name="fullbanner_link_3" ptype="url" readonly="false">http://vivian-ge.taobao.com/</param>
+            </section>
+        </group>
+        <group title="自定义全屏内容">
+            <section title="设置自定义全屏内容" folded="false">
+                <param description="可以是任意html切图代码，建议有代码基础的美工或技术人员操作。如出错，请清空这里。" formType="textarea" label="自定义全屏内容" name="fullbanner_html" ptype="htmlarea" readonly="false"/>
+            </section>
+        </group>
+    </parameters>
+</module>

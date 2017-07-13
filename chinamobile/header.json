@@ -1,0 +1,13 @@
+{
+  "title" : null,
+  "layouts" : [ {
+    "type" : "grid-m",
+    "modules" : {
+      "main" : [ {
+        "moduleID" : "tshop-um-ms01"
+      }, {
+        "moduleID" : "tshop-pbsm-shop-nav-ch"
+      } ]
+    }
+  } ]
+}

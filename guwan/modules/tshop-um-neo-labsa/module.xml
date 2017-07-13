@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="GBK"?>
+<module>
+    <id>tshop-um-neo-labsa</id>
+    <uuid>ca7c19c08e6f4d70a85017c3d28cceb3</uuid>
+    <name>神秘模块一</name>
+    <file>tshop-um-neo-labsa.php</file>
+    <thumbnail>assets/images/default-thumbnail.png</thumbnail>
+    <description>神秘模块一</description>
+    <requiredCache>true</requiredCache>
+    <supportedWidth>750,950</supportedWidth>
+    <themes default="默认">
+        <theme name="默认">
+            <css>assets/stylesheets/default.css</css>
+        </theme>
+    </themes>
+    <parameters>
+        <group title="设置模块标题">
+            <section title="设置模块标题内容" folded="false">
+                <param description="模块标题,四个字" formType="text" label="模块标题" name="neo-title-a" ptype="text" readonly="false">推荐臻品</param>
+                <param description="英文文字不宜过多" formType="text" label="英文标题" name="neo-title-b" ptype="text" readonly="false">PIERRE ITMES</param>
+                <param description="注意文字不要太多" formType="text" label="长句文字" name="neo-title-c" ptype="text" readonly="false">百千法门，同归方寸。</param>
+            </section>
+        </group>
+        <group title="选择要展示的宝贝">
+            <section title="注意：宝贝折扣价格为现价，原价为参考价" folded="false">
+                <param description="可选择多个宝贝，最好为偶数9个" formType="itemForm" label="选择宝贝" name="neo-items" ptype="item" readonly="false">8554546401,8531434453,8530037383,8529466415,8529257911,8526848051,8526832689,8522786951,8522239341</param>
+            </section>
+        </group>
+    </parameters>
+</module>

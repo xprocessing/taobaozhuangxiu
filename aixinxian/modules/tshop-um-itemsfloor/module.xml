@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="GBK"?>
+<module>
+    <id>tshop-um-itemsfloor</id>
+    <uuid>14b8446a92ad4a3fb6f1806bc1fd16db</uuid>
+    <name>商品楼</name>
+    <file>tshop-um-itemsfloor.php</file>
+    <thumbnail>../../assets/images/default-thumbnail.png</thumbnail>
+    <description>商品楼</description>
+    <requiredCache>true</requiredCache>
+    <supportedWidth>950</supportedWidth>
+    <themes default="默认">
+        <theme name="默认">
+            <css>assets/stylesheets/default.css</css>
+        </theme>
+    </themes>
+</module>

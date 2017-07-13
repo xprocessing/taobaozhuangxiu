@@ -1,0 +1,41 @@
+{
+  "title" : null,
+  "layouts" : [ {
+    "type" : "grid-m0",
+    "modules" : {
+      "main" : [ {
+        "moduleID" : "tshop-um-fullscreen"
+      }, {
+        "moduleID" : "tshop-um-leftsliderightcats"
+      }, {
+        "moduleID" : "tshop-um-biglistshare"
+      }, {
+        "moduleID" : "tshop-um-biglistshareframe"
+      }, {
+        "moduleID" : "tshop-um-fourmidlist"
+      }, {
+        "moduleID" : "tshop-um-neo-wangwangonline"
+      }, {
+        "moduleID" : "tshop-um-topnewbottomcats"
+      }, {
+        "moduleID" : "tshop-um-topnewbottomcats"
+      }, {
+        "moduleID" : "tshop-um-topnewbottomcats"
+      }, {
+        "moduleID" : "tshop-um-cuxiao"
+      }, {
+        "moduleID" : "tshop-um-neo-wangwangonline"
+      } ]
+    }
+  }, {
+    "type" : "grid-s5m0",
+    "modules" : {
+      "sub" : [ {
+        "moduleID" : "tshop-um-cuxiao"
+      } ],
+      "main" : [ {
+        "moduleID" : "tshop-pbsm-shop-item-recommend"
+      } ]
+    }
+  } ]
+}

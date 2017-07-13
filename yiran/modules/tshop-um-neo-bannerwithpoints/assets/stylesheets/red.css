@@ -1,0 +1,20 @@
+/**
+ * 模块：tshop-um-neo-bannerwithpoints 
+ * 皮肤（主题）: red
+ * 规则:
+ * 		1. CSS选择器必须包含 ".tshop-um-neo-bannerwithpoints"，禁止使用模块页面元素的ID选择器
+ *		2. CSS样式声明的position属性值不能使用:fixed
+ *		3. CSS样式文件中z-index属性值必须在1-99之间
+ *		4. CSS URL地址必须是淘宝URL白名单中或者本地（相对或绝对）URL 
+ */
+
+.tshop-um-neo-bannerwithpoints { position:relative; height:auto; width:auto;}
+.tshop-um-neo-bannerwithpoints a{ color:#434343;}
+.tshop-um-neo-bannerwithpoints .banner{ z-index:1; position:relative;}
+.tshop-um-neo-bannerwithpoints .banner img:after{ content: '\20'; display: block; height: 0; clear: both; }
+.tshop-um-neo-bannerwithpoints .points{ z-index:2; position:absolute; height:26px; width:26px; background-color:transparent; background-image:url(assets/images/points.png);}
+.tshop-um-neo-bannerwithpoints .points-popup{ z-index:3; display:none; padding:10px; background-color:#F5F5F5;}
+.tshop-um-neo-bannerwithpoints .points-popup .neo-title{ line-height:1.3;}
+.tshop-um-neo-bannerwithpoints .points-popup .cuxiaojia{ font-size:18px; color:#F00; font-weight:bold; font-family:微软雅黑; line-height:2; text-align:center;} 
+.tshop-um-neo-bannerwithpoints .points-popup .neo-220pic{ text-align:center;}
+ 

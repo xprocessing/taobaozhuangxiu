@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="GBK"?>
+<module>
+    <id>tshop-um-neo-foot</id>
+    <uuid>ff3e2c22ea33494d95c56c470b61593c</uuid>
+    <name>页底旺旺信息</name>
+    <file>tshop-um-neo-foot.php</file>
+    <thumbnail>../../assets/images/default-thumbnail.png</thumbnail>
+    <description>页底旺旺信息</description>
+    <requiredCache>true</requiredCache>
+    <supportedWidth>950</supportedWidth>
+    <themes default="默认">
+        <theme name="默认">
+            <css>assets/stylesheets/default.css</css>
+        </theme>
+    </themes>
+	
+	 <parameters>
+	 <group title="设置提示信息">
+            <section title="提示信息" folded="false">
+               
+                <param description="文字不要太多，保存后注意检查" formType="textarea" label="发货说明" name="info_detail_01" ptype="text" readonly="false">默认发申通，圆通和韵达
+如需其他请说明
+下单前请准确核对地址</param>
+              
+                <param description="文字不要太多，保存后注意检查" formType="textarea" label="联系我们" name="info_detail_02" ptype="text" readonly="false">客服电话
+400-800-400000。</param>
+             
+                <param description="文字不要太多，保存后注意检查" formType="textarea" label="购物须知" name="info_detail_03" ptype="text" readonly="false">实物拍摄，微小色差
+非质量问题不退换，
+有疑问请咨询亮灯客服</param>
+            
+            </section>
+        </group>
+        <group title="旺旺设置">
+            <section title="旺旺id建议为主号系统自动分流，也可以为子号。" folded="false">
+                <param description="客服团队名字" formType="text" label="客服01呢称" name="wangwang_nickname_01" ptype="text" readonly="false">售前客服</param>
+                <param description="输入旺旺ID,或子旺旺ID" formType="text" label="客服01旺旺ID" name="wangwangid_01" ptype="text" readonly="false">格格巫格格</param>
+				
+				<param description="客服团队名字" formType="text" label="客服02呢称" name="wangwang_nickname_02" ptype="text" readonly="false">售前客服</param>
+                <param description="输入旺旺ID,或子旺旺ID" formType="text" label="客服02旺旺ID" name="wangwangid_02" ptype="text" readonly="false">格格巫格格</param>
+				
+				<param description="客服团队名字" formType="text" label="客服03呢称" name="wangwang_nickname_03" ptype="text" readonly="false">售前客服</param>
+                <param description="输入旺旺ID,或子旺旺ID" formType="text" label="客服03旺旺ID" name="wangwangid_03" ptype="text" readonly="false">格格巫格格</param>
+				
+				<param description="客服团队名字" formType="text" label="客服04呢称" name="wangwang_nickname_04" ptype="text" readonly="false">售前客服</param>
+                <param description="输入旺旺ID,或子旺旺ID" formType="text" label="客服04旺旺ID" name="wangwangid_04" ptype="text" readonly="false">格格巫格格</param>
+				
+				<param description="客服团队名字" formType="text" label="客服05呢称" name="wangwang_nickname_05" ptype="text" readonly="false">售前客服</param>
+                <param description="输入旺旺ID,或子旺旺ID" formType="text" label="客服05旺旺ID" name="wangwangid_05" ptype="text" readonly="false">格格巫格格</param>
+				
+				<param description="客服团队名字" formType="text" label="客服06呢称" name="wangwang_nickname_06" ptype="text" readonly="false">售前客服</param>                
+                <param description="输入旺旺ID,或子旺旺ID" formType="text" label="客服06旺旺ID" name="wangwangid_06" ptype="text" readonly="false">格格巫格格</param>
+               
+            </section>
+        </group>
+        
+    </parameters>
+	
+	
+</module>

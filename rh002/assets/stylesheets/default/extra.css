@@ -1,0 +1,36 @@
+#content {
+	background-color:#F7F2E7 ;
+}
+
+#hd {
+	background-color:#F7F2E7 ;
+	background-image:url(assets/images/hdbg.png) ;
+	background-repeat:repeat-x ;
+	background-position:top left ;
+	margin-bottom:0px;
+}
+
+.skin-box .skin-box-hd {
+	border-width:0px 0px 1px 0px;
+	border-color:#E0E0E0;
+	border-style:solid;
+	background-color:#FFFFFF;
+	background-image:url(assets/images/hua.png) ;
+	background-position:bottom right;
+	background-repeat:no-repeat;
+	height:24px;
+	line-height:24px;
+}
+
+.skin-box .skin-box-hd h3 span {
+	color:#DDA29F;
+	font-weight:normal;
+	font-size:18px;
+	font-family:Microsoft YaHei;
+	margin-left:5px;
+}
+
+.skin-box .skin-box-bd {
+	border-width:0px;
+	border-style:solid;
+}

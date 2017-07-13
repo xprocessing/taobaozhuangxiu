@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="GBK"?>
+<module>
+    <id>tshop-um-neo-accordionlr</id>
+    <name>横向手风琴</name>
+    <file>tshop-um-neo-accordionlr.php</file>
+    <thumbnail>assets/images/neo.jpg</thumbnail>
+    <description>横向手风琴by公子鱼</description>
+    <requiredCache>true</requiredCache>
+    <supportedWidth>950</supportedWidth>
+    <themes default="default">
+        <theme name="default">
+            <css>assets/stylesheets/default.css</css>
+        </theme>
+        <theme name="red">
+            <css>assets/stylesheets/red.css</css>
+        </theme>
+        <theme name="Blue">
+            <css>assets/stylesheets/Blue.css</css>
+        </theme>
+    </themes>
+    <parameters>
+        <group title="设置模块参数">
+            <section folded="false" title="选择宝贝">
+                <param readonly="false" ptype="item" name="accordionitems" label="选择宝贝" formType="itemForm" description="建议选择7个左右"></param>
+            </section>
+        </group>
+    </parameters>
+</module>

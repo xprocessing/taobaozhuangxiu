@@ -1,0 +1,16 @@
+#hd {
+	background-image:url(assets/images/hdbg.png) ;
+	background-repeat:repeat-x ;
+
+	margin-bottom:0px;
+}
+
+.skin-box .skin-box-hd {
+	border-style:solid;
+}
+
+.skin-box .skin-box-bd {
+	border-width:0px;
+
+	border-style:solid;
+}

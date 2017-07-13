@@ -1,0 +1,10 @@
+{
+  "title" : null,
+  "layouts" : [ {
+    "type" : "grid-s5m0",
+    "modules" : {
+      "sub" : [ ],
+      "main" : [ ]
+    }
+  } ]
+}

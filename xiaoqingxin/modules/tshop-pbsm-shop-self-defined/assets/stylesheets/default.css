@@ -1,0 +1,120 @@
+/**
+ * 模块：tshop-pbsm-shop-self-defined 
+ * 皮肤（主题）: 默认
+ * 规则:
+ * 		1. CSS选择器必须包含 ".tshop-pbsm-shop-self-defined"，禁止使用模块页面元素的ID选择器
+ *		2. CSS样式声明的position属性值不能使用:fixed
+ *		3. CSS样式文件中z-index属性值必须在1-99之间
+ *		4. CSS URL地址必须是淘宝URL白名单中或者本地（相对或绝对）URL 
+ */
+
+.tshop-pbsm-shop-self-defined { min-height:50px; margin-bottom:0px;}
+.grid-m0 .tshop-pbsm-shop-self-defined .skin-box-bd {
+width: 950px;
+}
+.grid-s5m0 .col-main .tshop-pbsm-shop-self-defined .skin-box-bd {
+width: 750px;
+}
+.grid-s5m0 .col-sub .tshop-pbsm-shop-self-defined .skin-box-bd {
+width: 190px;
+}
+.grid-s5m0e5 .col-main .tshop-pbsm-shop-self-defined .skin-box-bd {
+width: 550px;
+}
+.grid-s5m0e5 .col-sub .tshop-pbsm-shop-self-defined .skin-box-bd, .grid-s5m0e5 .col-extra .tshop-pbsm-shop-self-defined .skin-box-bd {
+width: 190px;
+}
+.tshop-pbsm-shop-self-defined {
+margin-bottom: 10px;
+*zoom: 1;
+}
+.tshop-pbsm-shop-self-defined:after {
+content: '\20';
+display: block;
+height: 0;
+clear: both;
+}
+.tshop-pbsm-shop-self-defined .hidden {
+visibility: hidden;
+}
+.tshop-pbsm-shop-self-defined .disappear {
+display: none;
+}
+.tshop-pbsm-shop-self-defined .skin-box-hd {
+
+
+border-style: solid;
+padding:0px;
+
+
+}
+.tshop-pbsm-shop-self-defined .skin-box-hd h3 span {
+border-bottom: 0 solid #666666;
+display: inline-block;
+font-weight: 700;
+font-size: 14px;
+margin-left:0px;
+
+}
+.tshop-pbsm-shop-self-defined .skin-box-bd {
+*zoom: 1;
+border-color: #d5d5d5;
+border-width: 0 1px 1px;
+border-style: solid;
+background: none no-repeat 0 0 transparent;
+color: #2953a6;
+}
+.tshop-pbsm-shop-self-defined .skin-box-bd:after {
+content: '\20';
+display: block;
+height: 0;
+clear: both;
+}
+.tshop-pbsm-shop-self-defined .skin-box-bd a {
+color: #2953a6;
+}
+.tshop-pbsm-shop-self-defined .skin-box-bd {
+border-width: 0;
+line-height: 1.2;
+overflow: hidden;
+}
+.tshop-pbsm-shop-self-defined .skin-box-bd table {
+margin: 0 auto;
+border-collapse: separate;
+}
+.tshop-pbsm-shop-self-defined .skin-box-bd p {
+line-height: 1.4;
+}
+.tshop-pbsm-shop-self-defined .skin-box-bd strong {
+font-weight: 700;
+}
+.tshop-pbsm-shop-self-defined .skin-box-bd em {
+font-style: italic;
+}
+.tshop-pbsm-shop-self-defined .skin-box-bd img {
+vertical-align: middle;
+*vertical-align: baseline;
+}
+.tshop-pbsm-shop-self-defined .skin-box-hd {
+border-width: 0;
+border-bottom: 0px solid #dddddd;
+
+}
+.tshop-pbsm-shop-self-defined .skin-box-act {
+position: absolute;
+bottom: -1px;
+right: 0;
+background: url(http://img03.taobaocdn.com/tps/i3/T1vEi4XnhyXXXm0Pva-454-340.png) no-repeat scroll -60px -80px transparent;
+display: inline-block;
+width: 39px;
+height: 19px;
+text-align: center;
+}
+.tshop-pbsm-shop-self-defined .skin-box-act .more {
+display: inline-block;
+height: 19px;
+line-height: 19px;
+vertical-align: top;
+}
+
+ 

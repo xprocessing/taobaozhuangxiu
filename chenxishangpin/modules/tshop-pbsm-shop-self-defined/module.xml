@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="GBK"?>
+<module>
+    <id>tshop-pbsm-shop-self-defined</id>
+    <name>店铺实验室</name>
+    <thumbnail>http://img01.taobaocdn.com/tps/i1/T15reXFe8dXXcu8V6l-64-64.png</thumbnail>
+    <description>[提示：请为系统模块{店铺实验室}添加描述信息]</description>
+    <themes default="默认">
+        <theme name="默认">
+            <css>assets/stylesheets/default.css</css>
+        </theme>
+    </themes>
+</module>

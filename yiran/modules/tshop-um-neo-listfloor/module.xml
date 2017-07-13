@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="GBK"?>
+<module>
+    <id>tshop-um-neo-listfloor</id>
+    <name>商品列表带海报</name>
+    <file>tshop-um-neo-listfloor.php</file>
+    <thumbnail>assets/images/neo.jpg</thumbnail>
+    <description>商品列表带海报分类导航</description>
+    <requiredCache>true</requiredCache>
+    <supportedWidth>950</supportedWidth>
+    <themes default="default">
+        <theme name="default">
+            <css>assets/stylesheets/default.css</css>
+        </theme>
+        <theme name="red">
+            <css>assets/stylesheets/red.css</css>
+        </theme>
+        <theme name="Blue">
+            <css>assets/stylesheets/Blue.css</css>
+        </theme>
+    </themes>
+    <parameters>
+        <group title="设置模块标题和内容">
+            <section title="设置模块标题内容" folded="false">
+                <param description="模块标题" formType="text" label="模块标题" name="neo-hd-title" ptype="text" readonly="false">新品上架</param>
+                <param description="建议选择一个类目的子类目" formType="categoryForm" label="选择标题上的分类" name="neo-hd-category" ptype="category"/>
+            </section>
+            <section title="设置模块内容" folded="false">
+                <param description="是否显示左侧海报" formType="select" label="是否显示左侧海报" name="neo-left-banner-option" ptype="text">
+                    <option value="left-banner-show" selected="selected">显示左侧海报</option>
+                    <option value="left-banner-hidden">不显示左侧海报</option>                   
+        </param>
+                <param description="图片的地址,尺寸280x548px" formType="text" label="左侧海报图片" name="left-banner" ptype="url" readonly="false">http://img03.taobaocdn.com/imgextra/i3/297619552/T2VAeLXedXXXXXXXXX-297619552.jpg</param>
+                <param description="图片的目标链接" formType="text" label="左侧海报目标链接" name="left-banner-link" ptype="url" readonly="false">http://viviange.taobao.com/</param>
+                <param description="如果自己没有制作海报，可选择宝贝哦，自动生成图片，只能选择一个宝贝哦" formType="itemForm" label="左侧海报也可选1个宝贝代替" name="left-items" ptype="item" readonly="false"/>
+                <param description="需要选择8个宝贝" formType="itemForm" label="选择右侧的宝贝" name="right-items" ptype="item" readonly="false"/>
+                <param description="设置宝贝的排序方式，默认按照人气宝贝升序排序" formType="select" label="设置宝贝排序方式" name="neo-items-option" ptype="text">
+                    <option value="ceofp" selected="selected">人气宝贝升序排序</option>
+                    <option value="_ceofp">以人气宝贝降序排序</option>
+                    <option value="hotsell">以热销宝贝升序排序</option>
+                    <option value="_hotsell">以热销宝贝降序排序</option>
+                    <option value="price">以宝贝价格升序排序</option>
+                    <option value="_price">以宝贝价格降序排序</option>
+                    <option value="newOn">以最新上架宝贝升序排序</option>
+                    <option value="_newOn">以最新上架宝贝降序排序</option>
+                    <option value="HotKeep">以热门搜藏升序排序</option>
+                    <option value="_HotKeep">以热门搜藏降序排序</option>
+        </param>
+            </section>
+        </group>
+    </parameters>
+</module>

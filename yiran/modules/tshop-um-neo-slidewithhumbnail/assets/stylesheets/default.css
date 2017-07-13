@@ -1,0 +1,44 @@
+/**
+ * 模块：tshop-um-neo-slidewithhumbnail 
+ * 皮肤（主题）: default
+ * 规则:
+ * 		1. CSS选择器必须以 ".tshop-um-neo-slidewithhumbnail" 或者 "#page #content .tshop-um-neo-slidewithhumbnail" 开头，禁止使用模块页面元素的ID选择器
+ *		2. CSS样式声明的position属性值不能使用:fixed
+ *		3. CSS样式文件中z-index属性值必须在1-99之间
+ *		4. CSS URL地址必须是淘宝URL白名单中或者本地（相对或绝对）URL 
+ */
+.tshop-um-neo-slidewithhumbnail ul,.tshop-um-neo-slidewithhumbnailli{margin:0px;  padding:0; border:none;  list-style:none; }
+.tshop-um-neo-slidewithhumbnail {  background-color:#000; }
+.tshop-um-neo-slidewithhumbnail:after{ content: '\20'; display: block; height: 0; clear: both; }
+
+
+.tshop-um-neo-slidewithhumbnail .neoslide-box-950x362{ width:950px; height:362px; }
+.tshop-um-neo-slidewithhumbnail .neoslide-box-950x362 .neoslide{width:950px; height:362px; position:relative; overflow:hidden;}
+.tshop-um-neo-slidewithhumbnail .neoslide-box-950x362 .neoslide .neo-nav{ position: absolute; height:36px; width:77%; bottom:10px;  padding-left:23%;  }
+.tshop-um-neo-slidewithhumbnail .neoslide-box-950x362 .neoslide .neo-nav li{ border:1px solid #333;margin-right:1%;   float:left; width:95px; height:36px; }
+.tshop-um-neo-slidewithhumbnail .neoslide-box-950x362 .neoslide .neo-nav li img{ width:95px; height:36px;}
+.tshop-um-neo-slidewithhumbnail .neoslide-box-950x362 .neoslide .neo-nav li.neo-active{border:1px solid #fff; }
+
+
+.tshop-um-neo-slidewithhumbnail .neoslide-box-950x587{ width:950px; height:587px; }
+.tshop-um-neo-slidewithhumbnail .neoslide-box-950x587 .neoslide{width:950px; height:587px; position:relative; overflow:hidden;}
+.tshop-um-neo-slidewithhumbnail .neoslide-box-950x587 .neoslide .neo-nav{ position: absolute; height:58px;width:77%; bottom:10px;  padding-left:23%;  }
+.tshop-um-neo-slidewithhumbnail .neoslide-box-950x587 .neoslide .neo-nav li{ border:1px solid #333;margin-right:1%;   float:left; width:95px; height:58px; }
+.tshop-um-neo-slidewithhumbnail .neoslide-box-950x587 .neoslide .neo-nav li img{ width:95px; height:58px;}
+.tshop-um-neo-slidewithhumbnail .neoslide-box-950x587 .neoslide .neo-nav li.neo-active{border:1px solid #fff; }
+
+
+.tshop-um-neo-slidewithhumbnail .neoslide-box-750x286{ width:750px; height:286px; }
+.tshop-um-neo-slidewithhumbnail .neoslide-box-750x286 .neoslide{width:750px; height:286px; position:relative; overflow:hidden;}
+.tshop-um-neo-slidewithhumbnail .neoslide-box-750x286 .neoslide .neo-nav{ position: absolute; height:28px; bottom:10px;width:77%;  padding-left:23%;  }
+.tshop-um-neo-slidewithhumbnail .neoslide-box-750x286 .neoslide .neo-nav li{ border:1px solid #333;margin-right:1%;   float:left; width:75px; height:28px; }
+.tshop-um-neo-slidewithhumbnail .neoslide-box-750x286 .neoslide .neo-nav li img{ width:75px; height:28px;}
+.tshop-um-neo-slidewithhumbnail .neoslide-box-750x286 .neoslide .neo-nav li.neo-active{border:1px solid #fff; }
+
+
+.tshop-um-neo-slidewithhumbnail .neoslide-box-750x463{ width:750px; height:463px; }
+.tshop-um-neo-slidewithhumbnail .neoslide-box-750x463 .neoslide{width:750px; height:463px; position:relative; overflow:hidden;}
+.tshop-um-neo-slidewithhumbnail .neoslide-box-750x463 .neoslide .neo-nav{ position: absolute; height:46px; bottom:10px;width:77%;  padding-left:23%;  }
+.tshop-um-neo-slidewithhumbnail .neoslide-box-750x463 .neoslide .neo-nav li{ border:1px solid #333;margin-right:1%;   float:left; width:75px; height:46px; }
+.tshop-um-neo-slidewithhumbnail .neoslide-box-750x463 .neoslide .neo-nav li img{ width:75px; height:46px;}
+.tshop-um-neo-slidewithhumbnail .neoslide-box-750x463 .neoslide .neo-nav li.neo-active{border:1px solid #fff; }
